@@ -1,5 +1,17 @@
 {
+  
+   
   "renderingHosts": {
+    "prospera": {
+      "path": "./industry-verticals/Prospera",
+      "nodeVersion": "24.14.1",
+      "packageManager": "npm",
+      "jssDeploymentSecret": "<your-existing-deployment-secret>",
+      "enabled": true,
+      "type": "sxa",
+      "buildCommand": "build",
+      "runCommand": "next:start"
+    },
     "nextjsstarter": {
       "path": "./examples/kit-nextjs-skate-park",
       "nodeVersion": "24.14.1",
