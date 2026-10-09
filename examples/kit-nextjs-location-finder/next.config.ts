@@ -12,7 +12,11 @@ const nextConfig: NextConfig = {
   // Disable the X-Powered-By header. Follows security best practices.
   poweredByHeader: false,
 
-  headers: async () => [
+  headers: async () => {
+    // #region agent log
+    fetch('http://127.0.0.1:7775/ingest/6997f38c-3bc8-4baa-a257-f4d39dd3bdb3',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'89a230'},body:JSON.stringify({sessionId:'89a230',runId:'pre-fix',hypothesisId:'A',location:'location-finder/next.config.ts:headers',message:'global response headers include X-Frame-Options SAMEORIGIN',data:{xFrame:'SAMEORIGIN',source:'/(.*)'},timestamp:Date.now()})}).catch(()=>{});
+    // #endregion
+    return [
     {
       source: '/(.*)',
       headers: [
@@ -29,7 +33,8 @@ const nextConfig: NextConfig = {
         },
       ],
     },
-  ],
+  ];
+  },
 
   // use this configuration to ensure that only images from the whitelisted domains
   // can be served from the Next.js Image Optimization API
