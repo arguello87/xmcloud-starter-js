@@ -12,7 +12,7 @@
       "buildCommand": "build",
       "runCommand": "next:start"
     },
-    " BCAA copy": {
+    "BCAAcopy": {
       "path": "./industry-verticals/BCAAcopy",
       "nodeVersion": "24.14.1",
       "packageManager": "npm",
