@@ -109,10 +109,11 @@ export const config = {
    * 3. /sitecore/api (Sitecore API routes)
    * 4. /- (Sitecore media)
    * 5. /healthz (Health check)
-   * 7. all root files inside /public
+   * 6. bundled CPUC assets under /public/cpuc
+   * 7. known root files inside /public
    */
   matcher: [
     '/',
-    '/((?!api/|sitemap|robots|_next/|healthz|sitecore/api/|-/|favicon.ico|sc_logo.svg).*)',
+    '/((?!api/|sitemap|robots|_next/|healthz|sitecore/api/|-/|cpuc/|favicon.ico|sc_logo.svg).*)',
   ],
 };
