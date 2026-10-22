@@ -2,35 +2,19 @@
 
 import { JSX } from 'react';
 import {
-  Field,
-  ImageField,
-  RichTextField,
   Text,
   RichText,
   useSitecore,
   Link,
-  LinkField,
   Placeholder,
   NextImage,
 } from '@sitecore-content-sdk/nextjs';
-import { ComponentProps } from 'lib/component-props';
 import { IconAccent } from 'components/non-sitecore/IconAccent';
 import { DottedAccent } from 'components/non-sitecore/DottedAccent';
 
-interface Fields {
-  Tagline: Field<string>;
-  Title: Field<string>;
-  Text: RichTextField;
-  Image: ImageField;
-  Cta1: LinkField;
-  Cta2: LinkField;
-  Icon: ImageField;
-}
+import type { HeroBannerProps } from './hero-banner.props';
+export type { HeroBannerProps } from './hero-banner.props';
 
-export type HeroBannerProps = ComponentProps & {
-  params: { [key: string]: string };
-  fields: Fields;
-};
 
 export const Default = (props: HeroBannerProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
@@ -81,5 +65,25 @@ export const Default = (props: HeroBannerProps): JSX.Element => {
         </div>
       </div>
     </div>
+  );
+};
+
+/* CPUC variant — split navy hero with an overlapping photograph. */
+export const Cpuc = (props: HeroBannerProps): JSX.Element => {
+  const { page } = useSitecore();
+  const isEditing = page.mode.isEditing;
+  const fields = props.fields;
+  if (!fields) return <p role="status">HeroBanner: content is unavailable.</p>;
+  return (
+    <section className={`component cpuc-hero ${props.params?.styles || ''}`} id={props.params?.RenderingIdentifier || undefined}>
+      <div className="container cpuc-hero__inner">
+        <div className="cpuc-hero__content">
+          {(fields.Title?.value || isEditing) && <Text field={fields.Title} tag="h1" />}
+          {(fields.Text?.value || isEditing) && <RichText field={fields.Text} className="cpuc-hero__description" />}
+          {(fields.Cta1?.value?.href || isEditing) && <Link field={fields.Cta1} className="cpuc-button cpuc-button--light" />}
+        </div>
+        {(fields.Image?.value?.src || isEditing) && <div className="cpuc-hero__image"><NextImage field={fields.Image} width={1000} height={420} /></div>}
+      </div>
+    </section>
   );
 };

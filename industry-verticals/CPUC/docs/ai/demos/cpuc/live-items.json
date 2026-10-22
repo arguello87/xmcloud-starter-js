@@ -1,0 +1,986 @@
+{
+  "items": {
+    "templateFolder": {
+      "itemId": "d6d7431e-f535-40a6-bd8e-2897b5765153",
+      "name": "CPUC",
+      "path": "/sitecore/templates/Project/Financial/Components/CPUC",
+      "templateId": "0437fee2-44c9-46a6-abe9-28858d9fee8c",
+      "version": 1
+    },
+    "renderingsFolder": {
+      "itemId": "736c3d71-8cf7-45ed-bbc0-5e5f057a1e8a",
+      "name": "CPUC",
+      "path": "/sitecore/layout/Renderings/Project/Financial/CPUC",
+      "templateId": "0437fee2-44c9-46a6-abe9-28858d9fee8c",
+      "version": 1
+    },
+    "paramsFolder": {
+      "itemId": "d5b1bab0-c93f-4ab9-8dc3-0b0cecc08dc0",
+      "name": "CPUC",
+      "path": "/sitecore/templates/Project/Financial/Rendering Parameters/CPUC",
+      "templateId": "0437fee2-44c9-46a6-abe9-28858d9fee8c",
+      "version": 1
+    },
+    "dataFolder": {
+      "itemId": "30432c9c-7604-48e7-916f-7a2d5c19df3c",
+      "name": "CPUC Demo",
+      "path": "/sitecore/content/Financial/cpuc/Data/CPUC Demo",
+      "templateId": "a87a00b1-e6db-45ab-8b54-636fec3b5523",
+      "version": 1
+    },
+    "issuesTemplate": {
+      "itemId": "0703a755-b77a-4ad3-a308-3be6bf3755b4",
+      "name": "KeyIssues",
+      "path": "/sitecore/templates/Project/Financial/Components/CPUC/KeyIssues",
+      "templateId": "ab86861a-6030-46c5-b394-e8f99e8b87db",
+      "version": 1
+    },
+    "newsTemplate": {
+      "itemId": "325adff4-c39a-4391-8ffd-23b7f536d5e7",
+      "name": "NewsEvents",
+      "path": "/sitecore/templates/Project/Financial/Components/CPUC/NewsEvents",
+      "templateId": "ab86861a-6030-46c5-b394-e8f99e8b87db",
+      "version": 1
+    },
+    "childTemplate": {
+      "itemId": "0806f7fb-54fd-4225-b060-2a7dc741a301",
+      "name": "CPUC Link Item",
+      "path": "/sitecore/templates/Project/Financial/Components/CPUC/CPUC Link Item",
+      "templateId": "ab86861a-6030-46c5-b394-e8f99e8b87db",
+      "version": 1
+    },
+    "newsParams": {
+      "itemId": "ae557b9b-bbf0-43b4-a16f-d73d6d66f9b1",
+      "name": "NewsEvents",
+      "path": "/sitecore/templates/Project/Financial/Rendering Parameters/CPUC/NewsEvents",
+      "templateId": "ab86861a-6030-46c5-b394-e8f99e8b87db",
+      "version": 1
+    },
+    "folderTemplate": {
+      "itemId": "48307235-29bc-49e1-9c7e-a1ee76db42c3",
+      "name": "CPUC Component Folder",
+      "path": "/sitecore/templates/Project/Financial/Components/CPUC/CPUC Component Folder",
+      "templateId": "ab86861a-6030-46c5-b394-e8f99e8b87db",
+      "version": 1
+    },
+    "issuesParams": {
+      "itemId": "05306c55-046b-469e-8c61-505ede0f997e",
+      "name": "KeyIssues",
+      "path": "/sitecore/templates/Project/Financial/Rendering Parameters/CPUC/KeyIssues",
+      "templateId": "ab86861a-6030-46c5-b394-e8f99e8b87db",
+      "version": 1
+    },
+    "newsTemplateSection": {
+      "itemId": "17d2c238-5c68-479d-b4ad-215d50cee764",
+      "name": "Data",
+      "path": "/sitecore/templates/Project/Financial/Components/CPUC/NewsEvents/Data",
+      "templateId": "e269fbb5-3750-427a-9149-7aa950b49301",
+      "version": 1
+    },
+    "childTemplateSection": {
+      "itemId": "a7feeb1f-8109-4193-a967-44211dbab200",
+      "name": "Data",
+      "path": "/sitecore/templates/Project/Financial/Components/CPUC/CPUC Link Item/Data",
+      "templateId": "e269fbb5-3750-427a-9149-7aa950b49301",
+      "version": 1
+    },
+    "issuesTemplateSection": {
+      "itemId": "6c162fa5-c081-48ab-a160-ef8cebd6e34b",
+      "name": "Data",
+      "path": "/sitecore/templates/Project/Financial/Components/CPUC/KeyIssues/Data",
+      "templateId": "e269fbb5-3750-427a-9149-7aa950b49301",
+      "version": 1
+    },
+    "newsTemplate_Title": {
+      "itemId": "a1a26b64-d3d0-409b-9f9c-96b83cdd8c2a",
+      "name": "Title",
+      "path": "/sitecore/templates/Project/Financial/Components/CPUC/NewsEvents/Data/Title",
+      "templateId": "455a3e98-a627-4b40-8035-e683a0331ac7",
+      "version": 1
+    },
+    "newsTemplate_SecondaryTitle": {
+      "itemId": "081baf28-2b40-43e3-b1f7-1a51aac1eb3a",
+      "name": "SecondaryTitle",
+      "path": "/sitecore/templates/Project/Financial/Components/CPUC/NewsEvents/Data/SecondaryTitle",
+      "templateId": "455a3e98-a627-4b40-8035-e683a0331ac7",
+      "version": 1
+    },
+    "newsTemplate_Text": {
+      "itemId": "5d926db0-3adb-4919-aaa8-345b91453f1b",
+      "name": "Text",
+      "path": "/sitecore/templates/Project/Financial/Components/CPUC/NewsEvents/Data/Text",
+      "templateId": "455a3e98-a627-4b40-8035-e683a0331ac7",
+      "version": 1
+    },
+    "newsTemplate_SecondaryText": {
+      "itemId": "168bba1e-e05d-4df9-8946-95e3dc281ab0",
+      "name": "SecondaryText",
+      "path": "/sitecore/templates/Project/Financial/Components/CPUC/NewsEvents/Data/SecondaryText",
+      "templateId": "455a3e98-a627-4b40-8035-e683a0331ac7",
+      "version": 1
+    },
+    "newsTemplate_Link": {
+      "itemId": "7b70d2a0-2ada-4ba2-bb91-44439bef5059",
+      "name": "Link",
+      "path": "/sitecore/templates/Project/Financial/Components/CPUC/NewsEvents/Data/Link",
+      "templateId": "455a3e98-a627-4b40-8035-e683a0331ac7",
+      "version": 1
+    },
+    "issuesTemplate_Title": {
+      "itemId": "1bee1fe2-9610-416c-b781-4f6fb8dffe57",
+      "name": "Title",
+      "path": "/sitecore/templates/Project/Financial/Components/CPUC/KeyIssues/Data/Title",
+      "templateId": "455a3e98-a627-4b40-8035-e683a0331ac7",
+      "version": 1
+    },
+    "issuesTemplate_Text": {
+      "itemId": "8d889e59-34cc-41ec-9120-10bb9ce8b6e7",
+      "name": "Text",
+      "path": "/sitecore/templates/Project/Financial/Components/CPUC/KeyIssues/Data/Text",
+      "templateId": "455a3e98-a627-4b40-8035-e683a0331ac7",
+      "version": 1
+    },
+    "issuesTemplate_Link": {
+      "itemId": "d82ae1c5-ec0d-41c1-b62b-578e43b337a2",
+      "name": "Link",
+      "path": "/sitecore/templates/Project/Financial/Components/CPUC/KeyIssues/Data/Link",
+      "templateId": "455a3e98-a627-4b40-8035-e683a0331ac7",
+      "version": 1
+    },
+    "childTemplate_ItemTitle": {
+      "itemId": "74906854-a244-4104-a7a3-72bfd51f33ac",
+      "name": "ItemTitle",
+      "path": "/sitecore/templates/Project/Financial/Components/CPUC/CPUC Link Item/Data/ItemTitle",
+      "templateId": "455a3e98-a627-4b40-8035-e683a0331ac7",
+      "version": 1
+    },
+    "childTemplate_ItemDate": {
+      "itemId": "3cdc2029-e82f-4157-8b8e-05b6573d248c",
+      "name": "ItemDate",
+      "path": "/sitecore/templates/Project/Financial/Components/CPUC/CPUC Link Item/Data/ItemDate",
+      "templateId": "455a3e98-a627-4b40-8035-e683a0331ac7",
+      "version": 1
+    },
+    "childTemplate_ItemLink": {
+      "itemId": "b1c795f6-1170-4bdc-8b80-5b19834583bb",
+      "name": "ItemLink",
+      "path": "/sitecore/templates/Project/Financial/Components/CPUC/CPUC Link Item/Data/ItemLink",
+      "templateId": "455a3e98-a627-4b40-8035-e683a0331ac7",
+      "version": 1
+    },
+    "childTemplate_ItemGroup": {
+      "itemId": "22bcd32b-62fb-41eb-8d1d-0d9ada1c41c3",
+      "name": "ItemGroup",
+      "path": "/sitecore/templates/Project/Financial/Components/CPUC/CPUC Link Item/Data/ItemGroup",
+      "templateId": "455a3e98-a627-4b40-8035-e683a0331ac7",
+      "version": 1
+    },
+    "childTemplate_ItemIcon": {
+      "itemId": "4f96914c-d478-498f-a85c-7b72b6446f8e",
+      "name": "ItemIcon",
+      "path": "/sitecore/templates/Project/Financial/Components/CPUC/CPUC Link Item/Data/ItemIcon",
+      "templateId": "455a3e98-a627-4b40-8035-e683a0331ac7",
+      "version": 1
+    },
+    "newsTemplateSV": {
+      "itemId": "82a79449-8733-4e9f-af4a-075e27ef19d8",
+      "name": "__Standard Values",
+      "path": "/sitecore/templates/Project/Financial/Components/CPUC/NewsEvents/__Standard Values",
+      "templateId": "325adff4-c39a-4391-8ffd-23b7f536d5e7",
+      "version": 1
+    },
+    "issuesTemplateSV": {
+      "itemId": "1ca8d3db-554b-4b38-8dd5-2cf6373dd541",
+      "name": "__Standard Values",
+      "path": "/sitecore/templates/Project/Financial/Components/CPUC/KeyIssues/__Standard Values",
+      "templateId": "0703a755-b77a-4ad3-a308-3be6bf3755b4",
+      "version": 1
+    },
+    "childTemplateSV": {
+      "itemId": "63f71017-6a2a-4111-94e1-3efdfaa1ed0f",
+      "name": "__Standard Values",
+      "path": "/sitecore/templates/Project/Financial/Components/CPUC/CPUC Link Item/__Standard Values",
+      "templateId": "0806f7fb-54fd-4225-b060-2a7dc741a301",
+      "version": 1
+    },
+    "folderTemplateSV": {
+      "itemId": "7d9b9512-e820-49e4-8ffa-b757e1994dcd",
+      "name": "__Standard Values",
+      "path": "/sitecore/templates/Project/Financial/Components/CPUC/CPUC Component Folder/__Standard Values",
+      "templateId": "48307235-29bc-49e1-9c7e-a1ee76db42c3",
+      "version": 1
+    },
+    "newsParamsSV": {
+      "itemId": "2dcd83f4-7544-4526-a7f2-45498285f907",
+      "name": "__Standard Values",
+      "path": "/sitecore/templates/Project/Financial/Rendering Parameters/CPUC/NewsEvents/__Standard Values",
+      "templateId": "ae557b9b-bbf0-43b4-a16f-d73d6d66f9b1",
+      "version": 1
+    },
+    "issuesParamsSV": {
+      "itemId": "6b4b5f0a-56d3-495c-97c4-d2289cb1b313",
+      "name": "__Standard Values",
+      "path": "/sitecore/templates/Project/Financial/Rendering Parameters/CPUC/KeyIssues/__Standard Values",
+      "templateId": "05306c55-046b-469e-8c61-505ede0f997e",
+      "version": 1
+    },
+    "newsFolder": {
+      "itemId": "62cf3461-686c-4628-ba54-05513929d38a",
+      "name": "News and Events",
+      "path": "/sitecore/content/Financial/cpuc/Data/CPUC Demo/News and Events",
+      "templateId": "48307235-29bc-49e1-9c7e-a1ee76db42c3",
+      "version": 1
+    },
+    "issuesFolder": {
+      "itemId": "8eddabff-b593-4693-b1a8-a4915b20f636",
+      "name": "Key Issues",
+      "path": "/sitecore/content/Financial/cpuc/Data/CPUC Demo/Key Issues",
+      "templateId": "48307235-29bc-49e1-9c7e-a1ee76db42c3",
+      "version": 1
+    },
+    "issuesRendering": {
+      "itemId": "36abc9ad-9493-43c7-af6a-e5a93b9e13bb",
+      "name": "KeyIssues",
+      "path": "/sitecore/layout/Renderings/Project/Financial/CPUC/KeyIssues",
+      "templateId": "04646a89-996f-4ee7-878a-ffdbf1f0ef0d",
+      "version": 1
+    },
+    "newsRendering": {
+      "itemId": "963740d1-875e-4edf-96f9-b5107750efbe",
+      "name": "NewsEvents",
+      "path": "/sitecore/layout/Renderings/Project/Financial/CPUC/NewsEvents",
+      "templateId": "04646a89-996f-4ee7-878a-ffdbf1f0ef0d",
+      "version": 1
+    },
+    "heroData": {
+      "itemId": "3a692945-bc17-439e-a02c-ba2af1e25ef7",
+      "name": "CPUC - Latest News",
+      "path": "/sitecore/content/Financial/cpuc/Data/CPUC Demo/CPUC - Latest News",
+      "templateId": "0089bcb3-0117-43f2-a760-0771d5ff7417",
+      "version": 1,
+      "verified": true,
+      "verifiedFields": [
+        "Cta1",
+        "Cta2",
+        "Icon",
+        "Image",
+        "Tagline",
+        "Text",
+        "Title"
+      ]
+    },
+    "servicesData": {
+      "itemId": "db97ff31-8c0f-4bb2-b4eb-62d79281e08a",
+      "name": "CPUC - Consumer Assistance",
+      "path": "/sitecore/content/Financial/cpuc/Data/CPUC Demo/CPUC - Consumer Assistance",
+      "templateId": "148d07ba-f923-4fb2-8907-0bd440d5db44",
+      "version": 1,
+      "verified": true,
+      "verifiedFields": [
+        "Image1",
+        "Link1",
+        "SubText1",
+        "Text1",
+        "Image2",
+        "Link2",
+        "SubText2",
+        "Text2",
+        "Image3",
+        "Link3",
+        "SubText3",
+        "Text3"
+      ]
+    },
+    "programsData": {
+      "itemId": "a849bfea-0b34-4b29-b0f1-28c687f92b2d",
+      "name": "CPUC - Consumer Programs",
+      "path": "/sitecore/content/Financial/cpuc/Data/CPUC Demo/CPUC - Consumer Programs",
+      "templateId": "c0943942-ae0f-4205-86fa-84884cce4a53",
+      "version": 1,
+      "verified": true,
+      "verifiedFields": [
+        "Eyebrow",
+        "Image",
+        "Link",
+        "Link2",
+        "Subtitle",
+        "Text",
+        "Title"
+      ]
+    },
+    "contactData": {
+      "itemId": "2a1ec10d-ba1e-40b1-b7dd-125808181838",
+      "name": "CPUC - Contact and Leadership",
+      "path": "/sitecore/content/Financial/cpuc/Data/CPUC Demo/CPUC - Contact and Leadership",
+      "templateId": "947db8f8-dc76-453f-aca1-a27babfe633b",
+      "version": 1,
+      "verified": true,
+      "verifiedFields": [
+        "Text1",
+        "Title1",
+        "Text2",
+        "Title2",
+        "Text3",
+        "Title3",
+        "Text4",
+        "Title4",
+        "Copyright",
+        "Link1",
+        "Link2",
+        "Image1",
+        "SocialIcon1",
+        "SocialIcon2",
+        "SocialIcon3",
+        "SocialLink1",
+        "SocialLink2",
+        "SocialLink3",
+        "SocialsTitle"
+      ]
+    },
+    "footerData": {
+      "itemId": "0c4db14b-452d-4c01-8bea-4cc2c1c3a02a",
+      "name": "CPUC - Resource Links",
+      "path": "/sitecore/content/Financial/cpuc/Data/CPUC Demo/CPUC - Resource Links",
+      "templateId": "947db8f8-dc76-453f-aca1-a27babfe633b",
+      "version": 1,
+      "verified": true,
+      "verifiedFields": [
+        "Text1",
+        "Title1",
+        "Text2",
+        "Title2",
+        "Text3",
+        "Title3",
+        "Text4",
+        "Title4",
+        "Copyright",
+        "Link1",
+        "Link2",
+        "Image1",
+        "SocialIcon1",
+        "SocialIcon2",
+        "SocialIcon3",
+        "SocialLink1",
+        "SocialLink2",
+        "SocialLink3",
+        "SocialsTitle"
+      ]
+    },
+    "newsData": {
+      "itemId": "fed99adb-37ef-4125-b9b6-2cb20e03fb7c",
+      "name": "CPUC - News and Events",
+      "path": "/sitecore/content/Financial/cpuc/Data/CPUC Demo/News and Events/CPUC - News and Events",
+      "templateId": "325adff4-c39a-4391-8ffd-23b7f536d5e7",
+      "version": 1,
+      "verified": true,
+      "verifiedFields": [
+        "Title",
+        "SecondaryTitle",
+        "Text",
+        "SecondaryText",
+        "Link"
+      ]
+    },
+    "issuesData": {
+      "itemId": "a29a4288-8349-47f4-9d4e-30eb27343b79",
+      "name": "CPUC - Key Issues",
+      "path": "/sitecore/content/Financial/cpuc/Data/CPUC Demo/Key Issues/CPUC - Key Issues",
+      "templateId": "0703a755-b77a-4ad3-a308-3be6bf3755b4",
+      "version": 1,
+      "verified": true,
+      "verifiedFields": [
+        "Title",
+        "Text",
+        "Link"
+      ]
+    },
+    "newsChild1": {
+      "itemId": "7bfa5682-3222-4e98-9563-84a5399c477a",
+      "name": "2 - news",
+      "path": "/sitecore/content/Financial/cpuc/Data/CPUC Demo/News and Events/CPUC - News and Events/2 - news",
+      "templateId": "0806f7fb-54fd-4225-b060-2a7dc741a301",
+      "version": 1
+    },
+    "newsChild0": {
+      "itemId": "d6cb18a0-74c9-469c-9081-016ed508238f",
+      "name": "1 - news",
+      "path": "/sitecore/content/Financial/cpuc/Data/CPUC Demo/News and Events/CPUC - News and Events/1 - news",
+      "templateId": "0806f7fb-54fd-4225-b060-2a7dc741a301",
+      "version": 1
+    },
+    "newsChild2": {
+      "itemId": "2d205486-eac7-4160-a487-06d0818cf7e8",
+      "name": "3 - news",
+      "path": "/sitecore/content/Financial/cpuc/Data/CPUC Demo/News and Events/CPUC - News and Events/3 - news",
+      "templateId": "0806f7fb-54fd-4225-b060-2a7dc741a301",
+      "version": 1
+    },
+    "newsChild3": {
+      "itemId": "5812ecc6-0c33-4cb9-a7d4-6455a7773f06",
+      "name": "4 - events",
+      "path": "/sitecore/content/Financial/cpuc/Data/CPUC Demo/News and Events/CPUC - News and Events/4 - events",
+      "templateId": "0806f7fb-54fd-4225-b060-2a7dc741a301",
+      "version": 1
+    },
+    "newsChild4": {
+      "itemId": "16a54d20-ebff-4342-960e-cc553f0e2322",
+      "name": "5 - events",
+      "path": "/sitecore/content/Financial/cpuc/Data/CPUC Demo/News and Events/CPUC - News and Events/5 - events",
+      "templateId": "0806f7fb-54fd-4225-b060-2a7dc741a301",
+      "version": 1
+    },
+    "newsChild5": {
+      "itemId": "82a80e6e-07e9-4c16-96c4-b8170531c71e",
+      "name": "6 - events",
+      "path": "/sitecore/content/Financial/cpuc/Data/CPUC Demo/News and Events/CPUC - News and Events/6 - events",
+      "templateId": "0806f7fb-54fd-4225-b060-2a7dc741a301",
+      "version": 1
+    },
+    "issuesChild0": {
+      "itemId": "c9f4306c-4c76-44fe-87a6-28a301ece183",
+      "name": "1 - ATT FCC Filing",
+      "path": "/sitecore/content/Financial/cpuc/Data/CPUC Demo/Key Issues/CPUC - Key Issues/1 - ATT FCC Filing",
+      "templateId": "0806f7fb-54fd-4225-b060-2a7dc741a301",
+      "version": 1
+    },
+    "issuesChild1": {
+      "itemId": "ffe1d330-0a9c-4b7a-a3ec-2644018e4820",
+      "name": "2 - Climate Vision",
+      "path": "/sitecore/content/Financial/cpuc/Data/CPUC Demo/Key Issues/CPUC - Key Issues/2 - Climate Vision",
+      "templateId": "0806f7fb-54fd-4225-b060-2a7dc741a301",
+      "version": 1
+    },
+    "issuesChild2": {
+      "itemId": "bfa313ae-4324-4449-b022-def2576258df",
+      "name": "3 - COLR Proceeding",
+      "path": "/sitecore/content/Financial/cpuc/Data/CPUC Demo/Key Issues/CPUC - Key Issues/3 - COLR Proceeding",
+      "templateId": "0806f7fb-54fd-4225-b060-2a7dc741a301",
+      "version": 1
+    },
+    "issuesChild3": {
+      "itemId": "3cd6d751-ff7b-4f46-8cb5-77758209fc38",
+      "name": "4 - Consumer Protections and Resources for Wildfire Victims",
+      "path": "/sitecore/content/Financial/cpuc/Data/CPUC Demo/Key Issues/CPUC - Key Issues/4 - Consumer Protections and Resources for Wildfire Victims",
+      "templateId": "0806f7fb-54fd-4225-b060-2a7dc741a301",
+      "version": 1
+    },
+    "issuesChild4": {
+      "itemId": "b732b225-3d2e-46db-acef-89a4339f8e06",
+      "name": "5 - CPUC Response to Executive Order N-5-24",
+      "path": "/sitecore/content/Financial/cpuc/Data/CPUC Demo/Key Issues/CPUC - Key Issues/5 - CPUC Response to Executive Order N-5-24",
+      "templateId": "0806f7fb-54fd-4225-b060-2a7dc741a301",
+      "version": 1
+    },
+    "issuesChild5": {
+      "itemId": "06c03e11-6fc0-4826-b434-ca1c7a0c2ac7",
+      "name": "6 - Broadband Implementation  BEAD Program",
+      "path": "/sitecore/content/Financial/cpuc/Data/CPUC Demo/Key Issues/CPUC - Key Issues/6 - Broadband Implementation  BEAD Program",
+      "templateId": "0806f7fb-54fd-4225-b060-2a7dc741a301",
+      "version": 1
+    },
+    "issuesChild6": {
+      "itemId": "19066ac2-48e6-4eae-a81d-0f541e6a7c5e",
+      "name": "7 - Telecommunications Surcharges",
+      "path": "/sitecore/content/Financial/cpuc/Data/CPUC Demo/Key Issues/CPUC - Key Issues/7 - Telecommunications Surcharges",
+      "templateId": "0806f7fb-54fd-4225-b060-2a7dc741a301",
+      "version": 1
+    },
+    "issuesChild7": {
+      "itemId": "d9a0bfe1-6be7-4454-96a7-4c07a24e072f",
+      "name": "8 - Rideshare Incentives for Driving Electric RIDE",
+      "path": "/sitecore/content/Financial/cpuc/Data/CPUC Demo/Key Issues/CPUC - Key Issues/8 - Rideshare Incentives for Driving Electric RIDE",
+      "templateId": "0806f7fb-54fd-4225-b060-2a7dc741a301",
+      "version": 1
+    },
+    "variants_Eyebrow": {
+      "itemId": "f61d99aa-dd2e-4936-918a-8252c2a02b52",
+      "name": "Eyebrow",
+      "path": "/sitecore/content/Financial/cpuc/Presentation/Headless Variants/Eyebrow",
+      "templateId": "49c111d0-6867-4798-a724-1f103166e6e9",
+      "version": 1
+    },
+    "variants_Footer": {
+      "itemId": "07e0ae8f-37bb-4d56-927a-7ef920850548",
+      "name": "Footer",
+      "path": "/sitecore/content/Financial/cpuc/Presentation/Headless Variants/Footer",
+      "workflow": null,
+      "version": null,
+      "template": {
+        "templateId": "49c111d0-6867-4798-a724-1f103166e6e9",
+        "name": "HeadlessVariants"
+      },
+      "fields": {
+        "Compatible Renderings": ""
+      },
+      "created_at": null,
+      "updated_at": null,
+      "children": {
+        "nodes": [
+          {
+            "itemId": "5a9ae34c-c981-4b63-83bb-c67d0db902b3",
+            "name": "Default",
+            "path": "/sitecore/content/Financial/cpuc/Presentation/Headless Variants/Footer/Default",
+            "workflow": null,
+            "version": null,
+            "template": {
+              "templateId": "4d50cdae-c2d9-4de8-b080-8f992bfb1b55",
+              "name": "Variant Definition"
+            },
+            "fields": {
+              "LinkField": "",
+              "Content": "",
+              "AllowedInTemplates": "",
+              "Compatible Renderings": ""
+            },
+            "created_at": null,
+            "updated_at": null
+          }
+        ]
+      }
+    },
+    "variants_Promo CTA": {
+      "itemId": "16cdea0f-3cf8-4d51-bd8b-3105f3118883",
+      "name": "Promo CTA",
+      "path": "/sitecore/content/Financial/cpuc/Presentation/Headless Variants/Promo CTA",
+      "workflow": null,
+      "version": null,
+      "template": {
+        "templateId": "49c111d0-6867-4798-a724-1f103166e6e9",
+        "name": "HeadlessVariants"
+      },
+      "fields": {
+        "Compatible Renderings": ""
+      },
+      "created_at": null,
+      "updated_at": null,
+      "children": {
+        "nodes": [
+          {
+            "itemId": "911cb00b-7cac-4827-9963-ed808a95a771",
+            "name": "Default",
+            "path": "/sitecore/content/Financial/cpuc/Presentation/Headless Variants/Promo CTA/Default",
+            "workflow": null,
+            "version": null,
+            "template": {
+              "templateId": "4d50cdae-c2d9-4de8-b080-8f992bfb1b55",
+              "name": "Variant Definition"
+            },
+            "fields": {
+              "LinkField": "",
+              "Content": "",
+              "AllowedInTemplates": "",
+              "Compatible Renderings": ""
+            },
+            "created_at": null,
+            "updated_at": null
+          },
+          {
+            "itemId": "1516839b-89a8-4a65-9d95-99b0450f2589",
+            "name": "WithBackgroundImage",
+            "path": "/sitecore/content/Financial/cpuc/Presentation/Headless Variants/Promo CTA/WithBackgroundImage",
+            "workflow": null,
+            "version": null,
+            "template": {
+              "templateId": "4d50cdae-c2d9-4de8-b080-8f992bfb1b55",
+              "name": "Variant Definition"
+            },
+            "fields": {
+              "LinkField": "",
+              "Content": "",
+              "AllowedInTemplates": "",
+              "Compatible Renderings": ""
+            },
+            "created_at": null,
+            "updated_at": null
+          }
+        ]
+      }
+    },
+    "variants_NewsEvents": {
+      "itemId": "1317db42-3d83-4158-8297-363cd11f56b8",
+      "name": "NewsEvents",
+      "path": "/sitecore/content/Financial/cpuc/Presentation/Headless Variants/NewsEvents",
+      "templateId": "49c111d0-6867-4798-a724-1f103166e6e9",
+      "version": 1
+    },
+    "variants_Header": {
+      "itemId": "babe7ea3-81da-45b0-ab20-dc430dfa80b6",
+      "name": "Header",
+      "path": "/sitecore/content/Financial/cpuc/Presentation/Headless Variants/Header",
+      "workflow": null,
+      "version": null,
+      "template": {
+        "templateId": "49c111d0-6867-4798-a724-1f103166e6e9",
+        "name": "HeadlessVariants"
+      },
+      "fields": {
+        "Compatible Renderings": ""
+      },
+      "created_at": null,
+      "updated_at": null,
+      "children": {
+        "nodes": [
+          {
+            "itemId": "877921b5-8a21-4a33-8a51-4cf001ce713a",
+            "name": "Default",
+            "path": "/sitecore/content/Financial/cpuc/Presentation/Headless Variants/Header/Default",
+            "workflow": null,
+            "version": null,
+            "template": {
+              "templateId": "4d50cdae-c2d9-4de8-b080-8f992bfb1b55",
+              "name": "Variant Definition"
+            },
+            "fields": {
+              "LinkField": "",
+              "Content": "",
+              "AllowedInTemplates": "",
+              "Compatible Renderings": ""
+            },
+            "created_at": null,
+            "updated_at": null
+          },
+          {
+            "itemId": "99f9867c-fca3-4415-8bff-3abd34408818",
+            "name": "WithLogoImage",
+            "path": "/sitecore/content/Financial/cpuc/Presentation/Headless Variants/Header/WithLogoImage",
+            "workflow": null,
+            "version": null,
+            "template": {
+              "templateId": "4d50cdae-c2d9-4de8-b080-8f992bfb1b55",
+              "name": "Variant Definition"
+            },
+            "fields": {
+              "LinkField": "",
+              "Content": "",
+              "AllowedInTemplates": "",
+              "Compatible Renderings": ""
+            },
+            "created_at": null,
+            "updated_at": null
+          }
+        ]
+      }
+    },
+    "variants_HeroBanner": {
+      "itemId": "05380aef-e56d-4d3d-bf3f-d3fe842761d4",
+      "name": "HeroBanner",
+      "path": "/sitecore/content/Financial/cpuc/Presentation/Headless Variants/HeroBanner",
+      "templateId": "49c111d0-6867-4798-a724-1f103166e6e9",
+      "version": 1
+    },
+    "variants_KeyIssues": {
+      "itemId": "23ca87cb-3a23-465e-a42f-0843a9472b92",
+      "name": "KeyIssues",
+      "path": "/sitecore/content/Financial/cpuc/Presentation/Headless Variants/KeyIssues",
+      "templateId": "49c111d0-6867-4798-a724-1f103166e6e9",
+      "version": 1
+    },
+    "variants_Three Column CTA": {
+      "itemId": "043f252c-4e30-4cd8-8aa4-8cca2fb138df",
+      "name": "Three Column CTA",
+      "path": "/sitecore/content/Financial/cpuc/Presentation/Headless Variants/Three Column CTA",
+      "workflow": null,
+      "version": null,
+      "template": {
+        "templateId": "49c111d0-6867-4798-a724-1f103166e6e9",
+        "name": "HeadlessVariants"
+      },
+      "fields": {
+        "Compatible Renderings": ""
+      },
+      "created_at": null,
+      "updated_at": null,
+      "children": {
+        "nodes": [
+          {
+            "itemId": "35994435-4f43-4cd4-99e7-75a8c0e829ed",
+            "name": "Default",
+            "path": "/sitecore/content/Financial/cpuc/Presentation/Headless Variants/Three Column CTA/Default",
+            "workflow": null,
+            "version": null,
+            "template": {
+              "templateId": "4d50cdae-c2d9-4de8-b080-8f992bfb1b55",
+              "name": "Variant Definition"
+            },
+            "fields": {
+              "LinkField": "",
+              "Content": "",
+              "AllowedInTemplates": "",
+              "Compatible Renderings": ""
+            },
+            "created_at": null,
+            "updated_at": null
+          }
+        ]
+      }
+    },
+    "headerTemplate": {
+      "itemId": "a62f5115-545b-43d6-a25b-f3f3b8ade6b9",
+      "name": "CpucHeader",
+      "path": "/sitecore/templates/Project/Financial/Components/CPUC/CpucHeader",
+      "templateId": "ab86861a-6030-46c5-b394-e8f99e8b87db",
+      "version": 1
+    },
+    "headerSection": {
+      "itemId": "c6bfc0d1-41e3-475d-9432-4afe74aece27",
+      "name": "Data",
+      "path": "/sitecore/templates/Project/Financial/Components/CPUC/CpucHeader/Data",
+      "templateId": "e269fbb5-3750-427a-9149-7aa950b49301",
+      "version": 1
+    },
+    "headerSV": {
+      "itemId": "4acdfaf9-30f8-4bde-9c53-2ac8a8047c03",
+      "name": "__Standard Values",
+      "path": "/sitecore/templates/Project/Financial/Components/CPUC/CpucHeader/__Standard Values",
+      "templateId": "a62f5115-545b-43d6-a25b-f3f3b8ade6b9",
+      "version": 1
+    },
+    "headerFieldTitle": {
+      "itemId": "92803e6a-9f47-40c4-b613-3dd0dffab9cd",
+      "name": "Title",
+      "path": "/sitecore/templates/Project/Financial/Components/CPUC/CpucHeader/Data/Title",
+      "templateId": "455a3e98-a627-4b40-8035-e683a0331ac7",
+      "version": 1
+    },
+    "headerFieldTagline": {
+      "itemId": "ff493fe8-c957-4973-828b-90caf95a606f",
+      "name": "Tagline",
+      "path": "/sitecore/templates/Project/Financial/Components/CPUC/CpucHeader/Data/Tagline",
+      "templateId": "455a3e98-a627-4b40-8035-e683a0331ac7",
+      "version": 1
+    },
+    "variant_Header_Cpuc": {
+      "itemId": "f4a7f9fc-4673-4177-8f9b-da1ddc844587",
+      "name": "Cpuc",
+      "path": "/sitecore/content/Financial/cpuc/Presentation/Headless Variants/Header/Cpuc",
+      "templateId": "4d50cdae-c2d9-4de8-b080-8f992bfb1b55",
+      "version": 1
+    },
+    "variant_Footer_Cpuc": {
+      "itemId": "1363663e-7a7c-41cb-ba9d-96e0637040e6",
+      "name": "Cpuc",
+      "path": "/sitecore/content/Financial/cpuc/Presentation/Headless Variants/Footer/Cpuc",
+      "templateId": "4d50cdae-c2d9-4de8-b080-8f992bfb1b55",
+      "version": 1
+    },
+    "variant_Three Column CTA_Cpuc": {
+      "itemId": "94664cb8-e54f-458a-913d-9778b044feb8",
+      "name": "Cpuc",
+      "path": "/sitecore/content/Financial/cpuc/Presentation/Headless Variants/Three Column CTA/Cpuc",
+      "templateId": "4d50cdae-c2d9-4de8-b080-8f992bfb1b55",
+      "version": 1
+    },
+    "variant_Promo CTA_Cpuc": {
+      "itemId": "e9199bc7-ed47-427f-b22b-d0f7fda9a1e6",
+      "name": "Cpuc",
+      "path": "/sitecore/content/Financial/cpuc/Presentation/Headless Variants/Promo CTA/Cpuc",
+      "templateId": "4d50cdae-c2d9-4de8-b080-8f992bfb1b55",
+      "version": 1
+    },
+    "variant_HeroBanner_Cpuc": {
+      "itemId": "a27e5cd0-cbd0-4f41-a1de-d886b572b14e",
+      "name": "Cpuc",
+      "path": "/sitecore/content/Financial/cpuc/Presentation/Headless Variants/HeroBanner/Cpuc",
+      "templateId": "4d50cdae-c2d9-4de8-b080-8f992bfb1b55",
+      "version": 1
+    },
+    "variant_Eyebrow_Cpuc": {
+      "itemId": "9a0f5797-d34a-47a9-8cdd-8092421d3b17",
+      "name": "Cpuc",
+      "path": "/sitecore/content/Financial/cpuc/Presentation/Headless Variants/Eyebrow/Cpuc",
+      "templateId": "4d50cdae-c2d9-4de8-b080-8f992bfb1b55",
+      "version": 1
+    },
+    "variant_NewsEvents_Cpuc": {
+      "itemId": "25a9c092-6fb2-4f11-ae22-9da4e63fbe7e",
+      "name": "Cpuc",
+      "path": "/sitecore/content/Financial/cpuc/Presentation/Headless Variants/NewsEvents/Cpuc",
+      "templateId": "4d50cdae-c2d9-4de8-b080-8f992bfb1b55",
+      "version": 1
+    },
+    "variant_KeyIssues_Cpuc": {
+      "itemId": "0c8b5bde-8a95-4307-b49d-b6cddf18dc24",
+      "name": "Cpuc",
+      "path": "/sitecore/content/Financial/cpuc/Presentation/Headless Variants/KeyIssues/Cpuc",
+      "templateId": "4d50cdae-c2d9-4de8-b080-8f992bfb1b55",
+      "version": 1
+    },
+    "variant_HeroBanner_Default": {
+      "itemId": "73b7cba8-0b70-4714-9b42-9b4e3f4e4062",
+      "name": "Default",
+      "path": "/sitecore/content/Financial/cpuc/Presentation/Headless Variants/HeroBanner/Default",
+      "templateId": "4d50cdae-c2d9-4de8-b080-8f992bfb1b55",
+      "version": 1
+    },
+    "variant_Eyebrow_Default": {
+      "itemId": "ecd0bdcc-d7c7-42ca-a6c7-a102248810db",
+      "name": "Default",
+      "path": "/sitecore/content/Financial/cpuc/Presentation/Headless Variants/Eyebrow/Default",
+      "templateId": "4d50cdae-c2d9-4de8-b080-8f992bfb1b55",
+      "version": 1
+    },
+    "variant_NewsEvents_Default": {
+      "itemId": "f6ae8cc2-84f9-4305-8277-de27b27e3d29",
+      "name": "Default",
+      "path": "/sitecore/content/Financial/cpuc/Presentation/Headless Variants/NewsEvents/Default",
+      "templateId": "4d50cdae-c2d9-4de8-b080-8f992bfb1b55",
+      "version": 1
+    },
+    "variant_KeyIssues_Default": {
+      "itemId": "1f877878-b22b-44ee-9885-70b4b13f9c92",
+      "name": "Default",
+      "path": "/sitecore/content/Financial/cpuc/Presentation/Headless Variants/KeyIssues/Default",
+      "templateId": "4d50cdae-c2d9-4de8-b080-8f992bfb1b55",
+      "version": 1
+    },
+    "variant_Footer_CpucContact": {
+      "itemId": "53530ea7-bad8-4e58-9c34-d7fb60b2af7c",
+      "name": "CpucContact",
+      "path": "/sitecore/content/Financial/cpuc/Presentation/Headless Variants/Footer/CpucContact",
+      "templateId": "4d50cdae-c2d9-4de8-b080-8f992bfb1b55",
+      "version": 1
+    },
+    "headerData": {
+      "itemId": "d0c44cc2-1ca3-4728-bc89-509c01a00689",
+      "name": "CPUC - Header",
+      "path": "/sitecore/content/Financial/cpuc/Data/CPUC Demo/CPUC - Header",
+      "templateId": "a62f5115-545b-43d6-a25b-f3f3b8ade6b9",
+      "version": 1,
+      "verified": true,
+      "verifiedFields": [
+        "Title",
+        "Tagline",
+        "LogoImage"
+      ]
+    },
+    "utilityLeftData": {
+      "itemId": "06c44b9f-2b16-4e6a-bd6c-1abf8b68ee34",
+      "name": "CPUC - Utility Left",
+      "path": "/sitecore/content/Financial/cpuc/Data/CPUC Demo/CPUC - Utility Left",
+      "templateId": "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df",
+      "version": 1
+    },
+    "utilityRightData": {
+      "itemId": "2765e2da-77ff-41ce-b3b2-e3e38bb231a5",
+      "name": "CPUC - Utility Right",
+      "path": "/sitecore/content/Financial/cpuc/Data/CPUC Demo/CPUC - Utility Right",
+      "templateId": "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df",
+      "version": 1
+    },
+    "headerFieldSearchIndex": {
+      "itemId": "f82537f6-2ff9-4564-9aa3-184a65b7d2ad",
+      "name": "SearchIndex",
+      "path": "/sitecore/templates/Project/Financial/Components/CPUC/CpucHeader/Data/SearchIndex",
+      "templateId": "455a3e98-a627-4b40-8035-e683a0331ac7",
+      "version": 1
+    }
+  },
+  "actions": [],
+  "errors": [
+    {
+      "action": "Add HeroBanner to Home",
+      "error": "Agent API Internal Server Error (500)",
+      "partialPageVersionCreated": true
+    },
+    {
+      "action": "Add NewsEvents to Home",
+      "error": "ERROR: Agent API request failed: Internal Server Error (500)"
+    },
+    {
+      "action": "Wire existing ThreeColumnCta datasource",
+      "error": "Failed to set component datasource - No saveItem in response (500)"
+    },
+    {
+      "action": "Retry after user changed Channels Name from CPUC to cpuc",
+      "error": "Existing auto-datasource name returned 400; unique-name insertion still returned 500; datasource wiring still returned No saveItem in response (500).",
+      "result": "Final readback: eleven original instances; no HeroBanner placement; service datasource unchanged."
+    }
+  ],
+  "availableRenderingsBefore": "{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}|{3836D951-BB14-43AC-9231-649B7F245DC5}|{8094185B-4C72-40C8-B005-C6ED91708754}|{F9905F68-21E8-4C6F-8B89-56BB99020D31}|{CCC3A815-5DE9-4529-BAD5-874548667D66}|{AD385021-CE2B-4FC1-89AA-207D408034A8}|{35075000-760E-4FF3-BD1C-F2EEBA251DCB}|{333DEF3E-C272-4AD9-A493-8D5CCAE08312}|{1F52FB4E-FB4B-40ED-A5D8-F8F9784B36F2}|{20E5EA95-6B50-49CD-8852-433B7C565F06}|{3A9A9D22-C092-4B54-9511-EB202CEABE8D}|{75464A5E-CBB7-4F96-BBBC-104AFE57923A}|{B7CDF75E-716A-4C59-B9B1-CD970AE0A4AE}|{1A375FAC-6CC1-4A5A-A159-9BC6DBC66B80}|{200920AD-9645-4CB2-B72A-C7D8278E709F}",
+  "assembly": {
+    "status": "failed",
+    "pageId": "ab52cb47-003f-4f87-96fc-9faf323099da",
+    "componentsAdded": 0,
+    "datasourcesWired": 0,
+    "reason": "Agent API 500 on add; No saveItem in response on datasource assignment. Home layout unchanged."
+  },
+  "homeComponentsBefore": [
+    {
+      "id": "124106de-fb02-4b43-a521-a309fc75a5bc",
+      "name": "Carousel",
+      "renderingId": "8094185b-4c72-40c8-b005-c6ed91708754",
+      "dataSource": "local:/Data/Carousel - Default",
+      "placeholder": "headless-main"
+    },
+    {
+      "id": "d49a8931-f041-4988-9cc3-f2400e6422d0",
+      "name": "Promo CTA",
+      "renderingId": "1a375fac-6cc1-4a5a-a159-9bc6dbc66b80",
+      "dataSource": "local:/Data/Promo CTA 1",
+      "placeholder": "headless-main"
+    },
+    {
+      "id": "b882746c-c313-4283-8f58-b9402bcf9c6a",
+      "name": "Five Column CTA",
+      "renderingId": "333def3e-c272-4ad9-a493-8d5ccae08312",
+      "dataSource": "{B91F9049-FFD3-4A34-AB88-8C9D70D1A7B7}",
+      "placeholder": "headless-main"
+    },
+    {
+      "id": "d54d53b4-1aa4-4998-9bdf-eb934c32cfb6",
+      "name": "Three Column CTA",
+      "renderingId": "ad385021-ce2b-4fc1-89aa-207d408034a8",
+      "dataSource": "{0173A1E5-633E-4F33-BC13-D905CFCDEAB7}",
+      "placeholder": "headless-main"
+    },
+    {
+      "id": "633506e7-54d0-4410-9051-72fb4c9fecb4",
+      "name": "Promo CTA",
+      "renderingId": "1a375fac-6cc1-4a5a-a159-9bc6dbc66b80",
+      "dataSource": "{DD0993D9-3469-4865-BC49-43C9703243C0}",
+      "placeholder": "headless-main"
+    },
+    {
+      "id": "1a516b9b-cc7b-49c9-a8eb-5be281a98612",
+      "name": "Promo CTA",
+      "renderingId": "1a375fac-6cc1-4a5a-a159-9bc6dbc66b80",
+      "dataSource": "{7BD5460A-5336-4700-BA11-8C94E5561EDB}",
+      "placeholder": "headless-main"
+    },
+    {
+      "id": "0ed2d2c2-e9ef-4e40-b040-6289cb174e03",
+      "name": "Two Column CTA",
+      "renderingId": "3a9a9d22-c092-4b54-9511-eb202ceabe8d",
+      "dataSource": "{5F891C40-7BE5-4A75-BA02-416542860EF8}",
+      "placeholder": "headless-main"
+    },
+    {
+      "id": "854de8ce-208f-494d-b7c8-c1162d00144f",
+      "name": "Article List",
+      "renderingId": "52733592-6f5d-4fb4-8003-9b8223c5bc76",
+      "dataSource": "{2762C00E-A2A5-4B88-86A8-2FA05D0A53F4}",
+      "placeholder": "headless-main"
+    },
+    {
+      "id": "251b0936-4659-4127-9952-52ca5140d803",
+      "name": "Documents List",
+      "renderingId": "ccc3a815-5de9-4529-bad5-874548667d66",
+      "dataSource": "local:/Data/Documents List 1",
+      "placeholder": "headless-main"
+    },
+    {
+      "id": "7ebe6f29-1c6f-4138-8bf9-287acf0cd530",
+      "name": "App Promo",
+      "renderingId": "f9905f68-21e8-4c6f-8b89-56bb99020d31",
+      "dataSource": "{C6976F64-E243-4433-AF38-BF2AD67360A2}",
+      "placeholder": "headless-main"
+    },
+    {
+      "id": "70dcbc4b-026c-4084-8ecb-3275c1e71d58",
+      "name": "App Promo",
+      "renderingId": "f9905f68-21e8-4c6f-8b89-56bb99020d31",
+      "dataSource": "local:/Data/App Promo 1",
+      "placeholder": "/headless-main/promo-cta-0-30"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "delivery": "public/cpuc",
+  "contentHubUploadAttempted": false,
+  "images": [
+    {
+      "file": "bill.svg",
+      "localPath": "public/cpuc/bill.svg",
+      "publicUrl": "/cpuc/bill.svg",
+      "sourceUrl": null,
+      "delivery": "local-public-asset",
+      "uploadStatus": "not-uploaded-to-DAM",
+      "width": 64,
+      "height": 64,
+      "provenance": "New vector icon authored for the demo"
+    },
+    {
+      "file": "california-all.jpg",
+      "localPath": "public/cpuc/california-all.jpg",
+      "publicUrl": "/cpuc/california-all.jpg",
+      "sourceUrl": "https://www.cpuc.ca.gov/-/media/cpuc-website/images/2cgxsxpc.jpg",
+      "delivery": "local-public-asset",
+      "uploadStatus": "not-uploaded-to-DAM",
+      "width": 401,
+      "height": 401
+    },
+    {
+      "file": "complaint.svg",
+      "localPath": "public/cpuc/complaint.svg",
+      "publicUrl": "/cpuc/complaint.svg",
+      "sourceUrl": null,
+      "delivery": "local-public-asset",
+      "uploadStatus": "not-uploaded-to-DAM",
+      "width": 64,
+      "height": 64,
+      "provenance": "New vector icon authored for the demo"
+    },
+    {
+      "file": "consumer-programs.jpg",
+      "localPath": "public/cpuc/consumer-programs.jpg",
+      "publicUrl": "/cpuc/consumer-programs.jpg",
+      "sourceUrl": "https://www.cpuc.ca.gov/-/media/cpuc-website/images/adobestock_263998826_preview/istockphoto-1084461368-612x612/istock-1084461368flip.jpg",
+      "delivery": "local-public-asset",
+      "uploadStatus": "not-uploaded-to-DAM",
+      "width": 1920,
+      "height": 1280
+    },
+    {
+      "file": "hero.jpg",
+      "localPath": "public/cpuc/hero.jpg",
+      "publicUrl": "/cpuc/hero.jpg",
+      "sourceUrl": "https://www.cpuc.ca.gov/-/media/cpuc-website/images/homepage_banner_052225.jpg",
+      "delivery": "local-public-asset",
+      "uploadStatus": "not-uploaded-to-DAM",
+      "width": 5400,
+      "height": 2530
+    },
+    {
+      "file": "john-reynolds.jpg",
+      "localPath": "public/cpuc/john-reynolds.jpg",
+      "publicUrl": "/cpuc/john-reynolds.jpg",
+      "sourceUrl": "https://www.cpuc.ca.gov/-/media/cpuc-website/commissioners/john-reynolds/images/john-reynolds.jpg",
+      "delivery": "local-public-asset",
+      "uploadStatus": "not-uploaded-to-DAM",
+      "width": 2400,
+      "height": 3000
+    },
+    {
+      "file": "logo.png",
+      "localPath": "public/cpuc/logo.png",
+      "publicUrl": "/cpuc/logo.png",
+      "sourceUrl": "https://www.cpuc.ca.gov/assets/img/cpuc/cpuc-logo-md.png",
+      "delivery": "local-public-asset",
+      "uploadStatus": "not-uploaded-to-DAM",
+      "width": 200,
+      "height": 200
+    },
+    {
+      "file": "plug.svg",
+      "localPath": "public/cpuc/plug.svg",
+      "publicUrl": "/cpuc/plug.svg",
+      "sourceUrl": null,
+      "delivery": "local-public-asset",
+      "uploadStatus": "not-uploaded-to-DAM",
+      "width": 64,
+      "height": 64,
+      "provenance": "New vector icon authored for the demo"
+    }
+  ]
+}

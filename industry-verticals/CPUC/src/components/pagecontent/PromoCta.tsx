@@ -2,35 +2,19 @@
 
 import { JSX } from 'react';
 import {
-  Field,
-  ImageField,
-  RichTextField,
   Text,
   RichText,
   Link,
-  LinkField,
   useSitecore,
   Placeholder,
   NextImage,
 } from '@sitecore-content-sdk/nextjs';
 import useVisibility from 'src/hooks/useVisibility';
-import { ComponentProps } from 'lib/component-props';
 import { DottedAccent } from 'components/non-sitecore/DottedAccent';
 
-interface Fields {
-  Eyebrow: Field<string>;
-  Title: Field<string>;
-  Subtitle: Field<string>;
-  Text: RichTextField;
-  Image: ImageField;
-  Link: LinkField;
-  Link2: LinkField;
-}
+import type { PromoCtaProps } from './promo-cta.props';
+export type { PromoCtaProps } from './promo-cta.props';
 
-export type PromoCtaProps = ComponentProps & {
-  params: { [key: string]: string };
-  fields: Fields;
-};
 
 export const Default = (props: PromoCtaProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
@@ -188,5 +172,25 @@ export const WithBackgroundImage = (props: PromoCtaProps): JSX.Element => {
         </div>
       </div>
     </div>
+  );
+};
+
+/* CPUC variant — consumer program image overlapping a yellow panel. */
+export const Cpuc = (props: PromoCtaProps): JSX.Element => {
+  const { page } = useSitecore();
+  const isEditing = page.mode.isEditing;
+  const fields = props.fields;
+  if (!fields) return <p role="status">PromoCta: content is unavailable.</p>;
+  return (
+    <section className={`component cpuc-programs ${props.params?.styles || ''}`} id={props.params?.RenderingIdentifier || undefined}>
+      <div className="container cpuc-programs__inner">
+        {(fields.Image?.value?.src || isEditing) && <div className="cpuc-programs__image"><NextImage field={fields.Image} width={1000} height={500} /></div>}
+        <div className="cpuc-programs__content">
+          {(fields.Title?.value || isEditing) && <Text field={fields.Title} tag="h2" />}
+          {(fields.Text?.value || isEditing) && <RichText field={fields.Text} />}
+          {(fields.Link?.value?.href || isEditing) && <Link field={fields.Link} className="cpuc-button" />}
+        </div>
+      </div>
+    </section>
   );
 };

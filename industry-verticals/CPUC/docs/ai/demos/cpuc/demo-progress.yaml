@@ -1,0 +1,205 @@
+{
+  "client": {
+    "name": "CPUC",
+    "sourceUrl": "https://www.cpuc.ca.gov/",
+    "themeFile": "docs/ai/themes/cpuc.theme.yaml"
+  },
+  "phases": {
+    "phase0_inputs": {
+      "status": "complete",
+      "screenshot": true
+    },
+    "phase0_5_manifest": {
+      "status": "complete",
+      "result": "Adapted to verified Financial/cpuc inventory; original manifest archived."
+    },
+    "phase1_theme": {
+      "status": "complete",
+      "userApproved": true,
+      "themeFile": "docs/ai/themes/cpuc.theme.yaml"
+    },
+    "phase2_analysis": {
+      "status": "complete",
+      "buildPlanFile": "docs/ai/demos/cpuc/build-plan.yaml",
+      "totalSections": 9,
+      "userApproved": true
+    },
+    "phase5_5_variants": {
+      "status": "complete",
+      "userChoice": "custom",
+      "variantsCreated": 9,
+      "variantName": "Cpuc",
+      "additionalVariant": "CpucContact"
+    },
+    "phase2_5_content": {
+      "status": "complete",
+      "contentMapFile": "docs/ai/demos/cpuc/content-map.yaml",
+      "extractorUsed": false,
+      "source": "Public source HTML plus supplied screenshot"
+    },
+    "phase3_content": {
+      "status": "complete",
+      "totalDatasources": 10,
+      "completedDatasources": 10,
+      "newsChildren": 6,
+      "issueChildren": 8
+    },
+    "phase4_theme": {
+      "status": "complete",
+      "themeDelivery": "Scoped Sass imported last in globals.scss"
+    },
+    "phase5_custom": {
+      "status": "complete",
+      "customComponentsNeeded": 2,
+      "customComponentsBuilt": 2
+    },
+    "phase6_assembly": {
+      "status": "failed",
+      "pageId": "ab52cb47-003f-4f87-96fc-9faf323099da",
+      "componentsAdded": 0,
+      "datasourcesWired": 0,
+      "reason": "Agent API 500 on add; No saveItem in response on datasource assignment. Home layout unchanged."
+    },
+    "phase7_summary": {
+      "status": "pending",
+      "reason": "Assembly failed; implementation status report is not a completed-demo summary."
+    }
+  },
+  "sections": [
+    {
+      "position": 1,
+      "componentName": "Eyebrow",
+      "phase3": {
+        "status": "populated",
+        "itemId": "06c44b9f-2b16-4e6a-bd6c-1abf8b68ee34",
+        "fieldsPopulated": true,
+        "childrenCreated": 0,
+        "childrenExpected": 0
+      },
+      "phase6": {
+        "status": "failed",
+        "error": "Agent API page assembly 500; manual Pages steps required."
+      }
+    },
+    {
+      "position": 2,
+      "componentName": "Header",
+      "phase3": {
+        "status": "populated",
+        "itemId": "d0c44cc2-1ca3-4728-bc89-509c01a00689",
+        "fieldsPopulated": true,
+        "childrenCreated": 0,
+        "childrenExpected": 0
+      },
+      "phase6": {
+        "status": "failed",
+        "error": "Agent API page assembly 500; manual Pages steps required."
+      }
+    },
+    {
+      "position": 3,
+      "componentName": "HeroBanner",
+      "phase3": {
+        "status": "populated",
+        "itemId": "3a692945-bc17-439e-a02c-ba2af1e25ef7",
+        "fieldsPopulated": true,
+        "childrenCreated": 0,
+        "childrenExpected": 0
+      },
+      "phase6": {
+        "status": "failed",
+        "error": "Agent API page assembly 500; manual Pages steps required."
+      }
+    },
+    {
+      "position": 4,
+      "componentName": "ThreeColumnCta",
+      "phase3": {
+        "status": "populated",
+        "itemId": "db97ff31-8c0f-4bb2-b4eb-62d79281e08a",
+        "fieldsPopulated": true,
+        "childrenCreated": 0,
+        "childrenExpected": 0
+      },
+      "phase6": {
+        "status": "failed",
+        "error": "Agent API page assembly 500; manual Pages steps required."
+      }
+    },
+    {
+      "position": 5,
+      "componentName": "NewsEvents",
+      "phase3": {
+        "status": "populated",
+        "itemId": "fed99adb-37ef-4125-b9b6-2cb20e03fb7c",
+        "fieldsPopulated": true,
+        "childrenCreated": 6,
+        "childrenExpected": 6
+      },
+      "phase6": {
+        "status": "failed",
+        "error": "Agent API page assembly 500; manual Pages steps required."
+      }
+    },
+    {
+      "position": 6,
+      "componentName": "PromoCta",
+      "phase3": {
+        "status": "populated",
+        "itemId": "a849bfea-0b34-4b29-b0f1-28c687f92b2d",
+        "fieldsPopulated": true,
+        "childrenCreated": 0,
+        "childrenExpected": 0
+      },
+      "phase6": {
+        "status": "failed",
+        "error": "Agent API page assembly 500; manual Pages steps required."
+      }
+    },
+    {
+      "position": 7,
+      "componentName": "KeyIssues",
+      "phase3": {
+        "status": "populated",
+        "itemId": "a29a4288-8349-47f4-9d4e-30eb27343b79",
+        "fieldsPopulated": true,
+        "childrenCreated": 8,
+        "childrenExpected": 8
+      },
+      "phase6": {
+        "status": "failed",
+        "error": "Agent API page assembly 500; manual Pages steps required."
+      }
+    },
+    {
+      "position": 8,
+      "componentName": "Footer",
+      "phase3": {
+        "status": "populated",
+        "itemId": "2a1ec10d-ba1e-40b1-b7dd-125808181838",
+        "fieldsPopulated": true,
+        "childrenCreated": 0,
+        "childrenExpected": 0
+      },
+      "phase6": {
+        "status": "failed",
+        "error": "Agent API page assembly 500; manual Pages steps required."
+      }
+    },
+    {
+      "position": 9,
+      "componentName": "Footer",
+      "phase3": {
+        "status": "populated",
+        "itemId": "0c4db14b-452d-4c01-8bea-4cc2c1c3a02a",
+        "fieldsPopulated": true,
+        "childrenCreated": 0,
+        "childrenExpected": 0
+      },
+      "phase6": {
+        "status": "failed",
+        "error": "Agent API page assembly 500; manual Pages steps required."
+      }
+    }
+  ]
+}

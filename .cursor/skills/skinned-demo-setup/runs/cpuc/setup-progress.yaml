@@ -1,0 +1,101 @@
+{
+  "customer": {
+    "name": "CPUC",
+    "systemName": "cpuc",
+    "folder": "CPUC",
+    "url": "https://www.cpuc.ca.gov/",
+    "screenshotPath": "/Users/argu/Downloads/www.cpuc.ca.gov_.png",
+    "startedAt": "2026-10-22T01:11:58.444579+00:00",
+    "lastUpdatedAt": "2026-10-22T01:59:57.128547+00:00"
+  },
+  "selection": {
+    "collectionMode": "existing",
+    "customerCollection": "Financial",
+    "collectionId": "",
+    "sourceSiteName": "ProsperaFinancial",
+    "sourceSiteId": "08d9417d-5071-46ff-896b-eb76b0790526",
+    "sourceCollectionId": "",
+    "sourceFolder": "prospera",
+    "needsMove": false
+  },
+  "artifacts": {
+    "newSiteId": "2dc81807-b75b-4528-98f6-c6309a1ab3c0",
+    "ehEnvironmentId": "",
+    "cmEnvironmentId": "",
+    "renderingHostKey": "CPUC",
+    "demoProgressPath": "industry-verticals/CPUC/docs/ai/demos/cpuc/demo-progress.yaml"
+  },
+  "steps": {
+    "inputs": {
+      "status": "complete"
+    },
+    "collection_source_selection": {
+      "status": "complete"
+    },
+    "preflight_auth": {
+      "status": "failed",
+      "sitesApiOk": false,
+      "marketerMcpOk": true,
+      "error": "Environment automation token now authenticates successfully and contains expected tenant sitecoresaa2f44-aaskindemosb09d-aaprosperadad8d. Sites and collections return 401 both with and without environmentId from tenant_id. Authentication preflight remains blocked on Sites API authorization."
+    },
+    "source_verification": {
+      "status": "pending",
+      "error": "Local prospera folder exists; Sites API collection verification pending auth."
+    },
+    "step1a_collection": {
+      "status": "skipped",
+      "reason": "Reuse existing CPUC site and customer app; no duplication or move required."
+    },
+    "step1a_duplicate": {
+      "status": "skipped",
+      "reason": "Reuse existing CPUC site and customer app; no duplication or move required."
+    },
+    "step1a_rename": {
+      "status": "skipped",
+      "reason": "Reuse existing CPUC site and customer app; no duplication or move required."
+    },
+    "step1a_move_notify": {
+      "status": "skipped",
+      "reason": "Reuse existing CPUC site and customer app; no duplication or move required."
+    },
+    "step1b_local_copy": {
+      "status": "skipped",
+      "reason": "Reuse existing CPUC site and customer app; no duplication or move required."
+    },
+    "move_verify": {
+      "status": "skipped",
+      "reason": "Reuse existing CPUC site and customer app; no duplication or move required."
+    },
+    "step1c_env_local": {
+      "status": "pending",
+      "error": "Missing .env.local; repository instructions prohibit agent edits."
+    },
+    "step1c_xmcloud_build": {
+      "status": "pending",
+      "error": "Existing CPUC entry found; editing host identity needs verification before any naming change."
+    },
+    "step1d_editing_host": {
+      "status": "pending",
+      "optedIn": null,
+      "error": "Existing editing host identity not yet verified; do not create a duplicate."
+    },
+    "step1_verification": {
+      "status": "pending"
+    },
+    "step2_build_demo": {
+      "status": "pending",
+      "error": "Existing build completed through custom variants/content; resume failed assembly after setup verification."
+    }
+  },
+  "notes": [
+    "Resuming existing CPUC work; do not duplicate the site, replace the customer folder, or repeat approved theme/content/variant phases.",
+    "Marketer MCP verified cpuc at /sitecore/content/Financial/cpuc. Homepage screenshot exists.",
+    "Sites API credentials missing from process environment. No customer or source credentials.local.yaml / .env.local files found. Preflight stops here per skill.",
+    "Existing renderingHosts.CPUC targets ./industry-verticals/CPUC. Preserve until editing host identity is verified; lowercase naming recommended by skill would require coordinated change.",
+    "Repository instructions prohibit agent edits to .env.local. User must configure it or explicitly authorize an exception.",
+    "Existing demo Phase 6 assembly failed with API 500; prior phases complete. No content or deployment changes made during setup audit.",
+    "Saved temporary credentials were tested without printing their values. Token authentication returned 401 twice; user must correct credentials before setup continues.",
+    "Valid organization credentials retained locally outside Git. Need Environment Automation credentials for CPUC authoring environment; prior advice directing Organization credentials for Sites API was incorrect.",
+    "Confirmed current credential label Codex Demo Setup is environment-scoped (tenant claims present; organization deployment scopes absent). Do not ask user to recreate credentials again without new evidence."
+  ]
+}

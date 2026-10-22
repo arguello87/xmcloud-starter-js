@@ -2,42 +2,15 @@
 
 import { JSX } from 'react';
 import {
-  Field,
-  ImageField,
-  LinkField,
   Link,
   Text,
-  RichTextField,
   RichText,
   NextImage,
 } from '@sitecore-content-sdk/nextjs';
 
-interface Fields {
-  Image1: ImageField;
-  Title1: Field<string>;
-  Text1: RichTextField;
-  Title2: Field<string>;
-  Text2: RichTextField;
-  Title3: Field<string>;
-  Text3: RichTextField;
-  Title4: Field<string>;
-  Text4: RichTextField;
-  Copyright: Field<string>;
-  Link1: LinkField;
-  Link2: LinkField;
-  SocialsTitle: Field<string>;
-  SocialLink1: LinkField;
-  SocialIcon1: ImageField;
-  SocialLink2: LinkField;
-  SocialIcon2: ImageField;
-  SocialLink3: LinkField;
-  SocialIcon3: ImageField;
-}
+import type { FooterProps } from './footer.props';
+export type { FooterProps } from './footer.props';
 
-export type FooterProps = {
-  params: { [key: string]: string };
-  fields: Fields;
-};
 
 export const Default = (props: FooterProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
@@ -167,5 +140,43 @@ export const WithSocials = (props: FooterProps): JSX.Element => {
         </div>
       </div>
     </div>
+  );
+};
+
+/* CPUC contact tier — three editable rich-text columns. */
+export const CpucContact = (props: FooterProps): JSX.Element => {
+  const fields = props.fields;
+  if (!fields) return <p role="status">Footer: content is unavailable.</p>;
+  const columns = [
+    { title: fields.Title1, text: fields.Text1 },
+    { title: fields.Title2, text: fields.Text2 },
+    { title: fields.Title3, text: fields.Text3 },
+  ];
+  return (
+    <section className={`component cpuc-contact ${props.params?.styles || ''}`} id={props.params?.RenderingIdentifier || undefined}>
+      <div className="container cpuc-footer__columns">{columns.map((column, index) => <div key={index}>
+        <Text field={column.title} tag="h2" /><RichText field={column.text} />
+      </div>)}</div>
+    </section>
+  );
+};
+
+/* CPUC footer — teal link columns with a separate legal strip. */
+export const Cpuc = (props: FooterProps): JSX.Element => {
+  const fields = props.fields;
+  if (!fields) return <p role="status">Footer: content is unavailable.</p>;
+  const columns = [
+    { title: fields.Title1, text: fields.Text1 },
+    { title: fields.Title2, text: fields.Text2 },
+    { title: fields.Title3, text: fields.Text3 },
+  ];
+  return (
+    <footer className={`component cpuc-footer ${props.params?.styles || ''}`} id={props.params?.RenderingIdentifier || undefined}>
+      <div className="cpuc-footer__main"><div className="container cpuc-footer__columns">
+        {columns.map((column, index) => <div key={index}><Text field={column.title} tag="h2" /><RichText field={column.text} /></div>)}
+      </div></div>
+      <div className="cpuc-footer__legal"><div className="container cpuc-footer__legal-inner"><RichText field={fields.Text4} /><div className="cpuc-footer__legal-links"><Link field={fields.Link1} /><Link field={fields.Link2} /></div></div></div>
+      <div className="cpuc-footer__copyright"><div className="container"><Text field={fields.Copyright} /></div></div>
+    </footer>
   );
 };

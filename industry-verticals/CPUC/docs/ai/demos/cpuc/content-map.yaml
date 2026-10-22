@@ -1,0 +1,140 @@
+{
+  "parents": {
+    "hero": {
+      "Title": "Latest News from the CPUC",
+      "Text": "<p>Read our latest press releases, featured stories, blogs, and more!</p>",
+      "Cta1": "<link linktype=\"anchor\" anchor=\"cpuc-news\" text=\"Latest News\" />",
+      "Image": "<image src=\"/cpuc/hero.jpg\" width=\"5400\" height=\"2530\" alt=\"A couple reviewing information together on a laptop\" />"
+    },
+    "services": {
+      "Text1": "File a Complaint or Make a Comment",
+      "SubText1": "Let us know about public safety issues, public utility misconduct, or transportation service problem. Or comment on a proceeding or issue.",
+      "Link1": "<link linktype=\"external\" url=\"https://www.cpuc.ca.gov/consumer-support/file-a-complaint\" text=\"File a Complaint or Make a Comment\" />",
+      "Image1": "<image src=\"/cpuc/complaint.svg\" width=\"64\" height=\"64\" alt=\"File a Complaint or Make a Comment\" />",
+      "Text2": "Late Bill Assistance",
+      "SubText2": "If you have fallen behind on your utility bills, we can assist you to negotiate a payment plan.",
+      "Link2": "<link linktype=\"external\" url=\"https://www.cpuc.ca.gov/consumer-support/late-bill-assistance\" text=\"Late Bill Assistance\" />",
+      "Image2": "<image src=\"/cpuc/bill.svg\" width=\"64\" height=\"64\" alt=\"Late Bill Assistance\" />",
+      "Text3": "Financial Assistance",
+      "SubText3": "You might be eligible for energy, phone, or water service assistance that will reduce your monthly bills.",
+      "Link3": "<link linktype=\"external\" url=\"https://www.cpuc.ca.gov/consumer-support/financial-assistance-savings-and-discounts\" text=\"Financial Assistance\" />",
+      "Image3": "<image src=\"/cpuc/plug.svg\" width=\"64\" height=\"64\" alt=\"Financial Assistance\" />"
+    },
+    "programs": {
+      "Title": "All Consumer Programs & Services",
+      "Text": "<p>Apart from services like filing a complaint, resolving a billing problem, or seeking financial assistance, there are other programs and services that may offer help to you.</p>",
+      "Link": "<link linktype=\"external\" url=\"https://www.cpuc.ca.gov/consumer-support/consumer-programs-and-services\" text=\"Explore all Programs and Services\" />",
+      "Image": "<image src=\"/cpuc/consumer-programs.jpg\" width=\"1920\" height=\"1280\" alt=\"Two women preparing a meal together\" />"
+    },
+    "news": {
+      "Title": "News and Updates",
+      "SecondaryTitle": "Selected Upcoming Meetings and Events",
+      "Text": "<p><a href=\"https://www.cpuc.ca.gov/news-and-updates/all-news\">More News</a></p>",
+      "SecondaryText": "<p><a href=\"https://www.cpuc.ca.gov/events-and-meetings?view=today\">Today\u2019s Calendar</a> | <a href=\"https://docs.cpuc.ca.gov/SearchRes.aspx?DocTypeID=9&amp;Latest=1\">Daily Calendar</a> | <a href=\"https://www.cpuc.ca.gov/about-cpuc/transparency-and-reporting/cpuc-voting-meetings\">CPUC Voting Meetings</a> | <a href=\"https://www.cpuc.ca.gov/events-and-meetings\">More Events</a></p>"
+    },
+    "issues": {
+      "Title": "Key Issues",
+      "Text": "<p>Explore important issues, industries, programs, CPUC proceedings, news, events, and more.</p>",
+      "Link": "<link linktype=\"external\" url=\"https://www.cpuc.ca.gov/industries-and-topics\" text=\"Explore more issues and topics\" />"
+    },
+    "contact": {
+      "Title1": "Contact",
+      "Text1": "<p>California Public Utilities Commission<br />505 Van Ness Avenue<br />San Francisco, CA 94102</p><p><a href=\"https://www.cpuc.ca.gov/about-cpuc/contacting-the-puc\">Contact Us</a></p>",
+      "Title2": "About",
+      "Text2": "<p>We empower California through access to safe, clean, and affordable utility services and infrastructure.</p><p><a href=\"https://www.cpuc.ca.gov/about-cpuc\">Read more about the CPUC \u00bb</a></p>",
+      "Title3": "Leadership",
+      "Text3": "<div class=\"cpuc-leader\"><img src=\"/cpuc/california-all.jpg\" width=\"72\" height=\"72\" alt=\"California for All\" /><div><a href=\"https://www.gov.ca.gov/\">Gavin Newsom</a><br />Office of Governor</div></div><div class=\"cpuc-leader\"><img src=\"/cpuc/john-reynolds.jpg\" width=\"72\" height=\"72\" alt=\"John Reynolds\" /><div><a href=\"https://www.cpuc.ca.gov/about-cpuc/commissioners/page-content/profile-list/president-john-reynolds\">John Reynolds</a><br />President, California Public Utilities Commission</div></div>"
+    },
+    "footer": {
+      "Title1": "How can we help?",
+      "Title2": "More Information",
+      "Title3": "California State Campaigns",
+      "Copyright": "Copyright \u00a9 2026 State of California",
+      "Text1": "<p>Emergency? <strong>Call 911</strong></p><p><a href=\"https://www.cpuc.ca.gov/consumer-support/file-a-complaint\">File a Complaint</a></p><p><a href=\"https://www.cpuc.ca.gov/consumer-support/late-bill-assistance\">Late Bill Assistance</a></p><p><a href=\"https://www.cpuc.ca.gov/consumer-support/power-outage-maps\">Power Outage Map</a></p><p><a href=\"https://ia.cpuc.ca.gov/firemap/\">Are you in a high fire-threat area?</a></p><p><a href=\"https://www.cpuc.ca.gov/consumer-support/financial-assistance-savings-and-discounts\">Financial Assistance</a></p><p><a href=\"https://www.cpuc.ca.gov/consumer-support/consumer-programs-and-services\">Consumer Programs and Services</a></p><p><a href=\"https://www.cpuc.ca.gov/about-cpuc/divisions/news-and-public-information-office/public-advisors-office/consumer-choices-in-california\">Electric Rate Comparison Website</a></p><p><a href=\"mailto:webmaster@cpuc.ca.gov?subject=CPUC Website Feedback\">Website Feedback</a></p>",
+      "Text2": "<p><a href=\"https://www.cpuc.ca.gov/consumer-support\">Consumer Support</a></p><p><a href=\"https://www.cpuc.ca.gov/regulatory-services\">Regulatory Services</a></p><p><a href=\"https://www.cpuc.ca.gov/industries-and-topics\">Industries and Topics</a></p><p><a href=\"https://www.cpuc.ca.gov/news-and-updates\">News and Updates</a></p><p><a href=\"https://www.cpuc.ca.gov/events-and-meetings\">Events and Meetings</a></p><p><a href=\"https://www.cpuc.ca.gov/proceedings-and-rulemaking\">Proceedings and Rulemaking</a></p><p><a href=\"https://www.publicadvocates.cpuc.ca.gov/\">Public Advocates Office</a></p><p><a href=\"https://www.cpuc.ca.gov/about-cpuc/divisions/office-of-the-tribal-advisor\">Office of the Tribal Advisor</a></p><p><a href=\"https://www.cpuc.ca.gov/about-cpuc\">About CPUC</a></p><p><a href=\"https://www.cpuc.ca.gov/careers\">Careers</a></p>",
+      "Text3": "<p><a href=\"https://registertovote.ca.gov/\">Register to Vote</a></p><p><a href=\"https://saveourwater.com/\">Save our Water</a></p><p><a href=\"https://www.flexalert.org/\">Flex Alert</a></p>",
+      "Text4": "<div class=\"cpuc-legal-list\"><a href=\"#top\">Back to Top</a> | <a href=\"https://www.cpuc.ca.gov/about-cpuc/conditions-of-use\">Conditions of Use</a> | <a href=\"https://www.cpuc.ca.gov/about-cpuc/privacy-policy\">Privacy Policy</a> | <a href=\"https://www.cpuc.ca.gov/about-cpuc/accessibility\">Accessibility</a> | <a href=\"https://www.cpuc.ca.gov/about-cpuc/contacting-the-puc\">Contact us</a> | <a href=\"https://www.cpuc.ca.gov/about-cpuc/employee-information\">Employees</a></div><div class=\"cpuc-social-list\"><a href=\"https://x.com/californiapuc\">X</a> <a href=\"https://www.facebook.com/CaliforniaPUC\">Facebook</a> <a href=\"https://www.instagram.com/californiapuc\">Instagram</a> <a href=\"https://www.youtube.com/user/CaliforniaPUC\">YouTube</a> <a href=\"https://www.linkedin.com/company/californiapuc\">Linked In</a></div>"
+    }
+  },
+  "newsChildren": [
+    {
+      "ItemTitle": "Make an Impact Through Public Service: Meet CPUC Attorney Maya Benatar",
+      "ItemLink": "<link linktype=\"external\" url=\"https://www.cpuc.ca.gov/news-and-updates/all-news/test-legal-recruitment\" text=\"Make an Impact Through Public Service: Meet CPUC Attorney Maya Benatar\" />",
+      "ItemDate": "October 20, 2026 at 11:00am",
+      "ItemGroup": "news"
+    },
+    {
+      "ItemTitle": "CPUC To Launch RIDE Incentives to Help Rideshare Drivers Go Electric",
+      "ItemLink": "<link linktype=\"external\" url=\"https://www.cpuc.ca.gov/news-and-updates/all-news/cpuc-to-launch-ride-incentives-to-help-rideshare-drivers-go-electric\" text=\"CPUC To Launch RIDE Incentives to Help Rideshare Drivers Go Electric\" />",
+      "ItemDate": "October 19, 2026 at 11:30am",
+      "ItemGroup": "news"
+    },
+    {
+      "ItemTitle": "New Filings - Week of October 12-16, 2026",
+      "ItemLink": "<link linktype=\"external\" url=\"https://www.cpuc.ca.gov/news-and-updates/all-news/new-filings---week-of-october-12-16-2026\" text=\"New Filings - Week of October 12-16, 2026\" />",
+      "ItemDate": "October 19, 2026 at 10:17am",
+      "ItemGroup": "news"
+    },
+    {
+      "ItemTitle": "Renewable Energy Self-Generation Bill Credit Transfer (RES-BCT) Program Workshop",
+      "ItemLink": "<link linktype=\"external\" url=\"https://www.cpuc.ca.gov/events-and-meetings/renewable-energy-self-generation-bill-credit-transfer-program-workshop\" text=\"Renewable Energy Self-Generation Bill Credit Transfer (RES-BCT) Program Workshop\" />",
+      "ItemDate": "October 22, 2026 at 09:00am",
+      "ItemGroup": "events"
+    },
+    {
+      "ItemTitle": "EPIC 5 Investment Plan Workshop - Day 2",
+      "ItemLink": "<link linktype=\"external\" url=\"https://www.cpuc.ca.gov/events-and-meetings/epic-5-investment-plan-workshop---day-2\" text=\"EPIC 5 Investment Plan Workshop - Day 2\" />",
+      "ItemDate": "October 22, 2026 at 09:00am",
+      "ItemGroup": "events"
+    },
+    {
+      "ItemTitle": "EPIC 5 Investment Plan Workshop - Day 3",
+      "ItemLink": "<link linktype=\"external\" url=\"https://www.cpuc.ca.gov/events-and-meetings/epic-5-investment-plan-workshop---day-3\" text=\"EPIC 5 Investment Plan Workshop - Day 3\" />",
+      "ItemDate": "October 27, 2026 at 09:00am",
+      "ItemGroup": "events"
+    }
+  ],
+  "issuesChildren": [
+    {
+      "ItemTitle": "AT&T FCC Filing",
+      "ItemLink": "<link linktype=\"external\" url=\"https://www.cpuc.ca.gov/fccfiling\" text=\"AT&amp;T FCC Filing\" />",
+      "ItemIcon": "document"
+    },
+    {
+      "ItemTitle": "Climate Vision",
+      "ItemLink": "<link linktype=\"external\" url=\"https://www.cpuc.ca.gov/industries-and-topics/policy-and-progress-implementing-californias-climate-vision\" text=\"Climate Vision\" />",
+      "ItemIcon": "chart"
+    },
+    {
+      "ItemTitle": "COLR Proceeding",
+      "ItemLink": "<link linktype=\"external\" url=\"https://www.cpuc.ca.gov/industries-and-topics/internet-and-phone/carrier-of-last-resort-rulemaking\" text=\"COLR Proceeding\" />",
+      "ItemIcon": "chart"
+    },
+    {
+      "ItemTitle": "Consumer Protections and Resources for Wildfire Victims",
+      "ItemLink": "<link linktype=\"external\" url=\"https://www.cpuc.ca.gov/consumer-support/psps/consumer-protections-and-resources-for-wildfire-victims\" text=\"Consumer Protections and Resources for Wildfire Victims\" />",
+      "ItemIcon": "flame"
+    },
+    {
+      "ItemTitle": "CPUC Response to Executive Order N-5-24",
+      "ItemLink": "<link linktype=\"external\" url=\"https://www.cpuc.ca.gov/-/media/cpuc-website/industries-and-topics/reports/cpuc-response-to-executive-order-n-5-24.pdf\" text=\"CPUC Response to Executive Order N-5-24\" />",
+      "ItemIcon": "document"
+    },
+    {
+      "ItemTitle": "Broadband Implementation & BEAD Program",
+      "ItemLink": "<link linktype=\"external\" url=\"https://www.cpuc.ca.gov/industries-and-topics/internet-and-phone/broadband-implementation-for-california\" text=\"Broadband Implementation &amp; BEAD Program\" />",
+      "ItemIcon": "globe"
+    },
+    {
+      "ItemTitle": "Telecommunications Surcharges",
+      "ItemLink": "<link linktype=\"external\" url=\"https://www.cpuc.ca.gov/industries-and-topics/internet-and-phone/telecommunications-surcharges-and-user-fees/consumer-information---telecommunications-surcharges\" text=\"Telecommunications Surcharges\" />",
+      "ItemIcon": "document"
+    },
+    {
+      "ItemTitle": "Rideshare Incentives for Driving Electric (RIDE)",
+      "ItemLink": "<link linktype=\"external\" url=\"https://www.cpuc.ca.gov/industries-and-topics/transportation/ride\" text=\"Rideshare Incentives for Driving Electric (RIDE)\" />",
+      "ItemIcon": "plug"
+    }
+  ],
+  "imageDelivery": "Original public CPUC files stored under public/cpuc and referenced by editable Sitecore Image fields."
+}

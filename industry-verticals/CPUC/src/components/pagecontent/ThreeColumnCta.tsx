@@ -12,25 +12,9 @@ import {
 } from '@sitecore-content-sdk/nextjs';
 import useVisibility from 'src/hooks/useVisibility';
 
-interface Fields {
-  Text1: Field<string>;
-  SubText1: Field<string>;
-  Image1: ImageField;
-  Link1: LinkField;
-  Text2: Field<string>;
-  SubText2: Field<string>;
-  Image2: ImageField;
-  Link2: LinkField;
-  Text3: Field<string>;
-  SubText3: Field<string>;
-  Image3: ImageField;
-  Link3: LinkField;
-}
+import type { ThreeColumnCtaProps } from './three-column-cta.props';
+export type { ThreeColumnCtaProps } from './three-column-cta.props';
 
-export type ThreeColumnCtaProps = {
-  params: { [key: string]: string };
-  fields: Fields;
-};
 
 export const Default = (props: ThreeColumnCtaProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
@@ -265,5 +249,29 @@ export const WithIconsCompact = (props: ThreeColumnCtaProps): JSX.Element => {
         </div>
       </div>
     </div>
+  );
+};
+
+/* CPUC variant — three consumer service links with circular icons. */
+export const Cpuc = (props: ThreeColumnCtaProps): JSX.Element => {
+  const { page } = useSitecore();
+  const isEditing = page.mode.isEditing;
+  const fields = props.fields;
+  if (!fields) return <p role="status">ThreeColumnCta: content is unavailable.</p>;
+  const columns = [
+    { title: fields.Text1, text: fields.SubText1, image: fields.Image1, link: fields.Link1 },
+    { title: fields.Text2, text: fields.SubText2, image: fields.Image2, link: fields.Link2 },
+    { title: fields.Text3, text: fields.SubText3, image: fields.Image3, link: fields.Link3 },
+  ];
+  return (
+    <section className={`component cpuc-services ${props.params?.styles || ''}`} id={props.params?.RenderingIdentifier || undefined}>
+      <div className="container cpuc-services__grid">
+        {columns.map((column, index) => <div className="cpuc-services__item" key={index}>
+          {(column.image?.value?.src || isEditing) && <div className="cpuc-services__icon"><NextImage field={column.image} width={52} height={52} /></div>}
+          <h2>{(column.link?.value?.href || isEditing) ? <Link field={column.link}><Text field={column.title} /></Link> : <Text field={column.title} />}</h2>
+          {(column.text?.value || isEditing) && <Text field={column.text} tag="p" />}
+        </div>)}
+      </div>
+    </section>
   );
 };

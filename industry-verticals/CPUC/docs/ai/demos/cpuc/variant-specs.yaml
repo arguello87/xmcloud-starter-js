@@ -1,0 +1,41 @@
+{
+  "variantName": "Cpuc",
+  "additionalVariant": "CpucContact",
+  "source": "User full-page screenshot",
+  "sections": [
+    {
+      "component": "HeroBanner",
+      "variant": "Cpuc",
+      "datasourceId": "3a692945-bc17-439e-a02c-ba2af1e25ef7"
+    },
+    {
+      "component": "Three Column CTA",
+      "variant": "Cpuc",
+      "datasourceId": "db97ff31-8c0f-4bb2-b4eb-62d79281e08a"
+    },
+    {
+      "component": "NewsEvents",
+      "variant": "Cpuc",
+      "datasourceId": "fed99adb-37ef-4125-b9b6-2cb20e03fb7c"
+    },
+    {
+      "component": "Promo CTA",
+      "variant": "Cpuc",
+      "datasourceId": "a849bfea-0b34-4b29-b0f1-28c687f92b2d"
+    },
+    {
+      "component": "KeyIssues",
+      "variant": "Cpuc",
+      "datasourceId": "a29a4288-8349-47f4-9d4e-30eb27343b79"
+    }
+  ],
+  "layoutDetails": {
+    "hero": "35/65 split, navy panel, image overflow, gold underline",
+    "services": "three centered icon links",
+    "news": "two columns, 3 dated links each",
+    "programs": "67/33 photo/text overlap, yellow panel",
+    "issues": "33/67 introduction and two-column eight-link panel",
+    "footer": "gray contact row, teal links, dark legal strip"
+  },
+  "responsive": "Stack grids at <=767px; decorative overflow clipped horizontally."
+}

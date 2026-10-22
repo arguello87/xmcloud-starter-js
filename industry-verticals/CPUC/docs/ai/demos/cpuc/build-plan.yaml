@@ -1,0 +1,138 @@
+{
+  "client": {
+    "name": "CPUC",
+    "sourceUrl": "https://www.cpuc.ca.gov/",
+    "themeFile": "docs/ai/themes/cpuc.theme.yaml"
+  },
+  "status": "approved",
+  "variantChoice": "custom",
+  "pagePath": "/sitecore/content/Financial/cpuc/Home",
+  "sections": [
+    {
+      "position": 1,
+      "description": "Utility bar",
+      "matchedComponent": {
+        "manifestName": "Eyebrow",
+        "variant": "CPUC",
+        "matchType": "template",
+        "matchConfidence": "medium"
+      },
+      "variantMatch": "partial",
+      "status": "proposed",
+      "apiAddable": "requires-live-verification"
+    },
+    {
+      "position": 2,
+      "description": "Seal, commission name and search",
+      "matchedComponent": {
+        "manifestName": "Header",
+        "variant": "CPUC",
+        "matchType": "template",
+        "matchConfidence": "medium"
+      },
+      "variantMatch": "partial",
+      "status": "proposed",
+      "apiAddable": "requires-live-verification"
+    },
+    {
+      "position": 3,
+      "description": "Latest News split hero",
+      "matchedComponent": {
+        "manifestName": "HeroBanner",
+        "variant": "CPUC",
+        "matchType": "template",
+        "matchConfidence": "medium"
+      },
+      "variantMatch": "partial",
+      "status": "proposed",
+      "apiAddable": "requires-live-verification"
+    },
+    {
+      "position": 4,
+      "description": "Three consumer assistance links",
+      "matchedComponent": {
+        "manifestName": "ThreeColumnCta",
+        "variant": "CPUC",
+        "matchType": "template",
+        "matchConfidence": "medium"
+      },
+      "variantMatch": "partial",
+      "status": "proposed",
+      "apiAddable": "requires-live-verification"
+    },
+    {
+      "position": 5,
+      "description": "News and upcoming meetings",
+      "matchedComponent": {
+        "manifestName": "NewsEvents",
+        "variant": "CPUC",
+        "matchType": "custom",
+        "matchConfidence": "medium"
+      },
+      "variantMatch": "none",
+      "status": "proposed",
+      "apiAddable": "requires-live-verification"
+    },
+    {
+      "position": 6,
+      "description": "Consumer Programs and Services",
+      "matchedComponent": {
+        "manifestName": "PromoCta",
+        "variant": "CPUC",
+        "matchType": "template",
+        "matchConfidence": "medium"
+      },
+      "variantMatch": "partial",
+      "status": "proposed",
+      "apiAddable": "requires-live-verification"
+    },
+    {
+      "position": 7,
+      "description": "Eight Key Issues links",
+      "matchedComponent": {
+        "manifestName": "KeyIssues",
+        "variant": "CPUC",
+        "matchType": "custom",
+        "matchConfidence": "medium"
+      },
+      "variantMatch": "none",
+      "status": "proposed",
+      "apiAddable": "requires-live-verification"
+    },
+    {
+      "position": 8,
+      "description": "Contact, About and Leadership",
+      "matchedComponent": {
+        "manifestName": "Footer",
+        "variant": "CPUC",
+        "matchType": "template",
+        "matchConfidence": "medium"
+      },
+      "variantMatch": "partial",
+      "status": "proposed",
+      "apiAddable": "requires-live-verification"
+    },
+    {
+      "position": 9,
+      "description": "Resource links and legal footer",
+      "matchedComponent": {
+        "manifestName": "Footer",
+        "variant": "CPUC",
+        "matchType": "template",
+        "matchConfidence": "medium"
+      },
+      "variantMatch": "partial",
+      "status": "proposed",
+      "apiAddable": "requires-live-verification"
+    }
+  ],
+  "customComponents": [
+    "NewsEvents",
+    "KeyIssues"
+  ],
+  "limitations": [
+    "Generic registry/manifest describes another library; use verified live inventory.",
+    "HeroBanner local candidate requires live rendering verification; live Hero and PromoCta are alternatives.",
+    "Image upload path and header/footer placement require verification."
+  ]
+}

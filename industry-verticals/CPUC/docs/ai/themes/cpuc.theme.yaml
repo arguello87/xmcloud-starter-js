@@ -1,0 +1,37 @@
+client: "California Public Utilities Commission"
+sourceUrl: "https://www.cpuc.ca.gov/"
+status: "approved"
+approval: "User approved the proposed theme in chat."
+extraction:
+  confidence: "medium"
+  method: "screenshot-analysis"
+  screenshot: "/Users/argu/Downloads/www.cpuc.ca.gov_.png"
+  notes:
+    - "Colors sampled from the supplied original PNG; live CSS not verified."
+    - "Source HTML declares Source Sans Pro. Approved Source Sans 3 is used as the demo substitute."
+    - "Desktop layout observed; mobile behavior has not been captured."
+colors:
+  primary: "#003065"
+  secondary: "#036b99"
+  accent: "#f9df74"
+  gold: "#fdb81f"
+  background: "#ffffff"
+  muted: "#eeeeee"
+  foreground: "#15161c"
+typography:
+  headingFont: "Source Sans 3"
+  bodyFont: "Source Sans 3"
+  verified: false
+shape:
+  buttonRadius: "0"
+  cardRadius: "0"
+  imageRadius: "0"
+  shadowStyle: "none"
+layout:
+  hero: "Navy split panel, white text left, large photo right with gold underline."
+  services: "Three equal columns with circular navy icons."
+  updates: "News and upcoming meetings in two columns."
+  consumerPrograms: "Large photograph overlapping a yellow text panel."
+  keyIssues: "Navy introduction panel overlapping a yellow two-column link list."
+  footer: "Light gray contact/about/leadership row, teal link columns, dark legal bar."
+  decorativeDetails: "Pale blue dot patterns and gold rules."
