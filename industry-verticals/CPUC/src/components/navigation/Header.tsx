@@ -1,5 +1,6 @@
 'use client';
 
+import { cpucImage } from 'lib/cpuc-image';
 import { AppPlaceholder, NextImage, Text, useSitecore } from '@sitecore-content-sdk/nextjs';
 import { JSX } from 'react';
 import NextLink from 'next/link';
@@ -61,7 +62,7 @@ export const Cpuc = (props: HeaderProps): JSX.Element => {
     <header className={`component cpuc-header ${props.params?.styles || ''}`} id={props.params?.RenderingIdentifier || undefined}>
       <div className="container cpuc-header__inner">
         <div className="cpuc-header__brand">
-          {(props.fields?.LogoImage?.value?.src || isEditing) && <NextLink href="/" className="cpuc-header__seal"><NextImage field={props.fields?.LogoImage} width={100} height={100} /></NextLink>}
+          <NextLink href="/" className="cpuc-header__seal"><NextImage field={cpucImage(props.fields?.LogoImage, "/cpuc/logo.png", "California Public Utilities Commission seal")} width={100} height={100} /></NextLink>
           <div className="cpuc-header__identity">
             {(props.fields?.Tagline?.value || isEditing) && <Text field={props.fields?.Tagline} tag="span" className="cpuc-header__tagline" />}
             {(props.fields?.Title?.value || isEditing) && <Text field={props.fields?.Title} tag="span" className="cpuc-header__title" />}

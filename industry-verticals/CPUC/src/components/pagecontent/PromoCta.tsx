@@ -1,5 +1,6 @@
 'use client';
 
+import { cpucImage } from 'lib/cpuc-image';
 import { JSX } from 'react';
 import {
   Text,
@@ -184,7 +185,7 @@ export const Cpuc = (props: PromoCtaProps): JSX.Element => {
   return (
     <section className={`component cpuc-programs ${props.params?.styles || ''}`} id={props.params?.RenderingIdentifier || undefined}>
       <div className="container cpuc-programs__inner">
-        {(fields.Image?.value?.src || isEditing) && <div className="cpuc-programs__image"><NextImage field={fields.Image} width={1000} height={500} /></div>}
+        <div className="cpuc-programs__image"><NextImage field={cpucImage(fields.Image, "/cpuc/consumer-programs.jpg", "Two women preparing a meal together")} width={1000} height={500} /></div>
         <div className="cpuc-programs__content">
           {(fields.Title?.value || isEditing) && <Text field={fields.Title} tag="h2" />}
           {(fields.Text?.value || isEditing) && <RichText field={fields.Text} />}

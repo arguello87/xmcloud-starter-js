@@ -24,6 +24,12 @@ const compile = (module, filename) => module._compile(ts.transpileModule(fs.read
 }).outputText, filename);
 require.extensions['.tsx'] = compile;
 require.extensions['.ts'] = compile;
+const { cpucImage } = require(path.join(root, 'src/lib/cpuc-image.ts'));
+const cmsImage = { value: { src: '/-/media/custom.png', alt: 'Authored image' }, editable: '<img />' };
+assert.equal(cpucImage(cmsImage, '/cpuc/logo.png', 'Seal'), cmsImage, 'preserve CMS image and editing metadata');
+assert.equal(cpucImage({ value: {} }, '/cpuc/logo.png', 'Seal').value.src, '/cpuc/logo.png', 'empty layout image uses bundled asset');
+assert.equal(cpucImage(undefined, '/cpuc/hero.jpg', 'Hero').value.alt, 'Hero', 'missing layout image retains accessible alternative');
+
 const attrs = (xml) => Object.fromEntries([...xml.matchAll(/([\w-]+)="([^"]*)"/g)].map(([, key, value]) => [key, value.replace(/&amp;/g, '&').replace(/&quot;/g, '"')]));
 const field = (value) => {
   if (value.startsWith('<image ')) return { value: attrs(value) };

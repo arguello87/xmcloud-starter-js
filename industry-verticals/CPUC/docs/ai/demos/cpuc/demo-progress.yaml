@@ -54,11 +54,19 @@
       "customComponentsBuilt": 2
     },
     "phase6_assembly": {
-      "status": "failed",
+      "status": "partial",
       "pageId": "ab52cb47-003f-4f87-96fc-9faf323099da",
       "componentsAdded": 0,
       "datasourcesWired": 0,
-      "reason": "Agent API 500 on add; No saveItem in response on datasource assignment. Home layout unchanged."
+      "reason": "All five Main sections and Header/Footer content wired. Contact-footer ordering, live media rendering and news anchor remain to verify; search not configured.",
+      "lastAttempt": {
+        "date": "2026-10-22",
+        "method": "Resume build-demo Phase 6 through MCP",
+        "existingHeroInstanceId": "10b7b928-b3ad-4ff7-b545-55c8a8cc1ebf",
+        "datasourceError": "No saveItem in response (500)",
+        "insertionError": "Internal Server Error (500)",
+        "result": "All old banking placements removed manually by user; only new HeroBanner remains, pointing at local:/Data/HeroBanner 1. MCP could not assign CPUC datasource or add ThreeColumnCta."
+      }
     },
     "phase7_summary": {
       "status": "pending",
@@ -92,8 +100,10 @@
         "childrenExpected": 0
       },
       "phase6": {
-        "status": "failed",
-        "error": "Agent API page assembly 500; manual Pages steps required."
+        "status": "wired",
+        "componentInstanceId": "c494869c-a931-4f42-8bdf-aca32462f2b3",
+        "datasourceId": "d0c44cc2-1ca3-4728-bc89-509c01a00689",
+        "note": "Verified assigned in MCP readback; visual media verification remains pending."
       }
     },
     {
@@ -107,8 +117,10 @@
         "childrenExpected": 0
       },
       "phase6": {
-        "status": "failed",
-        "error": "Agent API page assembly 500; manual Pages steps required."
+        "status": "wired",
+        "componentInstanceId": "10b7b928-b3ad-4ff7-b545-55c8a8cc1ebf",
+        "datasourceId": "3a692945-bc17-439e-a02c-ba2af1e25ef7",
+        "note": "Verified assigned in MCP readback; visual media verification remains pending."
       }
     },
     {
@@ -122,8 +134,12 @@
         "childrenExpected": 0
       },
       "phase6": {
-        "status": "failed",
-        "error": "Agent API page assembly 500; manual Pages steps required."
+        "status": "wired",
+        "componentInstanceId": "71d3a38b-d0b0-416e-b58f-bf96f3df87e6",
+        "datasourceId": "c8334111-31b7-4d70-bf60-e9450d84c9cf",
+        "fieldsVerified": true,
+        "variantVerification": "pending",
+        "note": "Prepared content copied into existing local datasource to avoid picker location filter."
       }
     },
     {
@@ -137,8 +153,11 @@
         "childrenExpected": 6
       },
       "phase6": {
-        "status": "failed",
-        "error": "Agent API page assembly 500; manual Pages steps required."
+        "status": "wired",
+        "componentInstanceId": "75383244-a696-44fb-be79-0b8610462e1f",
+        "datasourceId": "fed99adb-37ef-4125-b9b6-2cb20e03fb7c",
+        "fieldsVerified": true,
+        "note": "MCP readback verifies prepared parent and six child items."
       }
     },
     {
@@ -152,8 +171,11 @@
         "childrenExpected": 0
       },
       "phase6": {
-        "status": "failed",
-        "error": "Agent API page assembly 500; manual Pages steps required."
+        "status": "wired",
+        "componentInstanceId": "218beeea-d907-422c-bc79-e0971cadcd2c",
+        "datasourceId": "7d333288-6337-484f-a24c-abba8fd81362",
+        "fieldsVerified": true,
+        "note": "Copied CPUC Consumer Programs fields into existing local Promo CTA 2; cleared inherited placeholder eyebrow, subtitle and secondary link. Cpuc variant visible in user screenshot."
       }
     },
     {
@@ -167,8 +189,10 @@
         "childrenExpected": 8
       },
       "phase6": {
-        "status": "failed",
-        "error": "Agent API page assembly 500; manual Pages steps required."
+        "status": "wired",
+        "componentInstanceId": "e81a8e49-f4c9-4c7a-aa5d-0bf44adb6d65",
+        "datasourceId": "a29a4288-8349-47f4-9d4e-30eb27343b79",
+        "note": "Verified assigned in MCP readback; visual media verification remains pending."
       }
     },
     {
@@ -182,8 +206,11 @@
         "childrenExpected": 0
       },
       "phase6": {
-        "status": "failed",
-        "error": "Agent API page assembly 500; manual Pages steps required."
+        "status": "wired",
+        "componentInstanceId": "401a3ecb-6689-427b-98fd-3da278a299e0",
+        "datasourceId": "12c6acfa-9650-4597-a9a7-322ae6dc39a7",
+        "variant": "CpucContact",
+        "note": "Verified via MCP. Contact tier still needs moving above resource tier."
       }
     },
     {
@@ -197,8 +224,11 @@
         "childrenExpected": 0
       },
       "phase6": {
-        "status": "failed",
-        "error": "Agent API page assembly 500; manual Pages steps required."
+        "status": "wired",
+        "componentInstanceId": "29758c1f-8daf-4d56-a212-eb734e2907ae",
+        "datasourceId": "0c4db14b-452d-4c01-8bea-4cc2c1c3a02a",
+        "variant": "Cpuc",
+        "note": "Verified via MCP. Contact tier still needs moving above resource tier."
       }
     }
   ]

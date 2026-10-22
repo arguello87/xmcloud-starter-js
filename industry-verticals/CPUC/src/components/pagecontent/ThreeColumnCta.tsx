@@ -1,5 +1,6 @@
 'use client';
 
+import { cpucImage } from 'lib/cpuc-image';
 import { JSX } from 'react';
 import {
   Field,
@@ -259,9 +260,9 @@ export const Cpuc = (props: ThreeColumnCtaProps): JSX.Element => {
   const fields = props.fields;
   if (!fields) return <p role="status">ThreeColumnCta: content is unavailable.</p>;
   const columns = [
-    { title: fields.Text1, text: fields.SubText1, image: fields.Image1, link: fields.Link1 },
-    { title: fields.Text2, text: fields.SubText2, image: fields.Image2, link: fields.Link2 },
-    { title: fields.Text3, text: fields.SubText3, image: fields.Image3, link: fields.Link3 },
+    { title: fields.Text1, text: fields.SubText1, image: cpucImage(fields.Image1, "/cpuc/complaint.svg", "File a Complaint or Make a Comment"), link: fields.Link1 },
+    { title: fields.Text2, text: fields.SubText2, image: cpucImage(fields.Image2, "/cpuc/bill.svg", "Late Bill Assistance"), link: fields.Link2 },
+    { title: fields.Text3, text: fields.SubText3, image: cpucImage(fields.Image3, "/cpuc/plug.svg", "Financial Assistance"), link: fields.Link3 },
   ];
   return (
     <section className={`component cpuc-services ${props.params?.styles || ''}`} id={props.params?.RenderingIdentifier || undefined}>

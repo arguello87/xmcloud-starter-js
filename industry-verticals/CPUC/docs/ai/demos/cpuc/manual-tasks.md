@@ -8,6 +8,14 @@ assembled.** The Agent API failed on both component insertion attempts (500) and
 on datasource assignment (`No saveItem in response (500)`). Final readback still
 shows the original eleven component instances. No publishing was performed.
 
+Latest check (2026-10-22): Home still contains the eleven original instances.
+Code, assets and this checklist were committed and pushed to GitHub branch
+`Verticals` in commit `a5d76fe`. Remote deployment has not yet been verified.
+Page Builder login completed. On 2026-10-22 the deployed app loaded, but
+browser interactions failed; after refresh Pages reported `TENANT_UNREACHABLE`
+and `ERRORS.DEVICES_BREAKPOINT_API_ERROR_MESSAGE`. No layout changes were made
+in this attempt. Restore environment access before continuing assembly.
+
 ## 1. Name workaround tested — API error remains
 
 You changed Channels Name from `CPUC` to `cpuc` to match the system name.
@@ -19,6 +27,14 @@ Provide Sitecore support the Home page ID
 `ab52cb47-003f-4f87-96fc-9faf323099da`, the insertion error `Internal Server Error
 (500)`, and assignment error `No saveItem in response (500)`. The layout still
 contains eleven original component instances.
+
+### Latest assembly attempt — 2026-10-22
+
+- Carousel placement `124106de-fb02-4b43-a521-a309fc75a5bc` was removed and its absence verified through Marketer MCP.
+- Remaining deletion attempts appeared in the editor but did not persist: Pages reported "The page is currently not able to save changes. Reload the page and try again."
+- Authoritative readback shows ten original component instances remain, including the nested App Promo. Do not treat the visually emptied Layers tree as saved.
+- On reload, Pages reported "Cannot connect to tenant" / "The instance you are trying to open is currently not accessible. Contact your system administrator."
+- No CPUC sections were inserted, and no datasource or variant assignments were made in this attempt.
 
 ## 2. Assemble Home in Pages
 
@@ -91,7 +107,8 @@ Add a Footer instance before the existing Footer:
   Hub was not configured and no DAM upload occurred. Upload to DAM and replace
   image fields if DAM-managed media is required.
 - Deploy/build the code before selecting the custom variants in the remote
-  editing host. No deployment, commit, push or publishing was performed here.
+  editing host. Code was committed and pushed to `Verticals` (`a5d76fe`). Deployment has not
+  been verified, and publishing has not been performed.
 - Verify insert options on the new datasource folders and list parents in Content
   Editor: the MCP returned empty `updatedFields` for `__Masters` writes. The
   child content itself was read back successfully (six news/events, eight issues).
@@ -103,3 +120,78 @@ Add a Footer instance before the existing Footer:
 Optional personalization: after the base homepage is assembled, clone a CPUC
 owned datasource for each audience and use Pages personalization. No audience or
 personalization rules were created during this build.
+
+## Small-batch save test — 2026-10-22
+
+The first Promo CTA placement (`d49a8931-f041-4988-9cc3-f2400e6422d0`)
+and its nested App Promo (`70dcbc4b-026c-4084-8ecb-3275c1e71d58`)
+were removed and verified absent through MCP. Pages showed a saved timestamp.
+The second top-level removal (Five Column CTA) transitioned to Saving and then
+Unable to save. MCP confirms Five Column CTA remains; eight original instances
+remain in total. No CPUC sections have been added. Smaller batches have not
+resolved the save failure.
+
+## Latest MCP skill retry — 2026-10-22
+
+User removed remaining banking placements and inserted HeroBanner manually.
+Fresh readback confirms only HeroBanner instance `10b7b928-b3ad-4ff7-b545-55c8a8cc1ebf`,
+with datasource `local:/Data/HeroBanner 1`. Assigning CPUC - Latest News still
+failed with `No saveItem in response (500)`. Adding ThreeColumnCta after it
+failed with `Internal Server Error (500)`. Final readback confirms no layout or
+datasource change from these calls. Failed add may have created an unused
+`CPUC Assistance - Assembly Retry Oct22` datasource; do not use it instead of
+the populated CPUC - Consumer Assistance item.
+
+## Consumer Assistance content update — 2026-10-22
+
+Prepared item is hidden by rendering Datasource Location filtering for Promo Folder children.
+Copied all twelve prepared fields into the already-assigned CPUC-owned local datasource
+`/sitecore/content/Financial/cpuc/Home/Data/CPCU Consumer Assistance`
+(`c8334111-31b7-4d70-bf60-e9450d84c9cf`), version 1; readback verified all fields.
+Three Column CTA instance: `71d3a38b-d0b0-416e-b58f-bf96f3df87e6`.
+Hero remains assigned to prepared Latest News datasource. Select Cpuc design
+variant and verify actual preview imagery separately. No publishing performed.
+
+## Consumer Programs content update — 2026-10-22
+
+Promo CTA instance `218beeea-d907-422c-bc79-e0971cadcd2c` uses local
+`Promo CTA 2` datasource `7d333288-6337-484f-a24c-abba8fd81362`.
+Seven CPUC fields were written to version 1 and read back successfully, including
+photo, title, description and CTA; inherited placeholder eyebrow, subtitle and
+secondary link cleared. NewsEvents parent and six children also verified wired.
+Next: add KeyIssues below Promo CTA and assign prepared CPUC - Key Issues.
+
+## Header cleanup — 2026-10-22
+
+Removed misplaced RichText `da6c74a3-5e23-4820-bcc0-d33c89688e1f` and
+Theme Switcher `d0291f80-d41e-4573-9abd-e186694b5c04` through Page Builder,
+one at a time. MCP readback confirms only Eyebrow, Header and nested Language
+Switcher remain. Left eyebrow slot is empty; add RichText with CPUC - Utility Left.
+
+## Utility left populated — 2026-10-22
+
+User placed RichText `76d16c4f-ba4e-49b3-af3c-a57cc3fdb736` correctly in
+`/headless-header/eyebrow-left-0-4`. Populated assigned Text 3 datasource
+`21b82357-e23a-4288-a03c-347d260ac780`, version 1, with prepared CA.gov and
+social/email links. Readback verified. Right slot still contains Language Switcher.
+
+## Utility right populated — 2026-10-22
+
+Language Switcher removed by user. RichText `1454bc0e-23db-428c-b65e-4c4260cfa9dc`
+is correctly placed in `/headless-header/eyebrow-right-0-4`. Assigned Text 4
+(`d5875fe1-b7da-4b68-8bf4-c3f55e378cc5`), version 1, populated with Contact Us
+link from prepared CPUC - Utility Right; readback verified. Both utility slots
+now have content. Image delivery, search and footer configuration remain open.
+
+## Contact footer added — 2026-10-22
+
+Duplicated Footer via Pages; new instance `401a3ecb-6689-427b-98fd-3da278a299e0`
+uses separate datasource `12c6acfa-9650-4597-a9a7-322ae6dc39a7`, populated with
+Contact, About and Leadership content; fields read back. Selected CpucContact
+for duplicate and Cpuc for original resource footer. Original resource
+datasource preserved. Move-up browser action failed; contact footer still
+needs moving above original resource footer manually.
+
+## Footer order and code repair — 2026-10-22
+
+Contact footer moved above resource footer using Content Editor Presentation > Details > Final Layout > Default > Controls > Move Up. MCP confirms contact instance precedes resource instance; original resource datasource preserved. Added CPUC-only bundled image fallback for empty SDK image values and default cpuc-news anchor. Source verification passes; full local build needs delivery credentials (MV-007). Deployment verification and publishing pending.

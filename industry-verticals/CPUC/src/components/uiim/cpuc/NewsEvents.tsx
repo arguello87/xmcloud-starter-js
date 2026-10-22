@@ -10,7 +10,7 @@ export const Default = ({ fields, params }: NewsEventsProps) => {
 
   if (!datasource) {
     return (
-      <div className={`component cpuc-news ${params.styles || ''}`} id={params.RenderingIdentifier}>
+      <div className={`component cpuc-news ${params.styles || ''}`} id={params.RenderingIdentifier || 'cpuc-news'}>
         <span className="is-empty-hint">NewsEvents</span>
       </div>
     );
@@ -31,7 +31,7 @@ export const Default = ({ fields, params }: NewsEventsProps) => {
   ];
 
   return (
-    <section className={`component cpuc-news ${params.styles || ''}`} id={params.RenderingIdentifier}>
+    <section className={`component cpuc-news ${params.styles || ''}`} id={params.RenderingIdentifier || 'cpuc-news'}>
       <div className="component-content cpuc-news__grid grid gap-10 md:grid-cols-2">
         {columns.map((column) => (
           <div className="cpuc-news__column" key={column.group}>

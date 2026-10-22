@@ -1,5 +1,6 @@
 'use client';
 
+import { cpucImage } from 'lib/cpuc-image';
 import { JSX } from 'react';
 import {
   Text,
@@ -82,7 +83,7 @@ export const Cpuc = (props: HeroBannerProps): JSX.Element => {
           {(fields.Text?.value || isEditing) && <RichText field={fields.Text} className="cpuc-hero__description" />}
           {(fields.Cta1?.value?.href || isEditing) && <Link field={fields.Cta1} className="cpuc-button cpuc-button--light" />}
         </div>
-        {(fields.Image?.value?.src || isEditing) && <div className="cpuc-hero__image"><NextImage field={fields.Image} width={1000} height={420} /></div>}
+        <div className="cpuc-hero__image"><NextImage field={cpucImage(fields.Image, "/cpuc/hero.jpg", "Couple reviewing information together")} width={1000} height={420} /></div>
       </div>
     </section>
   );
