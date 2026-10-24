@@ -267,3 +267,5 @@ export const WithIconsCompact = (props: ThreeColumnCtaProps): JSX.Element => {
     </div>
   );
 };
+
+export { BcaaThreeColumns as Bcaa } from '../bcaa/BcaaVariants.dev';

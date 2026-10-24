@@ -53,3 +53,5 @@ export const WithLogoImage = (props: HeaderProps): JSX.Element => {
     </div>
   );
 };
+
+export { BcaaHeader as Bcaa } from '../bcaa/BcaaVariants.dev';

@@ -169,3 +169,5 @@ export const WithSocials = (props: FooterProps): JSX.Element => {
     </div>
   );
 };
+
+export { BcaaFooter as Bcaa } from '../bcaa/BcaaVariants.dev';

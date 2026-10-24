@@ -1,0 +1,372 @@
+{
+  "client": {
+    "name": "BCAA",
+    "sourceUrl": "https://www.bcaa.com/",
+    "themeFile": "docs/ai/themes/bcaa.theme.yaml",
+    "analyzedAt": "2026-10-24"
+  },
+  "pageAnalysis": {
+    "screenshotFiles": {
+      "desktop": "docs/ai/themes/bcaa/homepage-desktop.png",
+      "hero": "docs/ai/themes/bcaa/screenshot-hero.png"
+    },
+    "totalSections": 11,
+    "templateMatches": 10,
+    "customRequired": 1
+  },
+  "notes": [
+    "Actual Prospera component inventory supersedes generic FMC registry.",
+    "Existing Header/Footer datasource renderings are in partial designs, not context-only components. Browser assembly used while Marketer MCP is unavailable; API-addable denotes schema capability, not current connector availability.",
+    "Quick-actions links that open production modal flows need real destination mapping; never copy internal /sitecore/content action-modal URLs into public demo links.",
+    "No API-backed search or authenticated account functionality is included without a separate request. Links can lead to official BCAA destinations.",
+    "No publication, destructive deletion or shared-template changes in this planning phase.",
+    "User explicitly chose BCAA-specific variants."
+  ],
+  "sections": [
+    {
+      "position": 1,
+      "description": "Logo and navigation over the hero",
+      "matchedComponent": {
+        "registryId": "prospera-header",
+        "manifestName": "Header",
+        "variant": "Bcaa",
+        "matchType": "template",
+        "matchConfidence": "high",
+        "variantMatch": "partial"
+      },
+      "kind": "simple",
+      "apiAddable": true,
+      "placement": "header partial design",
+      "sectionBackground": "default",
+      "contentNotes": "Header partial design; membership, insurance, automotive, marketplace, impact and account links.",
+      "customVariantNeeded": {
+        "name": "Bcaa",
+        "parentComponent": "Header",
+        "description": "Header partial design; membership, insurance, automotive, marketplace, impact and account links."
+      },
+      "phase3": {
+        "status": "pending"
+      },
+      "phase6": {
+        "status": "pending"
+      }
+    },
+    {
+      "position": 2,
+      "description": "Five rotating image banners",
+      "matchedComponent": {
+        "registryId": "prospera-carousel",
+        "manifestName": "Carousel",
+        "variant": "Bcaa",
+        "matchType": "template",
+        "matchConfidence": "high",
+        "variantMatch": "partial"
+      },
+      "kind": "list",
+      "apiAddable": true,
+      "placement": "headless-main",
+      "sectionBackground": "default",
+      "contentNotes": "Reuse existing carousel datasource and slide schema. Left-aligned text, slide controls and roadside assistance link.",
+      "customVariantNeeded": {
+        "name": "Bcaa",
+        "parentComponent": "Carousel",
+        "description": "Reuse existing carousel datasource and slide schema. Left-aligned text, slide controls and roadside assistance link."
+      },
+      "phase3": {
+        "status": "pending"
+      },
+      "phase6": {
+        "status": "pending"
+      }
+    },
+    {
+      "position": 3,
+      "description": "Eight icon shortcuts in a blue band",
+      "matchedComponent": {
+        "registryId": "bcaa-quick-actions",
+        "manifestName": "BcaaQuickActions",
+        "variant": "Default",
+        "matchType": "custom",
+        "matchConfidence": "medium",
+        "variantMatch": "none"
+      },
+      "kind": "list",
+      "apiAddable": false,
+      "placement": "headless-main",
+      "sectionBackground": "primary",
+      "contentNotes": "New list component: Join, Renew, Travel Insurance, Home Insurance, ICBC, Auto Repair, Appointment, Small Business.",
+      "customVariantNeeded": null,
+      "phase3": {
+        "status": "pending"
+      },
+      "phase6": {
+        "status": "pending"
+      }
+    },
+    {
+      "position": 4,
+      "description": "Moving British Columbians Forward introduction",
+      "matchedComponent": {
+        "registryId": "prospera-headingcta",
+        "manifestName": "HeadingCta",
+        "variant": "Bcaa",
+        "matchType": "template",
+        "matchConfidence": "high",
+        "variantMatch": "partial"
+      },
+      "kind": "simple",
+      "apiAddable": true,
+      "placement": "headless-main",
+      "sectionBackground": "default",
+      "contentNotes": "Centered heading, serif italic accent, red underline and short introduction.",
+      "customVariantNeeded": {
+        "name": "Bcaa",
+        "parentComponent": "HeadingCta",
+        "description": "Centered heading, serif italic accent, red underline and short introduction."
+      },
+      "phase3": {
+        "status": "pending"
+      },
+      "phase6": {
+        "status": "pending"
+      }
+    },
+    {
+      "position": 5,
+      "description": "Membership, Insurance and Automotive cards",
+      "matchedComponent": {
+        "registryId": "prospera-threecolumncta",
+        "manifestName": "ThreeColumnCta",
+        "variant": "Bcaa",
+        "matchType": "template",
+        "matchConfidence": "high",
+        "variantMatch": "partial"
+      },
+      "kind": "simple",
+      "apiAddable": true,
+      "placement": "headless-main",
+      "sectionBackground": "default",
+      "contentNotes": "Three large images above blue text panels; preserve title, description and destination links.",
+      "customVariantNeeded": {
+        "name": "Bcaa",
+        "parentComponent": "ThreeColumnCta",
+        "description": "Three large images above blue text panels; preserve title, description and destination links."
+      },
+      "phase3": {
+        "status": "pending"
+      },
+      "phase6": {
+        "status": "pending"
+      }
+    },
+    {
+      "position": 6,
+      "description": "Ways to save section introduction",
+      "matchedComponent": {
+        "registryId": "prospera-headingcta",
+        "manifestName": "HeadingCta",
+        "variant": "Bcaa",
+        "matchType": "template",
+        "matchConfidence": "high",
+        "variantMatch": "partial"
+      },
+      "kind": "simple",
+      "apiAddable": true,
+      "placement": "headless-main",
+      "sectionBackground": "default",
+      "contentNotes": "Split heading and introductory copy on desktop.",
+      "customVariantNeeded": {
+        "name": "Bcaa",
+        "parentComponent": "HeadingCta",
+        "description": "Split heading and introductory copy on desktop."
+      },
+      "phase3": {
+        "status": "pending"
+      },
+      "phase6": {
+        "status": "pending"
+      }
+    },
+    {
+      "position": 7,
+      "description": "Four savings partner cards",
+      "matchedComponent": {
+        "registryId": "prospera-fourcolumncta",
+        "manifestName": "FourColumnCta",
+        "variant": "Bcaa",
+        "matchType": "template",
+        "matchConfidence": "high",
+        "variantMatch": "partial"
+      },
+      "kind": "simple",
+      "apiAddable": true,
+      "placement": "headless-main",
+      "sectionBackground": "default",
+      "contentNotes": "BCAA Insurance, Shell, Evo and Rogers. Image-top cards, square borders and section-level more-savings link.",
+      "customVariantNeeded": {
+        "name": "Bcaa",
+        "parentComponent": "FourColumnCta",
+        "description": "BCAA Insurance, Shell, Evo and Rogers. Image-top cards, square borders and section-level more-savings link."
+      },
+      "phase3": {
+        "status": "pending"
+      },
+      "phase6": {
+        "status": "pending"
+      }
+    },
+    {
+      "position": 8,
+      "description": "Become a BCAA Member today banner",
+      "matchedComponent": {
+        "registryId": "prospera-ctabanner",
+        "manifestName": "CtaBanner",
+        "variant": "Bcaa",
+        "matchType": "template",
+        "matchConfidence": "high",
+        "variantMatch": "partial"
+      },
+      "kind": "simple",
+      "apiAddable": true,
+      "placement": "headless-main",
+      "sectionBackground": "primary",
+      "contentNotes": "Compact horizontal banner with photo, blue background and Join Online action.",
+      "customVariantNeeded": {
+        "name": "Bcaa",
+        "parentComponent": "CtaBanner",
+        "description": "Compact horizontal banner with photo, blue background and Join Online action."
+      },
+      "phase3": {
+        "status": "pending"
+      },
+      "phase6": {
+        "status": "pending"
+      }
+    },
+    {
+      "position": 9,
+      "description": "BCAA Blog section introduction",
+      "matchedComponent": {
+        "registryId": "prospera-headingcta",
+        "manifestName": "HeadingCta",
+        "variant": "Bcaa",
+        "matchType": "template",
+        "matchConfidence": "high",
+        "variantMatch": "partial"
+      },
+      "kind": "simple",
+      "apiAddable": true,
+      "placement": "headless-main",
+      "sectionBackground": "muted",
+      "contentNotes": "Light-grey section, blue heading and red underline with introductory text.",
+      "customVariantNeeded": {
+        "name": "Bcaa",
+        "parentComponent": "HeadingCta",
+        "description": "Light-grey section, blue heading and red underline with introductory text."
+      },
+      "phase3": {
+        "status": "pending"
+      },
+      "phase6": {
+        "status": "pending"
+      }
+    },
+    {
+      "position": 10,
+      "description": "Three featured BCAA blog cards",
+      "matchedComponent": {
+        "registryId": "prospera-threecolumncta",
+        "manifestName": "ThreeColumnCta",
+        "variant": "Bcaa",
+        "matchType": "template",
+        "matchConfidence": "high",
+        "variantMatch": "partial"
+      },
+      "kind": "simple",
+      "apiAddable": true,
+      "placement": "headless-main",
+      "sectionBackground": "muted",
+      "contentNotes": "Image-top article cards, categories, headlines, read-more links and View More Articles section action.",
+      "customVariantNeeded": {
+        "name": "Bcaa",
+        "parentComponent": "ThreeColumnCta",
+        "description": "Image-top article cards, categories, headlines, read-more links and View More Articles section action."
+      },
+      "phase3": {
+        "status": "pending"
+      },
+      "phase6": {
+        "status": "pending"
+      }
+    },
+    {
+      "position": 11,
+      "description": "BCAA links, locations, social and legal footer",
+      "matchedComponent": {
+        "registryId": "prospera-footer",
+        "manifestName": "Footer",
+        "variant": "Bcaa",
+        "matchType": "template",
+        "matchConfidence": "high",
+        "variantMatch": "partial"
+      },
+      "kind": "simple",
+      "apiAddable": true,
+      "placement": "footer partial design",
+      "sectionBackground": "primary",
+      "contentNotes": "Use Footer partial design. Remove inherited banking links from the assembled page; preserve source example items.",
+      "customVariantNeeded": {
+        "name": "Bcaa",
+        "parentComponent": "Footer",
+        "description": "Use Footer partial design. Remove inherited banking links from the assembled page; preserve source example items."
+      },
+      "phase3": {
+        "status": "pending"
+      },
+      "phase6": {
+        "status": "pending"
+      }
+    }
+  ],
+  "customComponents": [
+    {
+      "name": "BcaaQuickActions",
+      "kind": "list",
+      "fields": [
+        "Title"
+      ],
+      "childFields": [
+        "Label",
+        "Icon",
+        "Link"
+      ],
+      "reason": "Preserve eight-item desktop shortcut row and mobile layout without overloading fixed three/four/five-column schemas."
+    }
+  ],
+  "buildOrder": {
+    "phase1_sitecore": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "phase2_theme": "Apply approved BCAA theme within BCAA app only.",
+    "phase3_custom": [
+      "BcaaQuickActions"
+    ],
+    "phase5_5_variants": "Awaiting user choice",
+    "phase6_assembly": "Reuse Home; assemble in small saved batches; header/footer in partial designs."
+  },
+  "approval": {
+    "theme": true,
+    "plan": true,
+    "customVariants": true
+  }
+}

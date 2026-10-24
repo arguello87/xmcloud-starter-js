@@ -1,0 +1,34 @@
+{
+  "verifiedAt": "2026-10-24",
+  "collection": {
+    "id": "85664109-9059-459b-a079-f76e3fa09063",
+    "name": "Financial"
+  },
+  "site": {
+    "id": "ba5888ef-b426-43e4-bccc-77b1de43d077",
+    "path": "/sitecore/content/Financial/bcaa"
+  },
+  "home": {
+    "id": "a79e8fab-fcc9-4734-8c45-b646b8ebdcf1",
+    "templateId": "5282d418-6c18-46eb-85af-9116cde9e6eb"
+  },
+  "data": {
+    "id": "3e4e5129-1da4-43dc-86a9-2347ce476960"
+  },
+  "presentation": {
+    "id": "af0a83db-f434-4868-9f69-4c9ab033ec1a"
+  },
+  "siteDefinition": {
+    "id": "50e93573-d9ab-424b-935e-4afb740ea51d",
+    "siteName": "bcaa"
+  },
+  "collision": {
+    "itemId": "5c8b4c4f-638a-4f04-9987-da2efa5bdab4",
+    "path": "/sitecore/content/money-management-international/bcaa/Settings/Site Grouping/bcaa",
+    "siteName": "bcaa",
+    "observedResult": "Page Builder resolves sc_site=bcaa to MMI; correct BCAA Home ID triggers site tree load error; canvas remote-server error",
+    "status": "resolved: user deleted MMI; Page Builder correctly selects BCAA and loads canvas"
+  },
+  "cmsChangesMade": false,
+  "editingHost": "https://xmc-4okaaxg8ql1sjqx8hd8pg6-eh.sitecorecloud.io"
+}

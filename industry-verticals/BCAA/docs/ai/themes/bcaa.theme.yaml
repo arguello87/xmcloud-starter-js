@@ -1,0 +1,107 @@
+{
+  "client": {
+    "name": "BCAA",
+    "sourceUrl": "https://www.bcaa.com/",
+    "extractedAt": "2026-10-24",
+    "extractedBy": "Codex"
+  },
+  "colors": {
+    "primary": "#0050C4",
+    "primaryForeground": "#FFFFFF",
+    "secondary": "#073B70",
+    "secondaryForeground": "#FFFFFF",
+    "accent": "#ED1C24",
+    "accentForeground": "#FFFFFF",
+    "background": "#FFFFFF",
+    "foreground": "#5A5A5A",
+    "muted": "#F3F3F3",
+    "mutedForeground": "#5A5A5A",
+    "headerBackground": "#0050C4",
+    "headerForeground": "#FFFFFF",
+    "footerBackground": "#0050C4",
+    "footerForeground": "#FFFFFF",
+    "border": "#E6E6E6",
+    "ring": "#0277D1"
+  },
+  "typography": {
+    "headingFamily": "Inter",
+    "headingWeight": "800",
+    "bodyFamily": "Inter",
+    "bodyWeight": "400",
+    "accentFamily": "Georgia",
+    "googleFontsUrl": "",
+    "scale": {
+      "hero": "62px",
+      "h1": "55px",
+      "h2": "35px",
+      "h3": "24px",
+      "body": "16px",
+      "small": "13px"
+    },
+    "headingTransform": "none",
+    "letterSpacing": "normal",
+    "lineHeight": "1.5"
+  },
+  "spacing": {
+    "density": "comfortable",
+    "sectionGap": "64px",
+    "containerMaxWidth": "1080px",
+    "containerPadding": "24px"
+  },
+  "shape": {
+    "borderRadius": "0px",
+    "buttonRadius": "0px",
+    "cardRadius": "0px",
+    "imageRadius": "0px",
+    "shadowStyle": "subtle buttons; minimal card shadows",
+    "borderStyle": "thin neutral"
+  },
+  "tone": {
+    "overall": "confident, welcoming, outdoors and community oriented",
+    "colorMode": "light",
+    "contrast": "high",
+    "imagery": "British Columbia landscapes, people, cars, family and travel",
+    "heroStyle": "full-bleed-image carousel with left-aligned text",
+    "cardStyle": "image-top rectangular cards; blue service-card panels",
+    "navStyle": "transparent-overlay"
+  },
+  "tailwind": {
+    "colors": {
+      "brand": {
+        "primary": "#0050C4",
+        "secondary": "#073B70",
+        "accent": "#ED1C24"
+      }
+    },
+    "fontFamily": {
+      "heading": [
+        "Inter",
+        "Arial",
+        "sans-serif"
+      ],
+      "body": [
+        "Inter",
+        "Arial",
+        "sans-serif"
+      ]
+    },
+    "borderRadius": {
+      "DEFAULT": "0px",
+      "button": "0px",
+      "card": "0px"
+    }
+  },
+  "cssVariables": ":root { --brand-primary: #0050C4; --brand-primary-foreground: #FFFFFF; --brand-secondary: #073B70; --brand-secondary-foreground: #FFFFFF; --brand-accent: #ED1C24; --brand-accent-foreground: #FFFFFF; --brand-bg: #FFFFFF; --brand-fg: #5A5A5A; --brand-muted: #F3F3F3; --brand-muted-fg: #5A5A5A; --brand-header-bg: #0050C4; --brand-header-fg: #FFFFFF; --brand-footer-bg: #0050C4; --brand-footer-fg: #FFFFFF; --brand-border: #E6E6E6; --brand-ring: #0277D1; --brand-heading-font: Inter, Arial, sans-serif; --brand-body-font: Inter, Arial, sans-serif; --brand-radius: 0px; --brand-button-radius: 0px; --brand-card-radius: 0px; }",
+  "extraction": {
+    "confidence": "medium",
+    "method": "CUA rendered DOM computed styles plus full-page desktop screenshot",
+    "notes": [
+      "Original BCAASansRegular/BCAASansMedium/BCAASansBold are custom fonts. Proposed Inter substitute and Georgia italic accents; licensing/source fonts not assumed.",
+      "Container spacing is estimated from saved desktop reference.",
+      "Header overlays the hero with a dark contrast gradient; blue mobile header.",
+      "Carousel rotates; screenshots capture different slides.",
+      "No source assets or fonts copied into application code yet."
+    ]
+  },
+  "userApproved": true
+}

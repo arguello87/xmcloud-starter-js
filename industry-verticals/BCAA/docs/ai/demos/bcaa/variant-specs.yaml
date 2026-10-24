@@ -1,0 +1,69 @@
+{
+  "client": "BCAA",
+  "approved": true,
+  "variants": [
+    {
+      "section": 1,
+      "component": "Header",
+      "name": "Bcaa",
+      "visualSpecification": "Header partial design; membership, insurance, automotive, marketplace, impact and account links."
+    },
+    {
+      "section": 2,
+      "component": "Carousel",
+      "name": "Bcaa",
+      "visualSpecification": "Reuse existing carousel datasource and slide schema. Left-aligned text, slide controls and roadside assistance link."
+    },
+    {
+      "section": 4,
+      "component": "HeadingCta",
+      "name": "Bcaa",
+      "visualSpecification": "Centered heading, serif italic accent, red underline and short introduction."
+    },
+    {
+      "section": 5,
+      "component": "ThreeColumnCta",
+      "name": "Bcaa",
+      "visualSpecification": "Three large images above blue text panels; preserve title, description and destination links."
+    },
+    {
+      "section": 6,
+      "component": "HeadingCta",
+      "name": "Bcaa",
+      "visualSpecification": "Split heading and introductory copy on desktop."
+    },
+    {
+      "section": 7,
+      "component": "FourColumnCta",
+      "name": "Bcaa",
+      "visualSpecification": "BCAA Insurance, Shell, Evo and Rogers. Image-top cards, square borders and section-level more-savings link."
+    },
+    {
+      "section": 8,
+      "component": "CtaBanner",
+      "name": "Bcaa",
+      "visualSpecification": "Compact horizontal banner with photo, blue background and Join Online action."
+    },
+    {
+      "section": 9,
+      "component": "HeadingCta",
+      "name": "Bcaa",
+      "visualSpecification": "Light-grey section, blue heading and red underline with introductory text."
+    },
+    {
+      "section": 10,
+      "component": "ThreeColumnCta",
+      "name": "Bcaa",
+      "visualSpecification": "Image-top article cards, categories, headlines, read-more links and View More Articles section action."
+    },
+    {
+      "section": 11,
+      "component": "Footer",
+      "name": "Bcaa",
+      "visualSpecification": "Use Footer partial design. Remove inherited banking links from the assembled page; preserve source example items."
+    }
+  ],
+  "limitations": [
+    "Static SSR fixture verifies layout and field rendering; live hydrated menu/carousel interactions require deployment."
+  ]
+}

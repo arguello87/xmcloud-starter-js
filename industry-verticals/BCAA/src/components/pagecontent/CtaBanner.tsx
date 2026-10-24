@@ -140,3 +140,5 @@ export const LargeImage = (props: CtaBannerProps): JSX.Element => {
     </div>
   );
 };
+
+export { BcaaBanner as Bcaa } from '../bcaa/BcaaVariants.dev';

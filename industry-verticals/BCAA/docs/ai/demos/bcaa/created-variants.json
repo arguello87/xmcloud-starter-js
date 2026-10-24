@@ -1,0 +1,44 @@
+[
+  {
+    "component": "Header",
+    "id": "b3ace1ac-0443-4daa-bfe9-5c095691856e",
+    "name": "Bcaa"
+  },
+  {
+    "component": "Footer",
+    "id": "{6E8DC8EA-F680-4458-9816-C5FA563A5950}",
+    "path": "/sitecore/content/Financial/bcaa/Presentation/Headless Variants/Footer/Bcaa",
+    "name": "Bcaa"
+  },
+  {
+    "component": "Heading CTA",
+    "id": "{E8479E5A-0D96-4291-B98F-279CBD02FF25}",
+    "path": "/sitecore/content/Financial/bcaa/Presentation/Headless Variants/Heading CTA/Bcaa",
+    "name": "Bcaa"
+  },
+  {
+    "component": "Three Column CTA",
+    "id": "{A898C993-A8A2-4235-ADE2-2B383942B27A}",
+    "path": "/sitecore/content/Financial/bcaa/Presentation/Headless Variants/Three Column CTA/Bcaa",
+    "name": "Bcaa"
+  },
+  {
+    "component": "Four Column CTA",
+    "id": "{BE1086B5-40B2-41C1-8BBB-4F6BFB5B111B}",
+    "path": "/sitecore/content/Financial/bcaa/Presentation/Headless Variants/Four Column CTA/Bcaa",
+    "name": "Bcaa"
+  },
+  {
+    "component": "CTA Banner",
+    "id": "{FE800909-F55A-499C-BA5F-CF2007D50357}",
+    "path": "/sitecore/content/Financial/bcaa/Presentation/Headless Variants/CTA Banner/Bcaa",
+    "name": "Bcaa"
+  },
+  {
+    "component": "Carousel",
+    "containerId": "38863510-c71d-480a-8aba-401205450097",
+    "id": "{A4187FA0-9B0A-4F6E-8983-5E972FC5DDF9}",
+    "path": "/sitecore/content/Financial/bcaa/Presentation/Headless Variants/Carousel/Bcaa",
+    "name": "Bcaa"
+  }
+]

@@ -1,0 +1,1082 @@
+[
+  {
+    "background": "rgb(255, 255, 255)",
+    "color": "rgb(90, 90, 90)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "16px",
+    "tag": "BODY",
+    "text": "<iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-5MMPLX\"\n ",
+    "weight": "400"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(90, 90, 90)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "16px",
+    "tag": "HEADER",
+    "text": "Skip to main content\n        \n    \n        \n            \n            \n",
+    "weight": "400"
+  },
+  {
+    "background": "rgb(255, 255, 255)",
+    "color": "rgb(0, 80, 196)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "16px",
+    "tag": "A",
+    "text": "Skip to main content",
+    "weight": "400"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 80, 196)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "16px",
+    "tag": "A",
+    "text": "",
+    "weight": "400"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansBoldCondensed, serif",
+    "radius": "0px",
+    "size": "24px",
+    "tag": "A",
+    "text": "MEMBERSHIP",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansBoldCondensed, serif",
+    "radius": "0px",
+    "size": "24px",
+    "tag": "A",
+    "text": "INSURANCE",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansBoldCondensed, serif",
+    "radius": "0px",
+    "size": "24px",
+    "tag": "A",
+    "text": "AUTOMOTIVE",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansBoldCondensed, serif",
+    "radius": "0px",
+    "size": "24px",
+    "tag": "A",
+    "text": "MARKETPLACE",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansBoldCondensed, serif",
+    "radius": "0px",
+    "size": "24px",
+    "tag": "A",
+    "text": "IMPACT",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansBoldCondensed, serif",
+    "radius": "0px",
+    "size": "24px",
+    "tag": "A",
+    "text": "Login",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(90, 90, 90)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "16px",
+    "tag": "HEADER",
+    "text": "Skip to main content\n        \n    \n        \n            \n            \n",
+    "weight": "400"
+  },
+  {
+    "background": "rgb(255, 255, 255)",
+    "color": "rgb(0, 80, 196)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "16px",
+    "tag": "A",
+    "text": "Skip to main content",
+    "weight": "400"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 80, 196)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "16px",
+    "tag": "A",
+    "text": "",
+    "weight": "400"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansBoldCondensed, serif",
+    "radius": "0px",
+    "size": "24px",
+    "tag": "A",
+    "text": "MEMBERSHIP",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansBoldCondensed, serif",
+    "radius": "0px",
+    "size": "24px",
+    "tag": "A",
+    "text": "INSURANCE",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansBoldCondensed, serif",
+    "radius": "0px",
+    "size": "24px",
+    "tag": "A",
+    "text": "AUTOMOTIVE",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansBoldCondensed, serif",
+    "radius": "0px",
+    "size": "24px",
+    "tag": "A",
+    "text": "MARKETPLACE",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansBoldCondensed, serif",
+    "radius": "0px",
+    "size": "24px",
+    "tag": "A",
+    "text": "IMPACT",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansBoldCondensed, serif",
+    "radius": "0px",
+    "size": "24px",
+    "tag": "A",
+    "text": "Login",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansBold, sans-serif",
+    "radius": "0px",
+    "size": "62px",
+    "tag": "H2",
+    "text": "Car Insurance Made  Easy",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "26px",
+    "tag": "P",
+    "text": "Simply give us a call, visit us in-person or renew online if you’re el",
+    "weight": "400"
+  },
+  {
+    "background": "rgb(0, 80, 196)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansBold, sans-serif",
+    "radius": "0px",
+    "size": "18px",
+    "tag": "A",
+    "text": "Renew ICBC",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansBold, sans-serif",
+    "radius": "0px",
+    "size": "62px",
+    "tag": "H2",
+    "text": "Wear the wildflower that defends against wildfires",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "26px",
+    "tag": "P",
+    "text": "The BCAA Fireweed Pin celebrates our strength in the face of wildfires",
+    "weight": "400"
+  },
+  {
+    "background": "rgb(0, 80, 196)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansBold, sans-serif",
+    "radius": "0px",
+    "size": "18px",
+    "tag": "A",
+    "text": "Learn More",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansBold, sans-serif",
+    "radius": "0px",
+    "size": "62px",
+    "tag": "H2",
+    "text": "Manage your products in one place",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "26px",
+    "tag": "P",
+    "text": "Everything you need is at your fingertips. Manage a renewal, find your",
+    "weight": "400"
+  },
+  {
+    "background": "rgb(0, 80, 196)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansBold, sans-serif",
+    "radius": "0px",
+    "size": "18px",
+    "tag": "A",
+    "text": "Login",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansBold, sans-serif",
+    "radius": "0px",
+    "size": "62px",
+    "tag": "H2",
+    "text": "Join BC’s online community, BCAA Connect!",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "26px",
+    "tag": "P",
+    "text": "Swap tips, ask questions and connect with others in your trusted space",
+    "weight": "400"
+  },
+  {
+    "background": "rgb(0, 80, 196)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansBold, sans-serif",
+    "radius": "0px",
+    "size": "18px",
+    "tag": "A",
+    "text": "Sign In",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansBold, sans-serif",
+    "radius": "0px",
+    "size": "62px",
+    "tag": "H2",
+    "text": "Let's GO!",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "26px",
+    "tag": "P",
+    "text": "A BCAA GO Membership is your ticket to unlocking sweet perks to help y",
+    "weight": "400"
+  },
+  {
+    "background": "rgb(0, 80, 196)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansBold, sans-serif",
+    "radius": "0px",
+    "size": "18px",
+    "tag": "A",
+    "text": "SIGN UP",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "30px",
+    "tag": "H2",
+    "text": "I would like to:",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 80, 196)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "20px",
+    "tag": "A",
+    "text": "Join BCAA",
+    "weight": "400"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 80, 196)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "20px",
+    "tag": "A",
+    "text": "Renew",
+    "weight": "400"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 80, 196)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "20px",
+    "tag": "A",
+    "text": "Buy Travel Insurance",
+    "weight": "400"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 80, 196)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "20px",
+    "tag": "A",
+    "text": "Buy Home Insurance",
+    "weight": "400"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 80, 196)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "20px",
+    "tag": "A",
+    "text": "Renew ICBC",
+    "weight": "400"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 80, 196)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "20px",
+    "tag": "A",
+    "text": "Book Auto Repair",
+    "weight": "400"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 80, 196)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "20px",
+    "tag": "A",
+    "text": "Book an Appointment",
+    "weight": "400"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 80, 196)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "20px",
+    "tag": "A",
+    "text": "Small Business Quote",
+    "weight": "400"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 80, 196)",
+    "font": "BCAASansBold, sans-serif",
+    "radius": "0px",
+    "size": "55px",
+    "tag": "H2",
+    "text": "Moving British Columbians Forward​",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(90, 90, 90)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "20px",
+    "tag": "P",
+    "text": "From help at home to on the move, we keep British Columbians moving fo",
+    "weight": "400"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansBold, sans-serif",
+    "radius": "0px",
+    "size": "18px",
+    "tag": "H4",
+    "text": "MEMBERSHIP",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "16px",
+    "tag": "P",
+    "text": "Always ready to save the day and money for our Members.",
+    "weight": "400"
+  },
+  {
+    "background": "rgb(255, 255, 255)",
+    "color": "rgb(2, 119, 209)",
+    "font": "BCAASansBold, sans-serif",
+    "radius": "0px",
+    "size": "13px",
+    "tag": "A",
+    "text": "Learn More",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansBold, sans-serif",
+    "radius": "0px",
+    "size": "18px",
+    "tag": "H4",
+    "text": "INSURANCE",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "16px",
+    "tag": "P",
+    "text": "Providing best in class protection while helping our Members save mone",
+    "weight": "400"
+  },
+  {
+    "background": "rgb(255, 255, 255)",
+    "color": "rgb(2, 119, 209)",
+    "font": "BCAASansBold, sans-serif",
+    "radius": "0px",
+    "size": "13px",
+    "tag": "A",
+    "text": "Learn More",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansBold, sans-serif",
+    "radius": "0px",
+    "size": "18px",
+    "tag": "H4",
+    "text": "AUTOMOTIVE",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "16px",
+    "tag": "P",
+    "text": "From Auto Service to Shared Mobility you can count on us",
+    "weight": "400"
+  },
+  {
+    "background": "rgb(255, 255, 255)",
+    "color": "rgb(2, 119, 209)",
+    "font": "BCAASansBold, sans-serif",
+    "radius": "0px",
+    "size": "13px",
+    "tag": "A",
+    "text": "Learn More",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 80, 196)",
+    "font": "BCAASansMedium, sans-serif",
+    "radius": "0px",
+    "size": "35px",
+    "tag": "H3",
+    "text": "Ways to save",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(90, 90, 90)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "20px",
+    "tag": "P",
+    "text": "As a BCAA Member, you can save up to 30% at hundreds of your favourite",
+    "weight": "400"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(27, 159, 214)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "20px",
+    "tag": "A",
+    "text": "Explore all our savings partners",
+    "weight": "400"
+  },
+  {
+    "background": "rgb(255, 255, 255)",
+    "color": "rgb(90, 90, 90)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "16px",
+    "tag": "A",
+    "text": "BCAA Insurance\n                                Learn More\n            ",
+    "weight": "400"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(90, 90, 90)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "16px",
+    "tag": "P",
+    "text": "BCAA Members save up to 20% on Award Winning Home, Optional Car, Trave",
+    "weight": "400"
+  },
+  {
+    "background": "rgb(255, 255, 255)",
+    "color": "rgb(90, 90, 90)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "16px",
+    "tag": "A",
+    "text": "Learn More\n                            \n                            \n ",
+    "weight": "400"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(90, 90, 90)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "16px",
+    "tag": "P",
+    "text": "Save 3¢/L on fuel and 10% on car washes & in-store purchases. BCAA Mem",
+    "weight": "400"
+  },
+  {
+    "background": "rgb(255, 255, 255)",
+    "color": "rgb(90, 90, 90)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "16px",
+    "tag": "A",
+    "text": "Learn More\n                            \n                            \n ",
+    "weight": "400"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(90, 90, 90)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "16px",
+    "tag": "P",
+    "text": "Get a FREE Evo Membership, 60 FREE driving minutes, & save 10% on ever",
+    "weight": "400"
+  },
+  {
+    "background": "rgb(255, 255, 255)",
+    "color": "rgb(90, 90, 90)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "16px",
+    "tag": "A",
+    "text": "Learn More\n                            \n                            \n ",
+    "weight": "400"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(90, 90, 90)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "16px",
+    "tag": "P",
+    "text": "Save up to $25/month on Rogers 5G+ mobile plans - that's up to $300 in",
+    "weight": "400"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(51, 51, 51)",
+    "font": "BCAASansBold, sans-serif",
+    "radius": "0px",
+    "size": "18px",
+    "tag": "A",
+    "text": "SEE MORE WAYS TO SAVE",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansBold, sans-serif",
+    "radius": "0px",
+    "size": "35px",
+    "tag": "H3",
+    "text": "Become a BCAA Member today.",
+    "weight": "900"
+  },
+  {
+    "background": "rgb(255, 255, 255)",
+    "color": "rgb(2, 119, 209)",
+    "font": "BCAASansBold, sans-serif",
+    "radius": "0px",
+    "size": "18px",
+    "tag": "A",
+    "text": "Join Online",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 80, 196)",
+    "font": "BCAASansMedium, sans-serif",
+    "radius": "0px",
+    "size": "35px",
+    "tag": "H3",
+    "text": "BCAA Blog",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(90, 90, 90)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "20px",
+    "tag": "P",
+    "text": "Offering expert advice, useful articles, inspiring stories and simple ",
+    "weight": "400"
+  },
+  {
+    "background": "rgb(255, 255, 255)",
+    "color": "rgb(90, 90, 90)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "16px",
+    "tag": "A",
+    "text": "Tag Icon\n                                  A light icon that looks lik",
+    "weight": "400"
+  },
+  {
+    "background": "rgb(255, 255, 255)",
+    "color": "rgb(90, 90, 90)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "16px",
+    "tag": "A",
+    "text": "Tag Icon\n                                  A light icon that looks lik",
+    "weight": "400"
+  },
+  {
+    "background": "rgb(255, 255, 255)",
+    "color": "rgb(90, 90, 90)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "16px",
+    "tag": "A",
+    "text": "Tag Icon\n                                  A light icon that looks lik",
+    "weight": "400"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(51, 51, 51)",
+    "font": "BCAASansBold, sans-serif",
+    "radius": "0px",
+    "size": "18px",
+    "tag": "A",
+    "text": "View More Articles",
+    "weight": "900"
+  },
+  {
+    "background": "rgb(0, 80, 196)",
+    "color": "rgb(90, 90, 90)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "16px",
+    "tag": "FOOTER",
+    "text": "MEMBERSHIP\n                        \n                        \n         ",
+    "weight": "400"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "17px",
+    "tag": "A",
+    "text": "MEMBERSHIP",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "17px",
+    "tag": "A",
+    "text": "INSURANCE",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "17px",
+    "tag": "A",
+    "text": "AUTOMOTIVE",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "17px",
+    "tag": "A",
+    "text": "IMPACT",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "14px",
+    "tag": "A",
+    "text": "BCAA Connect",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "14px",
+    "tag": "A",
+    "text": "BCAA BLOG",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "14px",
+    "tag": "A",
+    "text": "TRIP PLANNING",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "14px",
+    "tag": "A",
+    "text": "New to Canada",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "14px",
+    "tag": "A",
+    "text": "Media Centre",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "14px",
+    "tag": "A",
+    "text": "CAREERS",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "14px",
+    "tag": "A",
+    "text": "ABOUT BCAA",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "14px",
+    "tag": "A",
+    "text": "CONTACT US",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "14px",
+    "tag": "A",
+    "text": "FAQs",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "14px",
+    "tag": "A",
+    "text": "Join Email List",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansBold, sans-serif",
+    "radius": "0px",
+    "size": "16px",
+    "tag": "H4",
+    "text": "FIND A BCAA LOCATION",
+    "weight": "900"
+  },
+  {
+    "background": "rgb(2, 119, 209)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansBold, sans-serif",
+    "radius": "0px",
+    "size": "14px",
+    "tag": "A",
+    "text": "Service Locations",
+    "weight": "900"
+  },
+  {
+    "background": "rgb(2, 119, 209)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansBold, sans-serif",
+    "radius": "0px",
+    "size": "14px",
+    "tag": "A",
+    "text": "Auto Service Centres",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansBold, sans-serif",
+    "radius": "0px",
+    "size": "16px",
+    "tag": "H4",
+    "text": "Follow BCAA",
+    "weight": "900"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 80, 196)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "16px",
+    "tag": "A",
+    "text": "",
+    "weight": "400"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 80, 196)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "16px",
+    "tag": "A",
+    "text": "",
+    "weight": "400"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 80, 196)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "16px",
+    "tag": "A",
+    "text": "",
+    "weight": "400"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 80, 196)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "16px",
+    "tag": "A",
+    "text": "",
+    "weight": "400"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 80, 196)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "16px",
+    "tag": "A",
+    "text": "",
+    "weight": "400"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "12px",
+    "tag": "P",
+    "text": "BCAA respectfully acknowledges that we operate and support Members and",
+    "weight": "400"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "12px",
+    "tag": "P",
+    "text": "Insurance is sold through B.C.A.A. Holdings Ltd. dba BCAA Insurance Ag",
+    "weight": "400"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(246, 253, 255)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "12px",
+    "tag": "A",
+    "text": "bcaa.com/underwriters.",
+    "weight": "700"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "12px",
+    "tag": "P",
+    "text": "BCAA (The British Columbia Automobile Association) is a member of the ",
+    "weight": "400"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(246, 253, 255)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "12px",
+    "tag": "A",
+    "text": "Canadian Automobile Association",
+    "weight": "700"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(246, 253, 255)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "12px",
+    "tag": "A",
+    "text": "American Automobile Association",
+    "weight": "700"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 255, 255)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "12px",
+    "tag": "P",
+    "text": "Terms | Privacy  © 2026 BCAA",
+    "weight": "400"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(246, 253, 255)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "12px",
+    "tag": "A",
+    "text": "Terms",
+    "weight": "700"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(246, 253, 255)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "12px",
+    "tag": "A",
+    "text": "Privacy",
+    "weight": "700"
+  },
+  {
+    "background": "rgba(0, 0, 0, 0)",
+    "color": "rgb(0, 80, 196)",
+    "font": "BCAASansRegular, sans-serif",
+    "radius": "0px",
+    "size": "16px",
+    "tag": "A",
+    "text": "",
+    "weight": "400"
+  }
+]

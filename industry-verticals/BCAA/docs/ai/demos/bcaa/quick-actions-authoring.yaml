@@ -1,0 +1,41 @@
+componentName: BcaaQuickActions
+code: src/components/bcaa/BcaaQuickActions.tsx
+status: code-tested-cms-registration-pending
+scope:
+  templates: /sitecore/templates/Project/Financial/Components/BCAA
+  rendering: /sitecore/layout/Renderings/Project/Financial/BCAA
+  content: /sitecore/content/Financial/bcaa
+parentTemplate:
+  name: BCAA Quick Actions
+  fields:
+    - { name: Title, type: Single-Line Text }
+childTemplate:
+  name: BCAA Quick Action
+  fields:
+    - { name: Label, type: Single-Line Text }
+    - { name: Icon, type: Image }
+    - { name: Link, type: General Link }
+  note: Empty Icon uses a bundled Lucide icon appropriate to each position; authored Icon takes precedence.
+rendering:
+  componentName: BcaaQuickActions
+  datasourceTemplate: BCAA Quick Actions
+  datasourceLocation: query:$site/Data
+  componentQuery: |
+    query QuickActions($datasource: String!, $language: String!) {
+      datasource: item(path: $datasource, language: $language) {
+        title: field(name: "Title") { jsonValue }
+        children {
+          results {
+            id
+            label: field(name: "Label") { jsonValue }
+            icon: field(name: "Icon") { jsonValue }
+            link: field(name: "Link") { jsonValue }
+          }
+        }
+      }
+    }
+verification:
+  - Verify eight children exist and preserve authored ordering.
+  - Register in BCAA Available Renderings without replacing its existing value.
+  - Verify fields.data.datasource resolves before page assembly.
+  - Select Default; this component does not require a Bcaa variant definition.

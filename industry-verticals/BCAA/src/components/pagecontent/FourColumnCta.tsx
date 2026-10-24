@@ -119,3 +119,5 @@ export const Default = (props: FourColumnCtaProps): JSX.Element => {
     </div>
   );
 };
+
+export { BcaaFourColumns as Bcaa } from '../bcaa/BcaaVariants.dev';

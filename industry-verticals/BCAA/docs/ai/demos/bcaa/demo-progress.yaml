@@ -1,0 +1,114 @@
+# Demo Progress Tracker
+# Created automatically at the start of a demo build.
+# Updated after each MCP call or phase completion.
+# Used by "resume demo" to skip completed work.
+
+client:
+  name: "BCAA"
+  sourceUrl: "https://www.bcaa.com/"
+  startedAt: "2026-10-24"
+  lastUpdatedAt: "2026-10-24"
+
+phases:
+  phase0_inputs:
+    status: "complete"       # pending | complete
+    screenshot: true
+    url: "https://www.bcaa.com/"
+
+  phase0_5_manifest:
+    status: "complete"       # pending | complete | skipped
+    validationMode: "quick"      # quick | full
+    result: "pass: repaired Prospera inventory; 23 source/map/template/rendering matches; live roots verified through Content Editor"              # pass | fail
+
+  phase1_theme:
+    status: "complete"       # pending | complete
+    themeFile: "docs/ai/themes/bcaa.theme.yaml"
+    userApproved: true
+
+  phase2_analysis:
+    status: "complete"       # pending | complete
+    buildPlanFile: "docs/ai/demos/bcaa/build-plan.yaml"
+    totalSections: 11
+    userApproved: true     # MANDATORY checkpoint
+
+  phase2_5_content:
+    status: "complete"       # pending | complete | failed
+    contentMapFile: "docs/ai/demos/bcaa/content-map.yaml"
+    extractorUsed: true    # true = DOM extractor, false = screenshot fallback
+
+  phase3_content:
+    status: "partial"       # pending | partial | complete | failed
+    completedSections: 1
+    totalSections: 0
+
+  phase4_theme:
+    status: "complete"       # pending | complete
+    themeDelivery: "globals-brand-import"       # globals-inlined (preferred) | globals-brand-import (fallback)
+    cssWritten: true       # true after :root block written
+    fontsAdded: true       # true after Google Fonts <link> added to layout.tsx
+
+  phase5_custom:
+    status: "partial"       # pending | complete | skipped
+    customComponentsNeeded: 1
+    customComponentsBuilt: 1
+
+  phase5_5_variants:
+    status: "complete"       # pending | partial | complete | skipped
+    variantsNeeded: 7       # sections needing custom variants
+    variantsCreated: 7      # variants successfully created (TSX + Sitecore)
+    variantSpecsFile: "docs/ai/demos/bcaa/variant-specs.yaml"    # docs/ai/demos/<client>/variant-specs.yaml
+    skippedReason: ""       # if skipped: "user chose generic" or "all exact matches"
+
+  phase6_assembly:
+    status: "pending"       # pending | partial | complete | failed
+    componentsAdded: 0
+    datasourcesWired: 0
+    totalComponents: 0
+
+  phase7_summary:
+    status: "pending"       # pending | complete
+
+# Per-section tracking for Phase 3 (content population) and Phase 6 (assembly)
+# Each section maps to a build-plan position
+sections:
+  # Example:
+  # - position: 1
+  #   componentName: "AnnouncementBar"
+  #   kind: "simple"
+  #   phase3:
+  #     status: "pending"       # pending | created | populated | failed
+  #     itemId: ""              # filled after create_content_item
+  #     fieldsPopulated: false  # true after update_fields_on_content_item
+  #     childrenCreated: 0      # for list components
+  #     childrenExpected: 0
+  #     imagesUploaded: 0       # images uploaded via upload_asset
+  #     imagesExpected: 0       # total image fields for this section
+  #     imagesFailed: 0         # images that failed upload (added to manual list)
+  #     error: ""               # if failed, why
+  #   phase5_5:
+  #     status: "pending"       # pending | created | skipped
+  #     variantName: ""         # e.g. "PeopleCert"
+  #     exportAdded: false      # true after TSX export added
+  #     variantDefinitionId: "" # Sitecore Variant Definition item ID
+  #     error: ""
+  #   phase6:
+  #     status: "pending"       # pending | added | wired | skipped | failed
+  #     componentInstanceId: "" # from add_component_on_page response
+  #     datasourceWired: false  # true after set_component_datasource
+  #     error: ""
+
+resumeNotes:
+  - "Existing BCAA app and rendering host detected; do not duplicate or overwrite."
+  - "Reference saved: docs/ai/themes/bcaa/homepage-desktop.png (1440px desktop)."
+  - "Sitecore browser session expired; user asked to sign in."
+  - "Marketer MCP tools unavailable in current session; browser fallback requires live verification."
+  - "Inherited manifest targets main/main-website, not verified BCAA content root."
+  - "All 29 manifest React file paths absent; actual app uses Prospera components. Rebuild inventory from existing code and live BCAA renderings."
+  - "Phase 1 theme and Phase 2 plan require review before implementation under the build skill."
+  - "Signed in and verified BCAA root/Home. Both BCAA and MMI Site Grouping definitions have Site name bcaa. Cross-site naming repair requires authorization; no CMS changes made."
+  - "Current: user deleted MMI site; BCAA Page Builder now selects correct site and canvas loads on its editing host."
+  - "Archived generic manifest; project config and manifest now match Financial/bcaa and actual 23 verified components. Deep datasource/field checks remain per section."
+  - "Brand theme extracted from rendered official site, awaiting Phase 1 review. No app code or CMS changes made."
+  - "User approved theme. Phase 2 plan prepared: 11 sections, 10 existing matches and one new eight-action list. Await plan approval and custom-variant choice before implementation."
+  - "Current: approved local BCAA build and seven saved CMS variants. Deployment, QuickActions schema, client datasources and assembly remain pending. User authorized committing and pushing BCAA-only changes."
+  - "Created and populated BCAA - intro datasource 4bea1427-63f5-4abb-8cf1-4b9f51463d40 in two small saved batches; verified heading/body and cleared inherited eyebrow/example link. No page assignment."

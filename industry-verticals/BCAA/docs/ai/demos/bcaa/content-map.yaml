@@ -1,0 +1,1042 @@
+{
+  "client": {
+    "name": "BCAA",
+    "sourceUrl": "https://www.bcaa.com"
+  },
+  "contentFormat": "Sitecore SDK JSON fields; convert to XML for authoring writes",
+  "sections": [
+    {
+      "position": 1,
+      "componentName": "Header",
+      "manifestName": "Header",
+      "kind": "simple",
+      "datasourceItemName": "BCAA - header",
+      "fields": {
+        "LogoImage": {
+          "value": {
+            "src": "https://www.bcaa.com/-/media/bcaa/images/logos/bcaa_caa_primary_hex_rev.svg?iar=0&hash=63BA45A9DC57859ACEE50CD06C7F6884",
+            "alt": "BCAA-CAA Primary Logo Rev"
+          }
+        },
+        "Navigation": {
+          "value": "<ul><li><a href=\"https://www.bcaa.com/membership\">Membership</a></li><li><a href=\"https://www.bcaa.com/insurance\">Insurance</a></li><li><a href=\"https://www.bcaa.com/automotive\">Automotive</a></li><li><a href=\"https://www.bcaa.com/bcaa-marketplace\">Marketplace</a></li><li><a href=\"https://www.bcaa.com/impact\">Impact</a></li><li><a href=\"https://www.bcaa.com/login\">My Account</a></li></ul>"
+        }
+      },
+      "children": [],
+      "imageFields": [
+        {
+          "field": "LogoImage",
+          "src": "https://www.bcaa.com/-/media/bcaa/images/logos/bcaa_caa_primary_hex_rev.svg?iar=0&hash=63BA45A9DC57859ACEE50CD06C7F6884"
+        }
+      ],
+      "params": {
+        "styles": "",
+        "RenderingIdentifier": "header"
+      },
+      "source": "https://www.bcaa.com/"
+    },
+    {
+      "position": 2,
+      "componentName": "Carousel",
+      "manifestName": "Carousel",
+      "kind": "list",
+      "datasourceItemName": "BCAA - hero",
+      "fields": {
+        "items": [
+          {
+            "id": "bcaa-slide-0",
+            "fields": {
+              "Title": {
+                "value": "Car Insurance Made Easy"
+              },
+              "Text": {
+                "value": "<p>Simply give us a call, visit us in-person or renew online if you’re eligible.</p>"
+              },
+              "Image": {
+                "value": {
+                  "src": "https://www.bcaa.com/-/media/bcaa/images/home-page-carousel/desktop/080-26_rew_accelerate_auto_ban_2560x900_st.jpg?sc_lang=en",
+                  "alt": "Drive with peace of mind"
+                }
+              },
+              "Link": {
+                "value": {
+                  "text": "Renew ICBC",
+                  "href": "https://www.bcaa.com/insurance/car"
+                }
+              }
+            }
+          },
+          {
+            "id": "bcaa-slide-1",
+            "fields": {
+              "Title": {
+                "value": "Wear the wildflower that defends against wildfires"
+              },
+              "Text": {
+                "value": "<p>The BCAA Fireweed Pin celebrates our strength in the face of wildfires. Get yours today and help support wildfire resilience efforts across BC.</p>"
+              },
+              "Image": {
+                "value": {
+                  "src": "https://www.bcaa.com/-/media/bcaa/images/home-page-carousel/desktop/151-26_cmi_fireweed_greenshirt_hro_2560x900.jpg?sc_lang=en",
+                  "alt": "Drive with peace of mind"
+                }
+              },
+              "Link": {
+                "value": {
+                  "text": "Learn more",
+                  "href": "https://www.bcaa.com/impact/wildfire-resilience/fireweed"
+                }
+              }
+            }
+          },
+          {
+            "id": "bcaa-slide-2",
+            "fields": {
+              "Title": {
+                "value": "Manage your products in one place"
+              },
+              "Text": {
+                "value": "<p>Everything you need is at your fingertips. Manage a renewal, find your documents, download a digital wallet card or start a claim in myBCAA.</p>"
+              },
+              "Image": {
+                "value": {
+                  "src": "https://www.bcaa.com/-/media/bcaa/images/home-page-carousel/desktop/288-25_xsl_mybcaa_phoneman_hro_2560x900.jpg?sc_lang=en",
+                  "alt": "Drive with peace of mind"
+                }
+              },
+              "Link": {
+                "value": {
+                  "text": "Login",
+                  "href": "https://www.bcaa.com/login"
+                }
+              }
+            }
+          },
+          {
+            "id": "bcaa-slide-3",
+            "fields": {
+              "Title": {
+                "value": "Join BC’s online community, BCAA Connect!"
+              },
+              "Text": {
+                "value": "<p>Swap tips, ask questions and connect with others in your trusted space to share life in BC.</p>"
+              },
+              "Image": {
+                "value": {
+                  "src": "https://www.bcaa.com/-/media/bcaa/images/home-page-carousel/desktop/bcaa-connect-hero_2560x900.jpg?sc_lang=en",
+                  "alt": "Drive with peace of mind"
+                }
+              },
+              "Link": {
+                "value": {
+                  "text": "Sign in",
+                  "href": "https://www.bcaa.com/bcaa-connect"
+                }
+              }
+            }
+          },
+          {
+            "id": "bcaa-slide-4",
+            "fields": {
+              "Title": {
+                "value": "Let’s GO!"
+              },
+              "Text": {
+                "value": "<p>A BCAA GO Membership is your ticket to unlocking sweet perks to help you make the most of life in BC. Save over $1,000/year on the everyday, Evo & more!</p>"
+              },
+              "Image": {
+                "value": {
+                  "src": "https://www.bcaa.com/-/media/bcaa/images/home-page-carousel/desktop/162-23_mem_newtiergo_webbg_2048x1536.jpg",
+                  "alt": "Drive with peace of mind"
+                }
+              },
+              "Link": {
+                "value": {
+                  "text": "Sign up",
+                  "href": "https://www.bcaa.com/membership/go"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "children": [
+        {
+          "id": "bcaa-slide-0",
+          "fields": {
+            "Title": {
+              "value": "Car Insurance Made Easy"
+            },
+            "Text": {
+              "value": "<p>Simply give us a call, visit us in-person or renew online if you’re eligible.</p>"
+            },
+            "Image": {
+              "value": {
+                "src": "https://www.bcaa.com/-/media/bcaa/images/home-page-carousel/desktop/080-26_rew_accelerate_auto_ban_2560x900_st.jpg?sc_lang=en",
+                "alt": "Drive with peace of mind"
+              }
+            },
+            "Link": {
+              "value": {
+                "text": "Renew ICBC",
+                "href": "https://www.bcaa.com/insurance/car"
+              }
+            }
+          }
+        },
+        {
+          "id": "bcaa-slide-1",
+          "fields": {
+            "Title": {
+              "value": "Wear the wildflower that defends against wildfires"
+            },
+            "Text": {
+              "value": "<p>The BCAA Fireweed Pin celebrates our strength in the face of wildfires. Get yours today and help support wildfire resilience efforts across BC.</p>"
+            },
+            "Image": {
+              "value": {
+                "src": "https://www.bcaa.com/-/media/bcaa/images/home-page-carousel/desktop/151-26_cmi_fireweed_greenshirt_hro_2560x900.jpg?sc_lang=en",
+                "alt": "Drive with peace of mind"
+              }
+            },
+            "Link": {
+              "value": {
+                "text": "Learn more",
+                "href": "https://www.bcaa.com/impact/wildfire-resilience/fireweed"
+              }
+            }
+          }
+        },
+        {
+          "id": "bcaa-slide-2",
+          "fields": {
+            "Title": {
+              "value": "Manage your products in one place"
+            },
+            "Text": {
+              "value": "<p>Everything you need is at your fingertips. Manage a renewal, find your documents, download a digital wallet card or start a claim in myBCAA.</p>"
+            },
+            "Image": {
+              "value": {
+                "src": "https://www.bcaa.com/-/media/bcaa/images/home-page-carousel/desktop/288-25_xsl_mybcaa_phoneman_hro_2560x900.jpg?sc_lang=en",
+                "alt": "Drive with peace of mind"
+              }
+            },
+            "Link": {
+              "value": {
+                "text": "Login",
+                "href": "https://www.bcaa.com/login"
+              }
+            }
+          }
+        },
+        {
+          "id": "bcaa-slide-3",
+          "fields": {
+            "Title": {
+              "value": "Join BC’s online community, BCAA Connect!"
+            },
+            "Text": {
+              "value": "<p>Swap tips, ask questions and connect with others in your trusted space to share life in BC.</p>"
+            },
+            "Image": {
+              "value": {
+                "src": "https://www.bcaa.com/-/media/bcaa/images/home-page-carousel/desktop/bcaa-connect-hero_2560x900.jpg?sc_lang=en",
+                "alt": "Drive with peace of mind"
+              }
+            },
+            "Link": {
+              "value": {
+                "text": "Sign in",
+                "href": "https://www.bcaa.com/bcaa-connect"
+              }
+            }
+          }
+        },
+        {
+          "id": "bcaa-slide-4",
+          "fields": {
+            "Title": {
+              "value": "Let’s GO!"
+            },
+            "Text": {
+              "value": "<p>A BCAA GO Membership is your ticket to unlocking sweet perks to help you make the most of life in BC. Save over $1,000/year on the everyday, Evo & more!</p>"
+            },
+            "Image": {
+              "value": {
+                "src": "https://www.bcaa.com/-/media/bcaa/images/home-page-carousel/desktop/162-23_mem_newtiergo_webbg_2048x1536.jpg",
+                "alt": "Drive with peace of mind"
+              }
+            },
+            "Link": {
+              "value": {
+                "text": "Sign up",
+                "href": "https://www.bcaa.com/membership/go"
+              }
+            }
+          }
+        }
+      ],
+      "imageFields": [],
+      "params": {
+        "styles": "",
+        "RenderingIdentifier": "hero"
+      },
+      "source": "https://www.bcaa.com/"
+    },
+    {
+      "position": 3,
+      "componentName": "BcaaQuickActions",
+      "manifestName": "BcaaQuickActions",
+      "kind": "list",
+      "datasourceItemName": "BCAA - quick",
+      "fields": {
+        "Title": {
+          "value": "I would like to:"
+        },
+        "items": [
+          {
+            "id": "bcaa-action-0",
+            "fields": {
+              "Label": {
+                "value": "Join BCAA"
+              },
+              "Link": {
+                "value": {
+                  "text": "Join BCAA",
+                  "href": "https://www.bcaa.com/membership/join"
+                }
+              }
+            }
+          },
+          {
+            "id": "bcaa-action-1",
+            "fields": {
+              "Label": {
+                "value": "Renew"
+              },
+              "Link": {
+                "value": {
+                  "text": "Renew",
+                  "href": "https://www.bcaa.com/login"
+                }
+              }
+            }
+          },
+          {
+            "id": "bcaa-action-2",
+            "fields": {
+              "Label": {
+                "value": "Buy Travel Insurance"
+              },
+              "Link": {
+                "value": {
+                  "text": "Buy Travel Insurance",
+                  "href": "https://www.bcaa.com/insurance/travel/guide/web/before-you-start"
+                }
+              }
+            }
+          },
+          {
+            "id": "bcaa-action-3",
+            "fields": {
+              "Label": {
+                "value": "Buy Home Insurance"
+              },
+              "Link": {
+                "value": {
+                  "text": "Buy Home Insurance",
+                  "href": "https://www.bcaa.com/insurance/home"
+                }
+              }
+            }
+          },
+          {
+            "id": "bcaa-action-4",
+            "fields": {
+              "Label": {
+                "value": "Renew ICBC"
+              },
+              "Link": {
+                "value": {
+                  "text": "Renew ICBC",
+                  "href": "https://www.bcaa.com/insurance/car"
+                }
+              }
+            }
+          },
+          {
+            "id": "bcaa-action-5",
+            "fields": {
+              "Label": {
+                "value": "Book Auto Repair"
+              },
+              "Link": {
+                "value": {
+                  "text": "Book Auto Repair",
+                  "href": "https://www.bcaa.com/automotive/bcaa-auto-service-centre"
+                }
+              }
+            }
+          },
+          {
+            "id": "bcaa-action-6",
+            "fields": {
+              "Label": {
+                "value": "Book an Appointment"
+              },
+              "Link": {
+                "value": {
+                  "text": "Book an Appointment",
+                  "href": "https://www.bcaa.com/contact-us/make-an-appointment"
+                }
+              }
+            }
+          },
+          {
+            "id": "bcaa-action-7",
+            "fields": {
+              "Label": {
+                "value": "Small Business Quote"
+              },
+              "Link": {
+                "value": {
+                  "text": "Small Business Quote",
+                  "href": "https://www.bcaa.com/insurance/small-business"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "children": [
+        {
+          "id": "bcaa-action-0",
+          "fields": {
+            "Label": {
+              "value": "Join BCAA"
+            },
+            "Link": {
+              "value": {
+                "text": "Join BCAA",
+                "href": "https://www.bcaa.com/membership/join"
+              }
+            }
+          }
+        },
+        {
+          "id": "bcaa-action-1",
+          "fields": {
+            "Label": {
+              "value": "Renew"
+            },
+            "Link": {
+              "value": {
+                "text": "Renew",
+                "href": "https://www.bcaa.com/login"
+              }
+            }
+          }
+        },
+        {
+          "id": "bcaa-action-2",
+          "fields": {
+            "Label": {
+              "value": "Buy Travel Insurance"
+            },
+            "Link": {
+              "value": {
+                "text": "Buy Travel Insurance",
+                "href": "https://www.bcaa.com/insurance/travel/guide/web/before-you-start"
+              }
+            }
+          }
+        },
+        {
+          "id": "bcaa-action-3",
+          "fields": {
+            "Label": {
+              "value": "Buy Home Insurance"
+            },
+            "Link": {
+              "value": {
+                "text": "Buy Home Insurance",
+                "href": "https://www.bcaa.com/insurance/home"
+              }
+            }
+          }
+        },
+        {
+          "id": "bcaa-action-4",
+          "fields": {
+            "Label": {
+              "value": "Renew ICBC"
+            },
+            "Link": {
+              "value": {
+                "text": "Renew ICBC",
+                "href": "https://www.bcaa.com/insurance/car"
+              }
+            }
+          }
+        },
+        {
+          "id": "bcaa-action-5",
+          "fields": {
+            "Label": {
+              "value": "Book Auto Repair"
+            },
+            "Link": {
+              "value": {
+                "text": "Book Auto Repair",
+                "href": "https://www.bcaa.com/automotive/bcaa-auto-service-centre"
+              }
+            }
+          }
+        },
+        {
+          "id": "bcaa-action-6",
+          "fields": {
+            "Label": {
+              "value": "Book an Appointment"
+            },
+            "Link": {
+              "value": {
+                "text": "Book an Appointment",
+                "href": "https://www.bcaa.com/contact-us/make-an-appointment"
+              }
+            }
+          }
+        },
+        {
+          "id": "bcaa-action-7",
+          "fields": {
+            "Label": {
+              "value": "Small Business Quote"
+            },
+            "Link": {
+              "value": {
+                "text": "Small Business Quote",
+                "href": "https://www.bcaa.com/insurance/small-business"
+              }
+            }
+          }
+        }
+      ],
+      "imageFields": [],
+      "params": {
+        "styles": "",
+        "RenderingIdentifier": "quick"
+      },
+      "source": "https://www.bcaa.com/"
+    },
+    {
+      "position": 4,
+      "componentName": "HeadingCta",
+      "manifestName": "HeadingCta",
+      "kind": "simple",
+      "datasourceItemName": "BCAA - intro",
+      "fields": {
+        "Heading": {
+          "value": "Moving British Columbians Forward"
+        },
+        "Text": {
+          "value": "From help at home to on the move, we keep British Columbians moving forward with proven protection and mobility solutions, including Membership, Insurance, Auto Service and Evo. Plus, as a BCAA Member, you can save over $1,500 a year on everyday essentials, insurance, experiences, travel, dining out and more! That’s the power of BCAA, and it’s moving British Columbians forward. Join the movement today!"
+        }
+      },
+      "children": [],
+      "imageFields": [],
+      "params": {
+        "styles": "bcaa-intro",
+        "RenderingIdentifier": "intro"
+      },
+      "source": "https://www.bcaa.com/"
+    },
+    {
+      "position": 5,
+      "componentName": "ThreeColumnCta",
+      "manifestName": "ThreeColumnCta",
+      "kind": "simple",
+      "datasourceItemName": "BCAA - services",
+      "fields": {
+        "Text1": {
+          "value": "Membership"
+        },
+        "SubText1": {
+          "value": "Protection and savings. Always ready to save the day and money for our Members."
+        },
+        "Link1": {
+          "value": {
+            "text": "Learn more",
+            "href": "https://www.bcaa.com/membership"
+          }
+        },
+        "Image1": {
+          "value": {
+            "src": "https://www.bcaa.com/-/media/bcaa/images/demo-content/homepage/three-tout-list/home-callout-1.jpg",
+            "alt": "Membership"
+          }
+        },
+        "Text2": {
+          "value": "Insurance"
+        },
+        "SubText2": {
+          "value": "Local knowledge and expert advice. Providing best in class protection while helping our Members save money."
+        },
+        "Link2": {
+          "value": {
+            "text": "Learn more",
+            "href": "https://www.bcaa.com/insurance"
+          }
+        },
+        "Image2": {
+          "value": {
+            "src": "https://www.bcaa.com/-/media/bcaa/images/demo-content/homepage/three-tout-list/home-callout-2.jpg",
+            "alt": "Insurance"
+          }
+        },
+        "Text3": {
+          "value": "Automotive"
+        },
+        "SubText3": {
+          "value": "Keeping you on the road. From Auto Service to Shared Mobility you can count on us."
+        },
+        "Link3": {
+          "value": {
+            "text": "Learn more",
+            "href": "https://www.bcaa.com/automotive"
+          }
+        },
+        "Image3": {
+          "value": {
+            "src": "https://www.bcaa.com/-/media/bcaa/images/demo-content/homepage/three-tout-list/home-callout-3-new.jpg",
+            "alt": "Automotive"
+          }
+        }
+      },
+      "children": [],
+      "imageFields": [
+        {
+          "field": "Image1",
+          "src": "https://www.bcaa.com/-/media/bcaa/images/demo-content/homepage/three-tout-list/home-callout-1.jpg"
+        },
+        {
+          "field": "Image2",
+          "src": "https://www.bcaa.com/-/media/bcaa/images/demo-content/homepage/three-tout-list/home-callout-2.jpg"
+        },
+        {
+          "field": "Image3",
+          "src": "https://www.bcaa.com/-/media/bcaa/images/demo-content/homepage/three-tout-list/home-callout-3-new.jpg"
+        }
+      ],
+      "params": {
+        "styles": "",
+        "RenderingIdentifier": "services"
+      },
+      "source": "https://www.bcaa.com/"
+    },
+    {
+      "position": 6,
+      "componentName": "HeadingCta",
+      "manifestName": "HeadingCta",
+      "kind": "simple",
+      "datasourceItemName": "BCAA - savingsHeading",
+      "fields": {
+        "Heading": {
+          "value": "Ways to save"
+        },
+        "Text": {
+          "value": "As a BCAA Member, you can save up to 30% at hundreds of your favourite brands worldwide and earn up to 10% in CAA Dollars®. Explore all our savings partners and find the latest exclusive deals."
+        },
+        "Link": {
+          "value": {
+            "text": "See more ways to save",
+            "href": "https://portal.caarewards.ca/bcaa/"
+          }
+        }
+      },
+      "children": [],
+      "imageFields": [],
+      "params": {
+        "styles": "",
+        "RenderingIdentifier": "savingsHeading"
+      },
+      "source": "https://www.bcaa.com/"
+    },
+    {
+      "position": 7,
+      "componentName": "FourColumnCta",
+      "manifestName": "FourColumnCta",
+      "kind": "simple",
+      "datasourceItemName": "BCAA - savings",
+      "fields": {
+        "Title1": {
+          "value": "BCAA Insurance"
+        },
+        "Text1": {
+          "value": "BCAA Members save up to 20% on Award Winning Home, Optional Car, Travel, Small Business and Life Insurance."
+        },
+        "Image1": {
+          "value": {
+            "src": "https://www.bcaa.com/-/media/bcaa/images/membership/ways-to-save/insurance/insurance-card-2.png?la=en&h=338&w=558&hash=7528161E0EF8356D41027E65861D00BE",
+            "alt": "family time"
+          }
+        },
+        "Link1": {
+          "value": {
+            "text": "Learn more",
+            "href": "https://www.bcaa.com/insurance"
+          }
+        },
+        "Title2": {
+          "value": "Shell"
+        },
+        "Text2": {
+          "value": "Save 3¢/L on fuel and 10% on car washes & in-store purchases. BCAA Members can save over $138 per year!"
+        },
+        "Image2": {
+          "value": {
+            "src": "https://www.bcaa.com/-/media/bcaa/images/membership/ways-to-save/automotive/shell-image.jpg?la=en&h=168&w=279&hash=1D9E0D2D086F884203ADEF68A8270195",
+            "alt": "Woman sitting in drivers seat of car at sunset"
+          }
+        },
+        "Link2": {
+          "value": {
+            "text": "Learn more",
+            "href": "https://www.bcaa.com/membership/rd/shell"
+          }
+        },
+        "Title3": {
+          "value": "Evo & Evo Extras"
+        },
+        "Text3": {
+          "value": "Get a FREE Evo Membership, 60 FREE driving minutes, & save 10% on every trip – up to $110/year! Plus, get access to exclusive perks with Evo Extras."
+        },
+        "Image3": {
+          "value": {
+            "src": "https://www.bcaa.com/-/media/bcaa/images/membership/ways-to-save/automotive/bcaa-evo-ways-to-save-2025.jpg?sc_lang=en&la=en&h=168&w=279&hash=C6F5B66FD61CBD679FCB44168C93E9C5",
+            "alt": "Evo members with Evo parked near bridge"
+          }
+        },
+        "Link3": {
+          "value": {
+            "text": "Learn more",
+            "href": "https://www.bcaa.com/automotive/evo-car-share"
+          }
+        },
+        "Title4": {
+          "value": "Rogers"
+        },
+        "Text4": {
+          "value": "Save up to $25/month on Rogers 5G+ mobile plans – that’s up to $300 in savings per year!"
+        },
+        "Image4": {
+          "value": {
+            "src": "https://www.bcaa.com/-/media/bcaa/images/membership/ways-to-save/personal-services/bcaa-rogers-ways-to-save-2025.jpg?sc_lang=en&la=en&h=325&w=539&hash=E164FA7AA175DB6472C1A09A17FB6C32",
+            "alt": "BCAA x Rogers"
+          }
+        },
+        "Link4": {
+          "value": {
+            "text": "Learn more",
+            "href": "https://www.bcaa.com/membership/rd/rogers"
+          }
+        }
+      },
+      "children": [],
+      "imageFields": [
+        {
+          "field": "Image1",
+          "src": "https://www.bcaa.com/-/media/bcaa/images/membership/ways-to-save/insurance/insurance-card-2.png?la=en&h=338&w=558&hash=7528161E0EF8356D41027E65861D00BE"
+        },
+        {
+          "field": "Image2",
+          "src": "https://www.bcaa.com/-/media/bcaa/images/membership/ways-to-save/automotive/shell-image.jpg?la=en&h=168&w=279&hash=1D9E0D2D086F884203ADEF68A8270195"
+        },
+        {
+          "field": "Image3",
+          "src": "https://www.bcaa.com/-/media/bcaa/images/membership/ways-to-save/automotive/bcaa-evo-ways-to-save-2025.jpg?sc_lang=en&la=en&h=168&w=279&hash=C6F5B66FD61CBD679FCB44168C93E9C5"
+        },
+        {
+          "field": "Image4",
+          "src": "https://www.bcaa.com/-/media/bcaa/images/membership/ways-to-save/personal-services/bcaa-rogers-ways-to-save-2025.jpg?sc_lang=en&la=en&h=325&w=539&hash=E164FA7AA175DB6472C1A09A17FB6C32"
+        }
+      ],
+      "params": {
+        "styles": "",
+        "RenderingIdentifier": "savings"
+      },
+      "source": "https://www.bcaa.com/"
+    },
+    {
+      "position": 8,
+      "componentName": "CtaBanner",
+      "manifestName": "CtaBanner",
+      "kind": "simple",
+      "datasourceItemName": "BCAA - banner",
+      "fields": {
+        "Title": {
+          "value": "Become a BCAA Member today."
+        },
+        "Image": {
+          "value": {
+            "src": "https://www.bcaa.com/-/media/bcaa/images/promo-banners/membership/bcaa-in-case-of-engine-trouble.png?la=en&h=241&w=400&hash=C3D28FE4D4865D47A87541F10632A1F3",
+            "alt": "In case of engine trouble image"
+          }
+        },
+        "Link": {
+          "value": {
+            "text": "Join online",
+            "href": "https://www.bcaa.com/membership/join"
+          }
+        }
+      },
+      "children": [],
+      "imageFields": [
+        {
+          "field": "Image",
+          "src": "https://www.bcaa.com/-/media/bcaa/images/promo-banners/membership/bcaa-in-case-of-engine-trouble.png?la=en&h=241&w=400&hash=C3D28FE4D4865D47A87541F10632A1F3"
+        }
+      ],
+      "params": {
+        "styles": "",
+        "RenderingIdentifier": "banner"
+      },
+      "source": "https://www.bcaa.com/"
+    },
+    {
+      "position": 9,
+      "componentName": "HeadingCta",
+      "manifestName": "HeadingCta",
+      "kind": "simple",
+      "datasourceItemName": "BCAA - blogHeading",
+      "fields": {
+        "Heading": {
+          "value": "BCAA Blog"
+        },
+        "Text": {
+          "value": "Offering expert advice, useful articles, inspiring stories and simple tips to help you navigate life’s many roads."
+        },
+        "Link": {
+          "value": {
+            "text": "View more articles",
+            "href": "https://www.bcaa.com/blog"
+          }
+        }
+      },
+      "children": [],
+      "imageFields": [],
+      "params": {
+        "styles": "bcaa-blog",
+        "RenderingIdentifier": "blogHeading"
+      },
+      "source": "https://www.bcaa.com/"
+    },
+    {
+      "position": 10,
+      "componentName": "ThreeColumnCta",
+      "manifestName": "ThreeColumnCta",
+      "kind": "simple",
+      "datasourceItemName": "BCAA - blog",
+      "fields": {
+        "Text1": {
+          "value": "How to maximize your BC summer road trip (and save on the way)"
+        },
+        "SubText1": {
+          "value": "Membership"
+        },
+        "Image1": {
+          "value": {
+            "src": "https://www.bcaa.com/-/media/bcaa/images/bcaa-blog/membership/bcaa-blog-bc-road-trip-bucket-list-thumbnail.jpg?h=400&iar=0&w=550&sc_lang=en&hash=7040A6A48BB7048B465544EAD9C1DC34",
+            "alt": "bcaa blog road trip bucket list thumbnail"
+          }
+        },
+        "Link1": {
+          "value": {
+            "text": "Read more",
+            "href": "https://www.bcaa.com/blog/membership/great-bc-road-trips-for-your-bucket-list"
+          }
+        },
+        "Text2": {
+          "value": "Six tips when you protect your trip with Travel Insurance"
+        },
+        "SubText2": {
+          "value": "Travel"
+        },
+        "Image2": {
+          "value": {
+            "src": "https://www.bcaa.com/-/media/bcaa/images/bcaa-blog/travel/six-ways-to-protect-your-trip/bcaa-blog-six-ways-to-protect-your-trips-hero-thumbnail.jpg?h=400&iar=0&w=550&sc_lang=en&hash=64142675AAC10B6CFAE24CD26EC91B1D",
+            "alt": "Tips when you protect your trip with BCAA Travel Insurance"
+          }
+        },
+        "Link2": {
+          "value": {
+            "text": "Read more",
+            "href": "https://www.bcaa.com/blog/travel/six-tips-to-protect-your-trip-with-travel-insurance"
+          }
+        },
+        "Text3": {
+          "value": "New to British Columbia? Join a welcoming community on BCAA Connect"
+        },
+        "SubText3": {
+          "value": "Community"
+        },
+        "Image3": {
+          "value": {
+            "src": "https://www.bcaa.com/-/media/bcaa/images/bcaa-blog/community/bcaa-connect/new-to-british-columbia/bcaa-blog-moving-to-bc-hero-thumbnail.jpg?h=400&iar=0&w=550&sc_lang=en&hash=99A22DFD30D195DA6DB8244A8467633D",
+            "alt": "Couple and baby surrounded by moving boxes, preparing to relocate"
+          }
+        },
+        "Link3": {
+          "value": {
+            "text": "Read more",
+            "href": "https://www.bcaa.com/blog/community/moving-to-british-columbia"
+          }
+        }
+      },
+      "children": [],
+      "imageFields": [
+        {
+          "field": "Image1",
+          "src": "https://www.bcaa.com/-/media/bcaa/images/bcaa-blog/membership/bcaa-blog-bc-road-trip-bucket-list-thumbnail.jpg?h=400&iar=0&w=550&sc_lang=en&hash=7040A6A48BB7048B465544EAD9C1DC34"
+        },
+        {
+          "field": "Image2",
+          "src": "https://www.bcaa.com/-/media/bcaa/images/bcaa-blog/travel/six-ways-to-protect-your-trip/bcaa-blog-six-ways-to-protect-your-trips-hero-thumbnail.jpg?h=400&iar=0&w=550&sc_lang=en&hash=64142675AAC10B6CFAE24CD26EC91B1D"
+        },
+        {
+          "field": "Image3",
+          "src": "https://www.bcaa.com/-/media/bcaa/images/bcaa-blog/community/bcaa-connect/new-to-british-columbia/bcaa-blog-moving-to-bc-hero-thumbnail.jpg?h=400&iar=0&w=550&sc_lang=en&hash=99A22DFD30D195DA6DB8244A8467633D"
+        }
+      ],
+      "params": {
+        "styles": "bcaa-blog",
+        "RenderingIdentifier": "blog"
+      },
+      "source": "https://www.bcaa.com/"
+    },
+    {
+      "position": 11,
+      "componentName": "Footer",
+      "manifestName": "Footer",
+      "kind": "simple",
+      "datasourceItemName": "BCAA - footer",
+      "fields": {
+        "Title1": {
+          "value": "Membership"
+        },
+        "Text1": {
+          "value": "<ul><li><a href=\"https://www.bcaa.com/membership/plans\">Plans</a></li><li><a href=\"https://www.bcaa.com/membership/ways-to-save\">Ways to save</a></li><li><a href=\"https://www.bcaa.com/membership/manage-membership\">Manage membership</a></li><li><a href=\"https://www.bcaa.com/membership/join\">Join</a></li></ul>"
+        },
+        "Title2": {
+          "value": "Insurance"
+        },
+        "Text2": {
+          "value": "<ul><li><a href=\"https://www.bcaa.com/insurance/home\">Home</a></li><li><a href=\"https://www.bcaa.com/insurance/car\">Car</a></li><li><a href=\"https://www.bcaa.com/insurance/travel\">Travel</a></li><li><a href=\"https://www.bcaa.com/insurance/small-business\">Small business</a></li><li><a href=\"https://www.bcaa.com/insurance/claims\">Claims</a></li></ul>"
+        },
+        "Title3": {
+          "value": "Automotive"
+        },
+        "Text3": {
+          "value": "<ul><li><a href=\"https://www.bcaa.com/automotive/bcaa-auto-service-centre\">Auto Service Centres</a></li><li><a href=\"https://www.bcaa.com/automotive/evo-car-share\">Evo Car Share</a></li><li><a href=\"https://www.bcaa.com/automotive/electric-vehicles\">Electric vehicles</a></li></ul>"
+        },
+        "Title4": {
+          "value": "About BCAA"
+        },
+        "Text4": {
+          "value": "<ul><li><a href=\"https://www.bcaa.com/impact\">Impact</a></li><li><a href=\"https://www.bcaa.com/blog\">BCAA Blog</a></li><li><a href=\"https://www.bcaa.com/about-us/careers\">Careers</a></li><li><a href=\"https://www.bcaa.com/contact-us\">Contact us</a></li><li><a href=\"https://www.bcaa.com/contact-us/make-an-appointment\">Service locations</a></li></ul>"
+        },
+        "Image1": {
+          "value": {
+            "src": "https://www.bcaa.com/-/media/bcaa/images/logos/bcaa_caa_primary_hex_rev.svg?iar=0&hash=63BA45A9DC57859ACEE50CD06C7F6884",
+            "alt": "BCAA-CAA Primary Logo Rev"
+          }
+        },
+        "Copyright": {
+          "value": "© 2026 BCAA. BCAA (The British Columbia Automobile Association), serving Members in British Columbia and the Yukon. Call 1-888-268-2222."
+        },
+        "Link1": {
+          "value": {
+            "text": "Terms",
+            "href": "https://www.bcaa.com/legal/terms-conditions"
+          }
+        },
+        "Link2": {
+          "value": {
+            "text": "Privacy",
+            "href": "https://www.bcaa.com/legal/privacy-policy"
+          }
+        },
+        "SocialsTitle": {
+          "value": "Follow BCAA"
+        },
+        "SocialLink1": {
+          "value": {
+            "text": "Facebook",
+            "href": "https://www.facebook.com/BCAA/"
+          }
+        },
+        "SocialIcon1": {
+          "value": {
+            "src": "https://www.bcaa.com/-/media/bcaa/images/logos/facebook.svg?h=21&iar=0&w=9&hash=B0DF214CD19BBEC85D7E94560602D2FC",
+            "alt": "facebook logo"
+          }
+        },
+        "SocialLink2": {
+          "value": {
+            "text": "Instagram",
+            "href": "https://www.instagram.com/bcaarewards"
+          }
+        },
+        "SocialIcon2": {
+          "value": {
+            "src": "https://www.bcaa.com/-/media/bcaa/images/logos/instagram.svg?h=20&iar=0&w=20&hash=DA5713C8CAF92C11E0C23C15D7909454",
+            "alt": "instagram logo"
+          }
+        },
+        "SocialLink3": {
+          "value": {
+            "text": "YouTube",
+            "href": "https://www.youtube.com/user/bcaavideos"
+          }
+        },
+        "SocialIcon3": {
+          "value": {
+            "src": "https://www.bcaa.com/-/media/bcaa/images/logos/youtube.svg?h=16&iar=0&w=23&hash=3E3A643571801C4849C4B8301BFCFA18",
+            "alt": "youtube logo"
+          }
+        }
+      },
+      "children": [],
+      "imageFields": [
+        {
+          "field": "Image1",
+          "src": "https://www.bcaa.com/-/media/bcaa/images/logos/bcaa_caa_primary_hex_rev.svg?iar=0&hash=63BA45A9DC57859ACEE50CD06C7F6884"
+        },
+        {
+          "field": "SocialIcon1",
+          "src": "https://www.bcaa.com/-/media/bcaa/images/logos/facebook.svg?h=21&iar=0&w=9&hash=B0DF214CD19BBEC85D7E94560602D2FC"
+        },
+        {
+          "field": "SocialIcon2",
+          "src": "https://www.bcaa.com/-/media/bcaa/images/logos/instagram.svg?h=20&iar=0&w=20&hash=DA5713C8CAF92C11E0C23C15D7909454"
+        },
+        {
+          "field": "SocialIcon3",
+          "src": "https://www.bcaa.com/-/media/bcaa/images/logos/youtube.svg?h=16&iar=0&w=23&hash=3E3A643571801C4849C4B8301BFCFA18"
+        }
+      ],
+      "params": {
+        "styles": "",
+        "RenderingIdentifier": "footer"
+      },
+      "source": "https://www.bcaa.com/"
+    }
+  ],
+  "linkAdjustments": [
+    {
+      "source": "production action-modal URLs",
+      "decision": "Use public /insurance/home, /insurance/car and /login destinations; do not copy private action-modal paths."
+    }
+  ]
+}

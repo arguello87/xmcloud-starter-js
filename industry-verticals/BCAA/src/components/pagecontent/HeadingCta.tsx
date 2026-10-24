@@ -151,3 +151,5 @@ export const Centered = (props: HeadingCtaProps): JSX.Element => {
     </div>
   );
 };
+
+export { BcaaHeading as Bcaa } from '../bcaa/BcaaVariants.dev';
