@@ -1,5 +1,8 @@
 'use client';
 
+import { BcaaBanner } from '../bcaa/BcaaVariants.dev';
+import type { BcaaProps } from '../bcaa/bcaa.props';
+
 import { JSX } from 'react';
 import {
   Field,
@@ -141,4 +144,4 @@ export const LargeImage = (props: CtaBannerProps): JSX.Element => {
   );
 };
 
-export { BcaaBanner as Bcaa } from '../bcaa/BcaaVariants.dev';
+export const Bcaa = (props: BcaaProps) => <BcaaBanner {...props} />;

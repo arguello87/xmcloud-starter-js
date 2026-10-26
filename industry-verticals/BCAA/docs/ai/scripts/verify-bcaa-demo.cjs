@@ -15,13 +15,22 @@ const compile = (mod, filename) => mod._compile(ts.transpileModule(fs.readFileSy
 }).outputText, filename);
 require.extensions['.tsx'] = compile;
 require.extensions['.ts'] = compile;
-const components = require(path.join(root, 'src/components/bcaa/BcaaVariants.dev.tsx'));
+const originalResolveFilename = Module._resolveFilename;
+Module._resolveFilename = function(request, parent, ...args) {
+  const mapped = /^(src|lib|components)\//.test(request) ? path.join(root, request.startsWith('src/') ? request : `src/${request}`) : request;
+  return originalResolveFilename.call(this, mapped, parent, ...args);
+};
 const quick = require(path.join(root, 'src/components/bcaa/BcaaQuickActions.tsx')).Default;
 const fixture = JSON.parse(fs.readFileSync(path.join(root, 'docs/ai/demos/bcaa/content-map.yaml')));
-const names = { Header: 'BcaaHeader', Carousel: 'BcaaCarousel', HeadingCta: 'BcaaHeading', ThreeColumnCta: 'BcaaThreeColumns', FourColumnCta: 'BcaaFourColumns', CtaBanner: 'BcaaBanner', Footer: 'BcaaFooter' };
+const registered = Object.fromEntries(['Header', 'Footer', 'Carousel', 'HeadingCta', 'ThreeColumnCta', 'FourColumnCta', 'CtaBanner'].map(name => {
+  const folder = ['Header', 'Footer'].includes(name) ? 'navigation' : 'pagecontent';
+  const component = require(path.join(root, `src/components/${folder}/${name}.tsx`)).Bcaa;
+  assert.equal(typeof component, 'function', `${name}: Bcaa export is registered`);
+  return [name, component];
+}));
 function render(section, fields, editing = false) {
   const page = { mode: { isEditing: editing, isPreview: false, isNormal: !editing }, layout: { sitecore: { context: { pageEditing: editing, language: 'en' }, route: { name: 'BCAA', fields: {} } } } };
-  const Component = section.componentName === 'BcaaQuickActions' ? quick : components[names[section.componentName]];
+  const Component = section.componentName === 'BcaaQuickActions' ? quick : registered[section.componentName];
   const child = React.createElement(Component, { fields, params: section.params, rendering: { componentName: section.componentName, uid: String(section.position) }, page });
   return renderToStaticMarkup(React.createElement(sdk.SitecoreProviderReactContext.Provider, { value: { page, componentMap: new Map(), loadImportMap: async () => ({}) } }, child));
 }

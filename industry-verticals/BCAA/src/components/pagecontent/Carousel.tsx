@@ -1,5 +1,8 @@
 'use client';
 
+import { BcaaCarousel } from '../bcaa/BcaaVariants.dev';
+import type { BcaaProps } from '../bcaa/bcaa.props';
+
 import { useState, JSX } from 'react';
 import {
   ComponentParams,
@@ -136,4 +139,4 @@ export const Default = (props: CarouselComponentProps): JSX.Element => {
   );
 };
 
-export { BcaaCarousel as Bcaa } from '../bcaa/BcaaVariants.dev';
+export const Bcaa = (props: BcaaProps) => <BcaaCarousel {...props} />;

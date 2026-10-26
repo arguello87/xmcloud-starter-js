@@ -1,5 +1,8 @@
 'use client';
 
+import { BcaaHeading } from '../bcaa/BcaaVariants.dev';
+import type { BcaaProps } from '../bcaa/bcaa.props';
+
 import { JSX } from 'react';
 import { Field, Text, Link, LinkField, useSitecore } from '@sitecore-content-sdk/nextjs';
 import Head from 'next/head';
@@ -152,4 +155,4 @@ export const Centered = (props: HeadingCtaProps): JSX.Element => {
   );
 };
 
-export { BcaaHeading as Bcaa } from '../bcaa/BcaaVariants.dev';
+export const Bcaa = (props: BcaaProps) => <BcaaHeading {...props} />;

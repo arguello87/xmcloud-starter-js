@@ -1,5 +1,8 @@
 'use client';
 
+import { BcaaThreeColumns } from '../bcaa/BcaaVariants.dev';
+import type { BcaaProps } from '../bcaa/bcaa.props';
+
 import { JSX } from 'react';
 import {
   Field,
@@ -268,4 +271,4 @@ export const WithIconsCompact = (props: ThreeColumnCtaProps): JSX.Element => {
   );
 };
 
-export { BcaaThreeColumns as Bcaa } from '../bcaa/BcaaVariants.dev';
+export const Bcaa = (props: BcaaProps) => <BcaaThreeColumns {...props} />;

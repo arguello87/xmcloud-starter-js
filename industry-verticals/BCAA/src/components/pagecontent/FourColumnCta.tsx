@@ -1,5 +1,8 @@
 'use client';
 
+import { BcaaFourColumns } from '../bcaa/BcaaVariants.dev';
+import type { BcaaProps } from '../bcaa/bcaa.props';
+
 import { JSX } from 'react';
 import {
   Field,
@@ -120,4 +123,4 @@ export const Default = (props: FourColumnCtaProps): JSX.Element => {
   );
 };
 
-export { BcaaFourColumns as Bcaa } from '../bcaa/BcaaVariants.dev';
+export const Bcaa = (props: BcaaProps) => <BcaaFourColumns {...props} />;

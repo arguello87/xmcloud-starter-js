@@ -112,3 +112,6 @@ resumeNotes:
   - "User approved theme. Phase 2 plan prepared: 11 sections, 10 existing matches and one new eight-action list. Await plan approval and custom-variant choice before implementation."
   - "Current: approved local BCAA build and seven saved CMS variants. Deployment, QuickActions schema, client datasources and assembly remain pending. User authorized committing and pushing BCAA-only changes."
   - "Created and populated BCAA - intro datasource 4bea1427-63f5-4abb-8cf1-4b9f51463d40 in two small saved batches; verified heading/body and cleared inherited eyebrow/example link. No page assignment."
+
+  - "2026-10-26: Deploy UI verified BCAA commit 9ea4099 Complete. Carousel/Footer missing implementation persists; Carousel selected Bcaa but requires saved-state readback after login. Pages now requires user sign-in; no additional CMS writes this turn."
+  - "User signed in. Verified Carousel Bcaa persists. Replaced seven re-export aliases with explicit Bcaa wrappers; codegen now discovers BCAA helpers in import map. SSR regression checks now render the registered wrappers, not helpers directly. Await compiler and live redeployment verification."

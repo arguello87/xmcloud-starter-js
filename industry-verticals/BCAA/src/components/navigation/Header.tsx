@@ -1,5 +1,8 @@
 'use client';
 
+import { BcaaHeader } from '../bcaa/BcaaVariants.dev';
+import type { BcaaProps } from '../bcaa/bcaa.props';
+
 import { AppPlaceholder, ComponentMap, ImageField, NextImage, useSitecore } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from 'lib/component-props';
 import { JSX } from 'react';
@@ -54,4 +57,4 @@ export const WithLogoImage = (props: HeaderProps): JSX.Element => {
   );
 };
 
-export { BcaaHeader as Bcaa } from '../bcaa/BcaaVariants.dev';
+export const Bcaa = (props: BcaaProps) => <BcaaHeader {...props} />;
