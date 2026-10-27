@@ -28,7 +28,7 @@
   .bcaa-grid-three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .bcaa-grid-four { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 }
-.bcaa-header { background: var(--brand-primary); color: white; padding: 22px 0; }
+.bcaa-header { width: 100%; flex: 0 0 100%; background: var(--brand-primary); color: white; padding: 22px 0; }
 .bcaa-header-inner { display: flex; align-items: center; justify-content: space-between; gap: 28px; }
 .bcaa-logo img { width: 140px; height: auto; }
 .bcaa-header nav ul { list-style: none; display: flex; flex-wrap: wrap; gap: 24px; padding: 0; margin: 0; }
@@ -40,7 +40,7 @@
 .bcaa-hero-image, .bcaa-hero-shade { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .bcaa-hero-shade { background: linear-gradient(90deg, rgba(0, 15, 40, .77), rgba(0, 15, 40, .05)); }
 .bcaa-hero-copy { position: relative; padding: 80px 0 110px; }
-.bcaa-hero-copy h1 { max-width: 620px; font-size: clamp(36px, 4.3vw, 62px); color: white; margin-bottom: 24px; }
+.bcaa-hero-copy h1 { max-width: 480px; font-size: clamp(36px, 4.3vw, 62px); color: white; margin-bottom: 24px; }
 .bcaa-hero-copy p { max-width: 530px; font-size: 22px; line-height: 1.4; margin-bottom: 30px; }
 .bcaa-carousel-controls { position: absolute; bottom: 24px; left: 0; right: 0; display: flex; justify-content: center; gap: 10px; }
 .bcaa-carousel-controls button { border: 1px solid white; background: transparent; color: white; min-width: 36px; min-height: 36px; }
